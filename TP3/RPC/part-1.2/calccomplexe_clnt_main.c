@@ -12,11 +12,11 @@ calccompprog_1(char *host)
 {
 	CLIENT *clnt;
 	int  *result_1;
-	complexe  add_1_arg;
+	struct complexe  add_1_arg;
 	int  *result_2;
-	complexe  mul_1_arg;
+	struct complexe  mul_1_arg;
 	void  *result_3;
-	complexe  init_1_arg;
+	struct complexe  init_1_arg;
 
 #ifndef	DEBUG
 	clnt = clnt_create (host, CALCCOMPPROG, CALCVERS, "udp");
@@ -26,18 +26,23 @@ calccompprog_1(char *host)
 	}
 #endif	/* DEBUG */
 
+
+	init_1_arg.pentiere = 100 ;
+	init_1_arg.pimaginaire = 0.1;
+	result_3 = init_1(&init_1_arg, clnt);
+	if (result_3 == (void *) NULL) {
+		clnt_perror (clnt, "call failed");
+		printf ("init fait: \n");
+	}
+
+	add_1_arg.pentiere = 100 ;
+	add_1_arg.pimaginaire = 0.1;
 	result_1 = add_1(&add_1_arg, clnt);
 	if (result_1 == (int *) NULL) {
 		clnt_perror (clnt, "call failed");
 	}
-	result_2 = mul_1(&mul_1_arg, clnt);
-	if (result_2 == (int *) NULL) {
-		clnt_perror (clnt, "call failed");
-	}
-	result_3 = init_1(&init_1_arg, clnt);
-	if (result_3 == (void *) NULL) {
-		clnt_perror (clnt, "call failed");
-	}
+	printf ("resul: %d \n", *result_1);
+	
 #ifndef	DEBUG
 	clnt_destroy (clnt);
 #endif	 /* DEBUG */

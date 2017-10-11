@@ -6,6 +6,9 @@
 
 #include "calccomplexe.h"
 
+
+static struct complexe courante;
+
 int *
 add_1_svc(complexe *argp, struct svc_req *rqstp)
 {
@@ -14,7 +17,11 @@ add_1_svc(complexe *argp, struct svc_req *rqstp)
 	/*
 	 * insert server code here
 	 */
-
+	courante.pentiere += argp->pentiere;
+	courante.pimaginaire += argp->pimaginaire;
+	printf ("courante add %d \n", courante);
+	printf ("arg add %d \n", *argp);
+	result = courante.pentiere;
 	return &result;
 }
 
@@ -26,7 +33,10 @@ mul_1_svc(complexe *argp, struct svc_req *rqstp)
 	/*
 	 * insert server code here
 	 */
+	courante.pentiere *= argp->pentiere;
+	courante.pimaginaire *= argp->pimaginaire;
 
+	result = courante.pentiere;
 	return &result;
 }
 
@@ -38,6 +48,7 @@ init_1_svc(complexe *argp, struct svc_req *rqstp)
 	/*
 	 * insert server code here
 	 */
-
+	courante = *argp;
+	printf ("courante serveur %d \n", courante);
 	return (void *) &result;
 }
