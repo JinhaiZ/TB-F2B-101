@@ -21,5 +21,25 @@ Q5 : regarder la documentation en ligne, et précisez les arguments de la comman
     > Called by an RPC service's dispatch routine to send the results of a remote procedure call. The parameter xprt is the request's associated transport handle; outproc is the XDR routine which is used to encode the results; and out is the address of the results. This routine returns one if it succeeds, zero other-wise.
 
 
+Q6 : comment les paramètres des services (ADD par exemple) sont-ils codés ?
 
+    ```c
+    case ADD:
+		_xdr_argument = (xdrproc_t) xdr_int; // function used to decode
+		_xdr_result = (xdrproc_t) xdr_int; // fucntion used to encode
+		local = (char *(*)(char *, struct svc_req *)) add_1_svc; // the function
+		break;
+        
+    ...
 
+	if (!svc_getargs (transp, (xdrproc_t) _xdr_argument, (caddr_t) &argument)) {
+		svcerr_decode (transp);
+		return;
+	} // decode arguments
+
+    result = (*local)((char *)&argument, rqstp); // call the fucntion
+
+	if (result != NULL && !svc_sendreply(transp, (xdrproc_t) _xdr_result, result)) {
+		svcerr_systemerr (transp);
+	} // encode arguments
+    ```
