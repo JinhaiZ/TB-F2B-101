@@ -43,3 +43,16 @@ Q6 : comment les paramètres des services (ADD par exemple) sont-ils codés ?
 		svcerr_systemerr (transp);
 	} // encode arguments
     ```
+
+## Transformation vers une calculatrice de nombres complexes.
+
+On s’intéresse désormais à la même calculatrice qui gère cette fois ci non plus des entiers mais des complexes. On fournit pour cela une nouvelle interface calccomplexe.x
+
+Reprenez les différentes étapes de génération telles que présentées précédemment.
+
+Q7 : quelles sont les différences dans la spécification ? Comment ce nouveau type de données est-il gérer ? où et comment ?
+
+    type changed, from int to complexe
+
+Q8 : précisez enfin comment les erreurs sont gérées par ce type de RPC. Regardez le code et précisez les différentes erreurs qui sont mentionnées et référencées. Comment une applictaion
+peut elle les traiter ?
