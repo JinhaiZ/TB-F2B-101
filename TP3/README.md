@@ -10,5 +10,16 @@ Q4 : quelles sont les séquences de traitement et d’appels qu’un serveur ré
 
     in the file calc_svc.c, see the main() function. The server firstly try to establish a UDP socket, then try to establish a TCP connction with the client. Then function svc_run is called to listen requests from client, for example, client requests for ADD, then fucntion ADD in the server side will be called and the server returns the results to the client through svc_sendreply().
 
+Q5 : regarder la documentation en ligne, et précisez les arguments de la commande svc_send reply. A quoi sert chacun des arguments ?
+
+    > svc_sendreply -- called by RPC service's dispatch routine
+
+    > bool_t svc_sendreply(SVCXPRT *xprt, xdrproc_t outproc, caddr_t out);
+
+    > Description
+
+    > Called by an RPC service's dispatch routine to send the results of a remote procedure call. The parameter xprt is the request's associated transport handle; outproc is the XDR routine which is used to encode the results; and out is the address of the results. This routine returns one if it succeeds, zero other-wise.
+
+
 
 
