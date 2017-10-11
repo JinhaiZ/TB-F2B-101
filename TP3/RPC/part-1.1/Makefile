@@ -6,9 +6,9 @@
 CLIENT = calc_client
 SERVER = calc_server
 
-SOURCES_CLNT.c = 
+SOURCES_CLNT.c = calc_clnt_main.c
 SOURCES_CLNT.h = 
-SOURCES_SVC.c = 
+SOURCES_SVC.c = calcl_svc_proc.c
 SOURCES_SVC.h = 
 SOURCES.x = calc.x
 

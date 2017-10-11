@@ -6,6 +6,8 @@
 
 #include "calc.h"
 
+static int courante;
+
 int *
 add_1_svc(int *argp, struct svc_req *rqstp)
 {
@@ -15,6 +17,10 @@ add_1_svc(int *argp, struct svc_req *rqstp)
 	 * insert server code here
 	 */
 
+        courante = courante + *argp;
+        printf ("courante add %d \n", courante);
+        printf ("arg add %d \n", *argp);
+        result = courante;
 	return &result;
 }
 
@@ -27,6 +33,8 @@ mul_1_svc(int *argp, struct svc_req *rqstp)
 	 * insert server code here
 	 */
 
+        courante = courante * *argp;
+        result = courante;
 	return &result;
 }
 
@@ -38,6 +46,7 @@ init_1_svc(int *argp, struct svc_req *rqstp)
 	/*
 	 * insert server code here
 	 */
-
+        courante = *argp;
+        printf ("courante serveur %d \n", courante);
 	return (void *) &result;
 }
