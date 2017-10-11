@@ -1,5 +1,7 @@
 # F2B 101 TP3
 
+## Partie 1: client serveur et calculatrice
+
 Q3 : quelle est la nature du code généré pour les 2 derniers fichiers ?
     
     the calc_clnt_main.c is a sample client code that uses remote procedures while the calc_svc_proc.c is a sample server code that defines remote procedures
@@ -70,3 +72,10 @@ peut elle les traiter ?
 - svcerr_noproc, svcerr_decode, svcerr_systemerr managed by  _svc.c (server skeleton)
 - when client calls a service that doesn't exist, `(void) svc_sendreply (transp, (xdrproc_t) xdr_void, (char *)NULL);` return a NULL result
 
+## Partie 2 : Application du dictionnaire
+
+### 2.1 - Application non répartie
+
+quelles sont les structures de données utilisées ? quelles sont les structures de contrôle utilisées ?
+
+### 2.2 - Application répartie
