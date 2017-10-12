@@ -5,48 +5,88 @@
  */
 
 #include "rdict.h"
-
-
+#include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+int	nextin(char *cmd, char *word);
 void
 rdictprog_1(char *host)
 {
 	CLIENT *clnt;
-	int  *result_1;
-	char *initw_1_arg;
-	int  *result_2;
-	char * insertw_1_arg;
-	int  *result_3;
-	char * deletew_1_arg;
-	int  *result_4;
-	char * lookupw_1_arg;
-
+	
 #ifndef	DEBUG
 	clnt = clnt_create (host, RDICTPROG, RDICTVERS, "udp");
 	if (clnt == NULL) {
 		clnt_pcreateerror (host);
 		exit (1);
 	}
-#endif	/* DEBUG */
+#endif	/* DEBUG */ 
+	while(1){
+	int  *result_1;
+	char	word[MAXWORD+1] = ""; /* space to hold word from input line	*/
+	char	cmd;
+	int	wrdlen = 0;		/* length of input word			*/
+	printf("\n \nEntrer une commande : \n");
+	nextin(&cmd,word);
+	//printf("cmd : %s , word : %s\n",&cmd,word);
+	char *firstLetter = &word[0];
 
-	result_1 = initw_1((void*)&initw_1_arg, clnt);
-	if (result_1 == (int *) NULL) {
-		clnt_perror (clnt, "call failed");
+	switch (cmd){
+		case 'I': 
+			printf("Initialisation\n");
+			result_1 = initw_1((void *) result_1,clnt);
+			if (*result_1 == 1)
+				printf("Succès d'initialisation \n");
+			else
+				printf("Echec d'initialisation");
+			break;
+		case 'i':
+			printf("Insertion\n");
+			result_1 = insertw_1(&firstLetter,clnt);
+			if (*result_1 == 1)
+				printf("Succès d'insertion pour le mot : %s\n",word);
+			else
+				printf("Le mot %s est déjà dans le dictionnaire\n",word);
+			break;
+		case 'd':
+			printf("Supression\n");
+			result_1 = deletew_1(&firstLetter,clnt);
+			if (*result_1 == 1)
+				printf("Succès de supression pour le mot : %s\n",word);
+			else
+				printf("Le mot %s n'est pas présent dans le dictionnaire\n",word);
+			break;
+		case 'l':
+			printf("Recherche\n");
+			result_1 = lookupw_1(&firstLetter,clnt);
+			if (*result_1 == 1)
+				printf("Le mot %s a été trouvé dans le dictionnaire\n",word);
+			else
+				printf("Le mot %s n'est pas dans le dictionnaire\n",word);
+			break;
+		case 'q':
+			printf("Sortie du programme.\n");
+			exit(0);
+		default :
+			printf("Commande %c invalide.\n", cmd);
+			break;
+
 	}
+	}	
+/*0
+	printf("COUCOUUU2");
+	
+	insertw_1_arg = "coucou";
 	result_2 = insertw_1(&insertw_1_arg, clnt);
-	if (result_2 == (int *) NULL) {
-		clnt_perror (clnt, "call failed");
-	}
-	result_3 = deletew_1(&deletew_1_arg, clnt);
-	if (result_3 == (int *) NULL) {
-		clnt_perror (clnt, "call failed");
-	}
-	result_4 = lookupw_1(&lookupw_1_arg, clnt);
-	if (result_4 == (int *) NULL) {
-		clnt_perror (clnt, "call failed");
-	}
+	printf("RESULT %d\n",*result_2);
+	lookupw_1_arg="coucou";
+	printf("RESULT 1 SI TROUVE coucou : %d\n",*lookupw_1(&lookupw_1_arg,clnt));
 #ifndef	DEBUG
 	clnt_destroy (clnt);
 #endif	 /* DEBUG */
+	
+	
 }
 
 
@@ -62,4 +102,33 @@ main (int argc, char *argv[])
 	host = argv[1];
 	rdictprog_1 (host);
 exit (0);
+}
+
+int
+nextin(char *cmd, char *word)
+{
+	int	i, ch;
+	ch = getc(stdin);
+	while (isspace(ch))
+		ch = getc(stdin);
+	if (ch == EOF)
+		return -1;
+	*cmd = (char) ch;
+	ch = getc(stdin);
+	while (isspace(ch))
+		ch = getc(stdin);
+	if (ch == EOF)
+		return -1;
+	if (ch == '\n')
+		return 0;
+	i = 0;
+	while (!isspace(ch)) {
+		if (++i > MAXWORD) {
+			printf("error: word too long.\n");
+			exit(1);
+		}
+		*word++ = ch;
+		ch = getc(stdin);
+	}
+	return i;
 }
