@@ -1,0 +1,4134 @@
+%PDF-1.3
+%âãÏÓ
+2 0 obj
+<<
+/Length 2879
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 213.4 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Manipulation de types structurés)Tj
+-4.0017 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 62)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+q
+22.68 758.36 535.74 -13.84 re
+W n
+0 G
+0 J 0.36 w 
+68.03 755.53 m
+22.68 755.53 l
+S
+Q
+0 G
+0.36 w 
+504.57 755.53 m
+79.37 755.53 l
+S
+BT
+24 0 0 24 36.85 766.36 Tm
+(2.4 Manipulation de types structurés)Tj
+/TT4 1 Tf
+0 g
+1.1813 -2.16 TD
+(Compléments sur RPC en C)Tj
+/TT2 1 Tf
+0 0 1 rg
+-0.5908 -3.1667 TD
+[(2.4.1)-1437.5(Ajout d’une pr)18.9(océdure: récapitulatif)]TJ
+/TT4 1 Tf
+0 g
+0.5908 -1.5833 TD
+(Procédure simple, retourne un)Tj
+1 0 0 rg
+12.3029 0 TD
+(int)Tj
+/TT2 1 Tf
+0 1 0 rg
+-12.185 -1.5833 TD
+[(a \))-604.7(Interface r)20.5(dict.x)]TJ
+14 0 0 14 45.35 542.19 Tm
+1 0 0 rg
+[(pr)20(ogram RDICTPR)19.7(OG {)-1997.3(/* nom du pr)18.7(ogramme                  */)]TJ
+0 -1.2143 TD
+[(ver)15(sion RDICTVERS {)-2693.3( /* ver)14.8(sion                 */)]TJ
+T*
+[(int INITIALISE\(v)28.6(oid\)  = 1;)-4385.1(/* premiére pr)20.1(océdure du pr)19.6(ogramme   */)]TJ
+T*
+[(int INSER)19.2(TION\(string\) = 2;)-3598(/* seconde pr)19.8(océdure                 */)]TJ
+T*
+[(int SUPPRESSION\(string\) = 3;)-1799.4(/* tr)19.8(oisiéme pr)19.8(océdure               */)]TJ
+T*
+[(int CHERCHE\(string\) = 4;)-4078.7(/* quatriéme pr)19.8(océdure               */)]TJ
+/TT4 1 Tf
+0 0 1 rg
+T*
+[(int NOMBRE\(v)19.8(oid\) = 5;)-6145.9(/* 5 ième  procédure   NEW              */)]TJ
+/TT2 1 Tf
+1 0 0 rg
+T*
+[(} = 1;)-4466.3(    /* n)9.1(umér)20.3(o de la ver)14.6(sion du pr)18.7(ogramme */)]TJ
+T*
+[(} = 0x30090949;    /* n)9.1(umér)20.3(o de pr)19.2(ogramme               */)]TJ
+24 0 0 24 68.03 370.52 Tm
+0 1 0 rg
+[(b \))-550(Client: r)19.9(dict.c \(le main\))]TJ
+14 0 0 14 45.35 350.19 Tm
+1 0 0 rg
+(...)Tj
+T*
+[(CommandeSuiv)20(ante\(&Commande)-9.8(, Mot\))]TJ
+T*
+[(s)14.7(witc)9.8(h \(Commande\) {)]TJ
+T*
+(...)Tj
+3.8471 -1.2143 TD
+(case ’n’:/* "nombre" */)Tj
+T*
+(printf\("Nombre de mots actuels dans le Dico: %d \\n", nombre \(\)\);)Tj
+-3.8471 -2.4286 TD
+(...)Tj
+0 -1.2143 TD
+(  if \(*Commande!=’q’ && *Commande!=’I’ && *Commande!=’n’\){ ...)Tj
+24 0 0 24 68.03 178.52 Tm
+0 1 0 rg
+[(c \))-604.7(Client: r)19.9(dict_cif)9.7(.c \(con)39.7(vention\))]TJ
+14 0 0 14 45.35 158.19 Tm
+1 0 0 rg
+(/*------------------------------------------------------------------------)Tj
+T*
+[( * nombre - pr)19.1(ocedure interface c)20.4(lient qui appelle nombre_1)]TJ
+T*
+( *------------------------------------------------------------------------ */)Tj
+T*
+(int nombre\(\))Tj
+T*
+({)Tj
+T*
+(   return *nombre_1\(handle\);)Tj
+T*
+(})Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+9 0 obj
+<<
+/Length 2442
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 213.4 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Manipulation de types structurés)Tj
+-4.0017 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 63)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 68.03 766.36 Tm
+0 1 0 rg
+[(d \))-550(Ser)-9.8(veur: r)20.2(dict_ser)-9.6(ver)60.6(.c \(con)39.7(vention\))]TJ
+14 0 0 14 45.35 729.03 Tm
+1 0 0 rg
+[(int* nombre_1_svc\(struct svc_req *r)21.5(qstp\) {)]TJ
+0.81 -1.2143 TD
+(static int  resultat;)Tj
+/TT4 1 Tf
+0 0 1 rg
+11.3936 0 TD
+(/*)Tj
+/TT2 1 Tf
+1 0 0 rg
+1.0279 0 TD
+(static)Tj
+/TT4 1 Tf
+0 0 1 rg
+2.6114 0 TD
+( Indispensable, pourquoi ?*/)Tj
+/TT2 1 Tf
+1 0 0 rg
+-15.0329 -1.2143 TD
+(/*)Tj
+T*
+[( * inser)-20(t ser)-9.8(ver code here)]TJ
+T*
+( */)Tj
+T*
+(resultat = nombre\(\);)Tj
+T*
+(return\(&resultat\);)Tj
+-0.81 -1.2143 TD
+(})Tj
+24 0 0 24 68.03 574.36 Tm
+0 1 0 rg
+[(e \))-604.7(Ser)-9.8(veur: r)20.2(dict_srp.c \(code eff)10.2(ectif\))]TJ
+14 0 0 14 45.35 537.03 Tm
+1 0 0 rg
+(/*------------------------------------------------------------------------)Tj
+T*
+( * nombre : retourne le nombre de mots dans le Dico)Tj
+T*
+( *------------------------------------------------------------------------)Tj
+T*
+( */)Tj
+T*
+(int)Tj
+T*
+(nombre \(\))Tj
+T*
+({)Tj
+0.81 -1.2143 TD
+(return CompteurMots;)Tj
+-0.81 -1.2143 TD
+(})Tj
+24 0 0 24 68.03 365.36 Tm
+0 1 0 rg
+[(f \))-827.8(Code généré)]TJ
+/TT4 1 Tf
+0 g
+-0.1179 -1.625 TD
+(Client:)Tj
+0 0 1 rg
+2.9729 0 TD
+(rdict_clnt.c)Tj
+/TT2 1 Tf
+14 0 0 14 45.35 301.03 Tm
+1 0 0 rg
+(int *)Tj
+0 -1.2143 TD
+[(nombre_1\(CLIENT *c)19.9(lnt\))]TJ
+T*
+({)Tj
+T*
+[(        static int c)18.5(lnt_res;)]TJ
+0 -2.4286 TD
+[(        memset\(\(c)9.6(har *\)&c)20.2(lnt_res, 0, siz)-10(eof\(c)19.9(lnt_res\)\);)]TJ
+0 -1.2143 TD
+(         if \()Tj
+/TT4 1 Tf
+0 0 1 rg
+3.7243 0 TD
+(clnt_call)Tj
+/TT2 1 Tf
+1 0 0 rg
+3.4443 0 TD
+[( \(c)20.6(lnt, NOMBRE, \(xdrpr)19.4(oc_t\) xdr_v)30.5(oid, \(cad)9.2(dr_t\) NULL,)]TJ
+-7.1686 -1.2143 TD
+[(                \(xdrpr)17.3(oc_t\) xdr_int, \(cad)9.9(dr_t\) &c)19.7(lnt_res,)]TJ
+T*
+(                TIMEOUT\) != RPC_SUCCESS\) {)Tj
+T*
+(                return \(NULL\);)Tj
+T*
+(        })Tj
+T*
+[(        return \(&c)18.8(lnt_res\);)]TJ
+T*
+(})Tj
+ET
+endstream
+endobj
+10 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/Length 2445
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 213.4 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Manipulation de types structurés)Tj
+-4.0017 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 64)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+/TT4 1 Tf
+24 0 0 24 65.2 766.36 Tm
+0 g
+[(Serv)15.1(eur:)]TJ
+0 0 1 rg
+3.6229 0 TD
+(rdict_svc.c)Tj
+/TT2 1 Tf
+14 0 0 14 45.35 724.03 Tm
+1 0 0 rg
+(static int *)Tj
+0 -1.2143 TD
+[(_nombre_1 \(v)30.3(oid  *ar)14.7(gp, struct svc_req *r)20.4(qstp\))]TJ
+T*
+({)Tj
+T*
+[(        return \(nombre_1_svc\(r)19.4(qstp\)\);)]TJ
+/TT4 1 Tf
+0 0 1 rg
+18.7636 0 TD
+(/* Appel nombre_1_svc */)Tj
+0.4864 -1.2143 TD
+(/* du )Tj
+/TT5 1 Tf
+2.2778 0 TD
+(Ş)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(chier rdict_serv)13.9(er)54.7(.c */)]TJ
+/TT2 1 Tf
+1 0 0 rg
+-22.084 -1.2143 TD
+(})Tj
+/TT4 1 Tf
+24 0 0 24 65.2 535.36 Tm
+0 g
+[(A)74.3(v)15(ec:)]TJ
+/TT2 1 Tf
+14 0 0 14 45.35 510.03 Tm
+1 0 0 rg
+[(static v)29.9(oid)]TJ
+T*
+[(r)19.9(dictpr)20(og_1\()]TJ
+/TT4 1 Tf
+0 0 1 rg
+5.7943 0 TD
+(struct svc_req *rqstp)Tj
+/TT2 1 Tf
+1 0 0 rg
+8.3321 0 TD
+[(, register SVCXPR)20.7(T *transp\))]TJ
+-14.1264 -1.2143 TD
+({)Tj
+T*
+(...)Tj
+T*
+[(s)14.7(witc)9.8(h \()]TJ
+/TT4 1 Tf
+0 0 1 rg
+3.6986 0 TD
+(rqstp->rq_proc)Tj
+/TT2 1 Tf
+1 0 0 rg
+6.0064 0 TD
+(\) {)Tj
+-9.705 -1.2143 TD
+(...)Tj
+T*
+(...)Tj
+T*
+(case NOMBRE:)Tj
+T*
+[(                _xdr_ar)12.7(gument = \(xdrpr)19.6(oc_t\) xdr_v)30.4(oid;)]TJ
+T*
+[(                _xdr_result = \(xdrpr)17.2(oc_t\) xdr_int;)]TJ
+T*
+[(                local = \(c)6.5(har *\(*\)\(c)10.3(har *, struct svc_req *\)\) _nombre_1;)]TJ
+T*
+(                break;)Tj
+T*
+(...)Tj
+/TT4 1 Tf
+0 0 1 rg
+0 -4.8571 TD
+[(result = \(*local\)\(\(char *\)&ar)15.9(gument,)]TJ
+1 0 0 rg
+14.9036 0 TD
+(rqstp)Tj
+0 0 1 rg
+2 0 TD
+[(\);)-2499.9(/* Appel _nombre_1 */)]TJ
+-5.6536 -4.8571 TD
+[(/* En)39.4(v)20(oie du resultat s’il y en a un, */)]TJ
+0 -1.2143 TD
+[(/* signale év)14.2(entuellement une erreur de la couche transport */)]TJ
+/TT2 1 Tf
+1 0 0 rg
+-11.25 -1.2143 TD
+(if \(result != NULL && !)Tj
+/TT4 1 Tf
+0 0 1 rg
+10.4171 0 TD
+(svc_sendreply\(transp, _xdr_result, result\))Tj
+/TT2 1 Tf
+1 0 0 rg
+16.6079 0 TD
+(\) {)Tj
+-27.025 -1.2143 TD
+(                svcerr_systemerr \(transp\);)Tj
+T*
+(})Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 14 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+16 0 obj
+<<
+/Length 1874
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 213.4 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Manipulation de types structurés)Tj
+-4.0017 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 65)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 51.02 766.36 Tm
+0 0 1 rg
+[(2.4.2)-1437.5(Pr)20.3(océdure qui retourne un c)9.1(har*)]TJ
+/TT4 1 Tf
+0 g
+0.5908 -1.5833 TD
+(char* ---> string en RPC)Tj
+/TT2 1 Tf
+0 1 0 rg
+0.1179 -1.5833 TD
+[(a \))-604.7(Interface r)20.5(dict.x)]TJ
+14 0 0 14 45.35 653.03 Tm
+1 0 0 rg
+[(string SUIV)79.6(ANT\(string\) = 6; /*  6eme pr)19.5(ocedure   NEW             */)]TJ
+24 0 0 24 68.03 600.36 Tm
+0 1 0 rg
+[(b \))-550(Client: r)19.9(dict.c \(le main\))]TJ
+14 0 0 14 99.21 580.03 Tm
+1 0 0 rg
+[(case ’S’:   /* Mot suiv)19.2(ant un mot */)]TJ
+3.0371 -1.2143 TD
+[(printf\("Le mot suiv)19.2(ant %s est : %s.\\n", Mot, suiv)19.3(ant\(Mot\)\);)]TJ
+T*
+(break;)Tj
+24 0 0 24 68.03 476.36 Tm
+0 1 0 rg
+[(c \))-604.7(Client: r)19.9(dict_cif)9.7(.c \(con)39.7(vention\))]TJ
+14 0 0 14 45.35 422.03 Tm
+1 0 0 rg
+(/*------------------------------------------------------------------------)Tj
+T*
+[( * suiv)19.4(ant  - pr)19.4(ocedure interface c)20.4(lient qui appelle suiv)19(ant_1)]TJ
+T*
+( *------------------------------------------------------------------------)Tj
+T*
+( */)Tj
+T*
+[(c)9.7(har * suiv)19.8(ant\(c)10.6(har* Mot\))]TJ
+T*
+({)Tj
+T*
+[(   return *suiv)19.2(ant_1\(Mot, handle\);)]TJ
+T*
+(})Tj
+/TT4 1 Tf
+24 0 0 24 65.2 267.36 Tm
+0 g
+(Note:)Tj
+0 -1.5833 TD
+(on a bien le mapping)Tj
+/TT7 1 Tf
+1.8896 -1.3333 TD
+(string \(.x\) <----> char*)Tj
+/TT4 1 Tf
+-1.8896 -1.5833 TD
+(dans les .c)Tj
+ET
+endstream
+endobj
+17 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT7 18 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+20 0 obj
+<<
+/Length 2481
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 213.4 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Manipulation de types structurés)Tj
+-4.0017 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 66)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 68.03 766.36 Tm
+0 1 0 rg
+[(d \))-550(Ser)-9.8(veur: r)20.2(dict_ser)-9.6(ver)60.6(.c \(con)39.7(vention\))]TJ
+14 0 0 14 45.35 746.03 Tm
+1 0 0 rg
+[(c)9.7(har ** suiv)20.4(ant_1_svc\(c)11.1(har *ar)15.6(gp, struct svc_req *r)20.4(qstp\))]TJ
+0 -1.2143 TD
+({)Tj
+T*
+[(        static c)8.9(har * resultat;)]TJ
+0 -2.4286 TD
+(        /*)Tj
+0 -1.2143 TD
+[(         * inser)-21.7(t ser)-9.8(ver code here)]TJ
+T*
+(         */)Tj
+T*
+[(        resultat = \(c)8.8(har *\) suiv)20(ant\(ar)14.7(gp\);)]TJ
+T*
+[(        /* Cast \(c)8.4(har *\) sinon: W)39.5(arning: assignment makes pointer fr)19.6(om integ)-10.6(er)]TJ
+T*
+(without a cast */)Tj
+T*
+(        return\(&resultat\);)Tj
+T*
+(})Tj
+/TT4 1 Tf
+24 0 0 24 65.2 523.36 Tm
+0 g
+(Note:)Tj
+0 -1.5833 TD
+[(On)-244.1(retourne)-245.1(un)-244.6(char)-244.7(**)-244.6(car)-244.7(on)-244.6(retourne)-245.1(toujours)-244.7(un)]TJ
+0 -1.0833 TD
+[(pointeur)-202.9(sur)-202.8(le)-202.9(type)-202.9(ef)24.8(fectif)-203.5(de)-202.8(retour)-202.7(tel)-203.4(que)-202.8(déclaré)]TJ
+T*
+(dans le .x:)Tj
+1.8896 -1.3333 TD
+[(string --> char * --> dans rdict_serv)14.2(er char**)]TJ
+/TT2 1 Tf
+0 1 0 rg
+-1.7717 -1.5833 TD
+[(e \))-604.7(Ser)-9.8(veur: r)20.2(dict_srp.c \(code eff)10.2(ectif\))]TJ
+14 0 0 14 45.35 343.03 Tm
+1 0 0 rg
+(*------------------------------------------------------------------------)Tj
+0 -1.2143 TD
+[( * suiv)19.4(ant : retourne le mot suiv)19.1(ant un mot donne dans le dictionnaire)]TJ
+T*
+( *------------------------------------------------------------------------ */)Tj
+T*
+[(c)9.7(har *)]TJ
+T*
+[(suiv)19.5(ant  \(Mot\))]TJ
+T*
+[(c)9.7(har)-2223.8(*Mot;)]TJ
+T*
+({)Tj
+T*
+(  int i;)Tj
+T*
+[(  f)19.4(or \(i=0 ; i<CompteurMots; i++\))]TJ
+T*
+[(    if \(str)19.2(cmp\(Mot, Dictionnaire[i]\) == 0\) {)]TJ
+T*
+(      if \(i+1 < CompteurMots\))Tj
+T*
+(         return Dictionnaire[i+1];)Tj
+T*
+(      else)Tj
+T*
+[(         return "A)28.8(ucun, dernier mot";)]TJ
+T*
+(    })Tj
+T*
+[(  return "A)29.7(ucun, Mot non tr)18.7(ouve";)]TJ
+T*
+(})Tj
+ET
+endstream
+endobj
+21 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+23 0 obj
+<<
+/Length 2509
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 213.4 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Manipulation de types structurés)Tj
+-4.0017 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 67)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 51.02 766.36 Tm
+0 0 1 rg
+[(2.4.3)-1437.5(Pr)20.3(océdure qui retourne un type)]TJ
+1.7717 -1.0833 TD
+[(comple)14.7(x)10.3(e)]TJ
+/TT4 1 Tf
+0 g
+-1.1808 -1.5833 TD
+(On doit déclarer dans le .x les structures nécessai-)Tj
+0 -1.0833 TD
+(res.)Tj
+0 -1.5833 TD
+[(Dans ce cas. le protocole v)24(a)0( se char)17.6(ger du)]TJ
+0 -1.0833 TD
+(“)Tj
+1 0 1 rg
+0.4438 0 TD
+(marshalling/un-marshalling)Tj
+0 g
+-0.4438 -1.5833 TD
+[(Ex)15(emple d’une liste chaînée de char*)]TJ
+/TT2 1 Tf
+0 1 0 rg
+0.1179 -1.5833 TD
+[(a \))-604.7(Interface r)20.5(dict.x)]TJ
+14 0 0 14 45.35 516.03 Tm
+1 0 0 rg
+[(const MAXMO)39.3(TLONG = 255; /* T)79.1(aille maxi mot */)]TJ
+0 -2.4286 TD
+[(typedef string c)9.4(haine_mot<MAXMO)40.1(TLONG>;)]TJ
+6.8843 -1.2143 TD
+[(/* Un mot pour c)9.3(haina)9.7(g)-10.6(e)-9.6(, indispensab)9.4(le */)]TJ
+-6.8843 -1.2143 TD
+[(typedef struct  list_mots* suiv)19.6(ant_list;)]TJ
+6.8843 -1.2143 TD
+[(/* Suiv)19.5(ant dans la liste)-10.4(, et aussi premier de la liste */)]TJ
+-6.8843 -1.2143 TD
+(struct list_mots {)Tj
+T*
+[(    c)8.9(haine_mot mot; /* Le mot */)]TJ
+T*
+[(    suiv)18.7(ant_list mot_suiv)20.4(ant;  /* P)39.1(ointeur ver)15.1(s le suiv)19.6(ant */)]TJ
+T*
+(};)Tj
+T*
+(...)Tj
+/TT4 1 Tf
+0 0 1 rg
+2.2243 -1.2143 TD
+[(sui)24.8(v)25(ant_list T)17.3(OUS \(\) = 7;      /*  7eme procedure   NEW             */)]TJ
+/TT2 1 Tf
+1 0 0 rg
+-2.2243 -1.2143 TD
+(...)Tj
+/TT4 1 Tf
+24 0 0 24 65.2 276.36 Tm
+0 g
+(Le .h généré:)Tj
+/TT2 1 Tf
+14 0 0 14 45.35 251.03 Tm
+1 0 0 rg
+[(typedef c)10.1(har *c)10(haine_mot;)]TJ
+0 -2.4286 TD
+[(typedef struct list_mots *suiv)19.7(ant_list;)]TJ
+0 -1.2143 TD
+(struct list_mots {)Tj
+T*
+[(        c)8.8(haine_mot mot;)]TJ
+T*
+[(        suiv)18.6(ant_list mot_suiv)19.7(ant;)]TJ
+T*
+(};)Tj
+T*
+(typedef struct list_mots list_mots;)Tj
+0 -2.4286 TD
+(#de)Tj
+/TT8 1 Tf
+1.7231 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(ne T)39.6(OUS 7)]TJ
+-2.334 -1.2143 TD
+[(e)14.7(xtern  suiv)19.8(ant_list * tous_1\(CLIENT *\);)]TJ
+T*
+[(e)14.7(xtern  suiv)19.8(ant_list * tous_1_svc\(struct svc_req *\);)]TJ
+ET
+endstream
+endobj
+24 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT8 25 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+27 0 obj
+<<
+/Length 1982
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 213.4 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Manipulation de types structurés)Tj
+-4.0017 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 68)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+/TT4 1 Tf
+24 0 0 24 65.2 766.36 Tm
+[(MAXMO)41.1(TLONG)]TJ
+0 g
+7.5113 0 TD
+[(est)-219.6(utilisé,)-220.2(pas)-219.5(de)-219.5(f)10.1(açon)-219.8(e)14.7(xplicite)]TJ
+-7.5113 -1.0833 TD
+[(dans)-247(le)-247.1(.h,)-247.1(mais)-247.6(dans)-247(la)-247.1(gestion)-247.6(des)-247(b)20(u)0(f)25.1(fer)39.9(,)-247.1(marshal-)]TJ
+T*
+(ling/un-marshalling.)Tj
+0 -3.1667 TD
+(Fichier)Tj
+0 0 1 rg
+3.0829 0 TD
+[(rdict_xdr)54.7(.c)]TJ
+0 g
+4.305 0 TD
+( :)Tj
+/TT2 1 Tf
+14 0 0 14 45.35 613.03 Tm
+1 0 0 rg
+(bool_t)Tj
+0 -1.2143 TD
+[(xdr_c)9.9(haine_mot \(XDR *xdr)15.6(s, c)10.1(haine_mot *objp\))]TJ
+T*
+({)Tj
+T*
+[(        register int32_t *b)18.5(uf;)]TJ
+0 -2.4286 TD
+[(         if \(!xdr_string \(xdr)13(s, objp, MAXMO)38.7(TLONG\)\))]TJ
+0 -1.2143 TD
+[(                 return F)76.7(ALSE;)]TJ
+T*
+[(        return TR)18.4(UE;)]TJ
+T*
+(})Tj
+/TT4 1 Tf
+24 0 0 24 65.2 441.36 Tm
+0 g
+(Véri)Tj
+/TT5 1 Tf
+1.7769 0 TD
+(Ş)Tj
+/TT4 1 Tf
+0.5562 0 TD
+(cation qu’une donnée est bien du type)Tj
+0 0 1 rg
+1.3282 -1.3333 TD
+[(chaine_mot<MAXMO)39.7(TLONG>)]TJ
+/TT2 1 Tf
+0 1 0 rg
+-3.5433 -3.1667 TD
+[(b \))-550(Client: r)19.9(dict.c \(le main\))]TJ
+0 -2.3333 TD
+[(c \))-604.7(Client: r)19.9(dict_cif)9.7(.c \(con)39.7(vention\))]TJ
+T*
+[(d \))-550(Ser)-9.8(veur: r)20.2(dict_ser)-9.6(ver)60.6(.c \(con)39.7(vention\))]TJ
+T*
+[(e \))-604.7(Ser)-9.8(veur: r)20.2(dict_srp.c \(code eff)10.2(ectif\))]TJ
+/TT4 1 Tf
+0 g
+1.7717 -1.9583 TD
+-0.0001 Tc
+0.0001 Tw
+[(.................................. A re)14.8(garder en TD.)]TJ
+ET
+endstream
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 14 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+30 0 obj
+<<
+/Length 1906
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 213.4 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Manipulation de types structurés)Tj
+-4.0017 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 69)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 51.02 766.36 Tm
+0 0 1 rg
+[(2.4.4)-1437.5(Gestion mémoire)]TJ
+/TT4 1 Tf
+0 g
+0.5908 -1.5833 TD
+(Nous sommes en C, pas de GC !)Tj
+T*
+[(Le protocole gère/utilise des b)18.2(u)0(f)24.7(fers pour transfert)]TJ
+0 -1.0833 TD
+[(v)15(ers la couche transport.)]TJ
+/TT7 1 Tf
+0 0 1 rg
+0 -1.5833 TD
+[(Pb)39.9(.:)]TJ
+0 -1.0833 TD
+[(Le pr)17.9(otocole ne doit pas a)25(v)10(oir de fuite de)]TJ
+T*
+[(mémoir)17.8(e à chaque appel !)]TJ
+/TT4 1 Tf
+0 g
+0 -1.5833 TD
+(Le protocole donne la possibilité de gérer la)Tj
+0 -1.0833 TD
+[(mémoire, et en particulier de la libérer)51.4(.)]TJ
+0 -1.5833 TD
+[(Pour ce f)9.9(aire, il génère des fonctions pour libérer)]TJ
+0 -1.0833 TD
+[(les)-234.6(résultats)-235(comple)14.6(x)15(e)0(s)-234.5(des)-234.5(fonctions)-234.6(déclarée)-235.3(dans)]TJ
+T*
+(le .x :)Tj
+/TT2 1 Tf
+14 0 0 14 45.35 395.03 Tm
+1 0 0 rg
+(#de)Tj
+/TT8 1 Tf
+1.7231 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(ne T)39.6(OUS 7)]TJ
+-2.334 -1.2143 TD
+[(e)14.7(xtern  suiv)19.8(ant_list * tous_1\(CLIENT *\);)]TJ
+T*
+[(e)14.7(xtern  suiv)19.8(ant_list * tous_1_svc\(struct svc_req *\);)]TJ
+T*
+[(e)14.7(xtern int r)19.7(dictpr)20(og_1_freeresult \(SVCXPR)20.9(T *, xdrpr)19.6(oc_t, cad)10(dr_t\);)]TJ
+/TT4 1 Tf
+24 0 0 24 65.2 291.36 Tm
+0 g
+(Une technique standard utilisée:)Tj
+1.8896 -1.3333 TD
+(libérer la mémoire construite à l’appel N, lors)Tj
+0 -1.0833 TD
+(de l’appel N+1)Tj
+0 -3 TD
+[(V)129.3(oir en TD/TP)110.4(.)]TJ
+ET
+endstream
+endobj
+31 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT7 18 0 R
+/TT8 25 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+33 0 obj
+<<
+/Length 635
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 213.4 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Manipulation de types structurés)Tj
+-4.0017 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 70)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+/TT4 1 Tf
+36 0 0 36 42.61 758.36 Tm
+-0.0069 Tc
+[(CHAPITRE 3)-243.3(Introduction à Ja)18.3(v)25(a)]TJ
+5.7169 -2.3889 TD
+(RMI)Tj
+ET
+endstream
+endobj
+34 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+36 0 obj
+<<
+/Length 1915
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 256.39 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Principes de base)Tj
+-7.5842 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 71)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+q
+22.68 758.36 535.74 -13.84 re
+W n
+0 G
+0 J 0.36 w 
+68.03 755.53 m
+22.68 755.53 l
+S
+Q
+0 G
+0.36 w 
+504.57 755.53 m
+79.37 755.53 l
+S
+BT
+24 0 0 24 36.85 766.36 Tm
+(3.1 Principes de base)Tj
+/TT4 1 Tf
+0 g
+1.1813 -2.16 TD
+[(RPC en Ja)19.9(v)25.4(a)]TJ
+/TT2 1 Tf
+0 0 1 rg
+-0.5908 -3.1667 TD
+[(3.1.1)-1437.5(Fonctionnalités)]TJ
+/TT4 1 Tf
+0 g
+0.5908 -1.5833 TD
+(RPC synchrone)Tj
+T*
+(Notation pointé pour l'appel distant:)Tj
+/F1 1 Tf
+0 1 0 rg
+3.6613 -1.3333 TD
+[(r)15(emote_obj.foo \( param1, param2 \);)]TJ
+/TT4 1 Tf
+0 g
+-3.6613 -1.5833 TD
+(Possibilité de retourner un résultat:)Tj
+/F1 1 Tf
+0 1 0 rg
+3.6613 -1.3333 TD
+[(r)15(es = r)15(emote_obj.bar \( param\);)]TJ
+/TT4 1 Tf
+1 0 0 rg
+-2.1258 -1.5 TD
+[(--> •)-177.8(-)0( ‘)74.3(‘Language centric'')]TJ
+0 g
+-1.5354 -1.5833 TD
+[(Basé sur une interf)9.6(ace)]TJ
+1 0 1 rg
+9.0979 0 TD
+(marqueur)Tj
+0 g
+-9.0979 -3.1667 TD
+[(P)15.3(assage)-232.6(par)-233.1(copie)-232.8(de)-232.8(graphes)-233.1(d'objets)-232.4(\(D)39.8(A)40.5(G)-232.8(et)-232.9(Gra-)]TJ
+0 -1.0833 TD
+[(phes a)20.2(v)14.6(ec c)14.9(ycles\))]TJ
+1 0 0 rg
+1.5354 -1.3333 TD
+[(--> •)-177.8(Sérialisation, copie profonde)]TJ
+0 g
+-1.5354 -1.5833 TD
+[(Sécurité, applets, et persistance \(acti)22.2(v)25.4(able\))]TJ
+T*
+[(Génération de stub et de sk)9.2(eleton)]TJ
+T*
+[(T)35(ransport: TCP)110.8(,)]TJ
+0 -1.0833 TD
+[(mais on peut utiliser un autre tranport \(UDP)109.4(, etc.)]TJ
+T*
+[(a)20.1(v)15(ec Sock)9.4(et F)14.9(actory\).)]TJ
+ET
+endstream
+endobj
+37 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 38 0 R
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+40 0 obj
+<<
+/Length 1477
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 256.39 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Principes de base)Tj
+-7.5842 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 72)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 51.02 766.36 Tm
+0 0 1 rg
+[(3.1.2)-1437.5(Ar)20.5(c)9.9(hitecture)]TJ
+/TT10 1 Tf
+9.5217 0 TD
+(:)Tj
+/TT4 1 Tf
+0 g
+-8.9308 -19.1267 TD
+(Schéma classique, en pratique qq plus :)Tj
+1.8896 -1.3333 TD
+[(- La sérialisation Ja)18.6(v)25(a)]TJ
+0 -1.5 TD
+(- Le byte code pour la portabilité)Tj
+T*
+(- Le protocol JRMP pour l'interopérabilité)Tj
+-1.8896 -1.5833 TD
+(RMI a son propre ''directory'' local \(rpcbind\))Tj
+1 0 1 rg
+1.8896 -1.3333 TD
+[(rmire)14.3(gistry)]TJ
+0 g
+-1.8896 -1.5833 TD
+[(RMI)-223.3(a)-224.1(son)-223.8(propre)-223.9(''directory'')-223.7(global)-224.2(\(LD)40.2(AP)111.2(,)-223.7(CDS\):)]TJ
+1 0 1 rg
+1.8896 -1.3333 TD
+(Jini)Tj
+/F2 1 Tf
+0 g
+2.695 0 TD
+(\(Note: +/- utilisable aussi: JNDI\))Tj
+ET
+1 g
+44.79 378.58 496.06 -34.01 re
+f
+1 0 1 RG
+0.36 w 
+530.79 372.58 m
+135.49 372.91 l
+S
+0 J 
+126.99 372.91 m
+47.62 372.91 l
+S
+BT
+/TT10 1 Tf
+18 0 0 18 44.79 355.62 Tm
+1 0 1 rg
+[(FIGURE  12)-2113.1(Couches du système RMI)]TJ
+ET
+q
+357.17 0 0 365.67 132.66 382.87 cm
+/Im1 Do
+Q
+endstream
+endobj
+41 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB ]
+/Font <<
+/F2 42 0 R
+/TT2 4 0 R
+/TT4 5 0 R
+/TT10 43 0 R
+>>
+/XObject <<
+/Im1 44 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+48 0 obj
+<<
+/Length 1510
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 256.39 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Principes de base)Tj
+-7.5842 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 73)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 51.02 766.36 Tm
+0 0 1 rg
+[(3.1.3)-1437.5(Fonctionnement)]TJ
+/TT4 1 Tf
+0 g
+0.5908 -1.5833 TD
+[(Principes de fonctionnement à l'e)13.4(xécution)]TJ
+0 -20.3767 TD
+[(Utilisation d'un ‘)73.3(‘re)14.9(gistry‘)74.2(‘ pour associer un)]TJ
+0 0 1 rg
+17.6808 0 TD
+(nom)Tj
+0 g
+1.7779 0 TD
+( à)Tj
+-19.4588 -1.0833 TD
+(une)Tj
+0 0 1 rg
+1.6938 0 TD
+(référence)Tj
+0 g
+3.7192 0 TD
+[( v)15(ers un objet distant)]TJ
+-5.4129 -1.5833 TD
+[(Utilisation de “W)78.7(eb Serv)14.8(eur’)74(’)]TJ
+0 -1.0833 TD
+[(\(en pratique juste un serv)14.2(eur HTTP\))]TJ
+T*
+[(pour)-224.5(char)17.8(ger)-224.8(si)-224.7(nécessaire)-225.4(le)-225(byte)-225(code)-225.2(d'un)-224.4(serv)15.2(eur)]TJ
+T*
+[(v)15(ers un client, ou d'un client v)13.6(ers un serv)14.9(eur)55.2(.)]TJ
+ET
+q
+493.23 0 0 357.17 41.95 322.69 cm
+/Im2 Do
+Q
+1 g
+44.79 315.58 496.06 -34.02 re
+f
+1 0 1 RG
+0.36 w 
+530.79 309.58 m
+135.49 309.91 l
+S
+0 J 
+126.99 309.91 m
+47.62 309.91 l
+S
+BT
+/TT10 1 Tf
+18 0 0 18 44.79 292.61 Tm
+1 0 1 rg
+[(FIGURE  13)-2113.1(Entités du système RMI)]TJ
+ET
+endstream
+endobj
+49 0 obj
+<<
+/ProcSet [/PDF /Text /ImageC /ImageI]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT10 43 0 R
+>>
+/XObject <<
+/Im2 50 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+/ColorSpace <<
+/Cs7 51 0 R
+>>
+>>
+endobj
+51 0 obj
+[/Indexed /DeviceRGB 255 52 0 R]
+endobj
+52 0 obj
+<<
+/Length 370
+/Filter /FlateDecode
+>>
+stream
+H‰RI  "Ê¢…(DY”5Cô©nœI&È%çsÈ&ë,³øïvÌQ"GŒğ‡è!2É8Ãº)pÀ e|áw¹óïp›[ßòÓ>óŒSN>ñ„O„>òˆ›Üø†7(»ƒ<àÓŒ7Ü`/{Şãv³ë]îâë°×\c••W\á‹£—\b';ŞáªxáøÒ¿øê,d•”h9õ¹¨]Úy|oş¡+–-Zø†õ4á‰ÇzPûÑ og'Bºè¬£Úh­¥ßï®4eH‘,QÂ¡8¤M4ÖPƒ&Sp~D?¹†T¿C]®¡ÕVËêHÅãgøÙ—hgJ¥H]Šì¿í'sÈAÓ® Şø±WYƒ¹Ìys˜Í¬g9‹ß‹Jï´1ÊÈ#ğËR?º’˜ÉŒg8ƒ6¨&g€_¥_»bş2áW¤møÁãÇÙä~HßÎïò7ß¦:òÅ?ûO¾H)ş×Şâ	0 å?W
+endstream
+endobj
+54 0 obj
+<<
+/Length 2220
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 256.39 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Principes de base)Tj
+-7.5842 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 74)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 51.02 766.36 Tm
+0 0 1 rg
+[(3.1.4)-1437.5(Différences a)15.8(vec RPC)]TJ
+/TT4 1 Tf
+0 g
+0.5908 -1.5833 TD
+[(Dif)25.1(férences principales:)]TJ
+/TT12 1 Tf
+11 0 0 11 82.21 696.36 Tm
+(•)Tj
+/TT4 1 Tf
+24 0 0 24 96.38 696.36 Tm
+[(syntax)15(e \(notation pointé vs. procédure a)18(v)15(ec)]TJ
+0 -1.0833 TD
+[(‘)74.3(‘handle‘)73.2(‘)]TJ
+/TT12 1 Tf
+11 0 0 11 82.21 634.36 Tm
+(•)Tj
+/TT4 1 Tf
+24 0 0 24 96.38 634.36 Tm
+[(Uniquement TCP \(pas vraiment UDP)110.1(, pour)]TJ
+T*
+(l’instant\))Tj
+/TT12 1 Tf
+11 0 0 11 82.21 572.36 Tm
+(•)Tj
+/TT4 1 Tf
+24 0 0 24 96.38 572.36 Tm
+[(mais on peut utiliser des ‘)72.9(‘secured sock)9.7(ets‘)73.8(‘)]TJ
+/TT2 1 Tf
+0 0 1 rg
+-1.89 -4.75 TD
+[(3.1.5)-1437.5(Modèle de la comm)19.6(unication)]TJ
+/TT4 1 Tf
+0 g
+0.5908 -1.5833 TD
+(Sémantique du passage des paramètres:)Tj
+1 0 1 rg
+0.7088 -1.3333 TD
+[(•)-240.3(les)-243.3(types)-243.3(primitifs)-244(\(int,)-243.4(double,)-243.7(...\))-243.2(sont)-243(toujours)]TJ
+0.5904 -1.0833 TD
+(passés par)Tj
+1 0 0 rg
+4.3321 0 TD
+[(v)25(aleur)]TJ
+1 0 1 rg
+-4.9225 -1.5 TD
+[(•)-240.3(les objets, qui ne sont pas des objets ‘)73(‘Remote‘)73.5(‘)]TJ
+0.5904 -1.0833 TD
+(\(accessible à distance\), sont passés par)Tj
+1 0 0 rg
+15.69 0 TD
+(copie)Tj
+-15.69 -1.0833 TD
+(profonde)Tj
+1 0 1 rg
+3.61 0 TD
+(.)Tj
+-3.61 -1.0833 TD
+[(Sérialisation, des arbres, D)39.2(A)40.1(Gs, graphes qq)]TJ
+T*
+[(a)20.1(v)15(ec c)14.5(ycles.)]TJ
+-0.5904 -1.5 TD
+[(•)-240.3(les objets ‘Remote‘)73(‘ sont passés par référence)]TJ
+0.5904 -1.0833 TD
+(Cela signi)Tj
+/TT5 1 Tf
+4.0273 0 TD
+(Ş)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(e que l'on transmet en f)8.6(aite un)]TJ
+1 0 0 rg
+12.2515 0 TD
+(stub)Tj
+1 0 1 rg
+-16.835 -1.0833 TD
+(sur l'objet distant.)Tj
+0 g
+2.3621 -1.5 TD
+[(--> e)14.7(x)15(emple au tableau)]TJ
+ET
+endstream
+endobj
+55 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 14 0 R
+/TT12 56 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+58 0 obj
+<<
+/Length 1614
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 256.39 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Principes de base)Tj
+-7.5842 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 75)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 51.02 766.36 Tm
+0 0 1 rg
+[(3.1.6)-1437.5(A)30.1(utres caractéristiques)]TJ
+/TT7 1 Tf
+0.5908 -1.5833 TD
+(+)Tj
+/TT4 1 Tf
+0 g
+T*
+(Ramasse miettes réparti, mais ne gère pas les)Tj
+0 -1.0833 TD
+[(c)15.1(ycles)]TJ
+0 -1.5833 TD
+[(Intégration a)19.4(v)15(ec les e)14(xceptions)]TJ
+T*
+[(Char)18(gement dynamique de code)]TJ
+/TT7 1 Tf
+0 0 1 rg
+0 -3.1667 TD
+(-)Tj
+/TT4 1 Tf
+0 g
+0 -1.5833 TD
+[(Non-intégration, uniformisation a)18.4(v)15(ec les threads)]TJ
+T*
+[(P)15.3(as de)]TJ
+1 0 1 rg
+2.8179 0 TD
+(politique de service)Tj
+0 g
+7.8321 0 TD
+( simplement program-)Tj
+-10.65 -1.0833 TD
+[(mable pour un objet serv)14(eur RMI \(FIFO, b)20.7(u)0(f)25.1(fer)39.9(,)]TJ
+T*
+[(lecteur)19.4(-rédacteur)39.3(, etc.\))]TJ
+0 -1.5833 TD
+[(Il f)10.1(aut rendre l'objet)]TJ
+1 0 0 rg
+8.1679 0 TD
+(synchronize)Tj
+0 g
+4.8321 0 TD
+( si cela est néces-)Tj
+-13 -1.0833 TD
+(saire.)Tj
+0 -1.5833 TD
+(En pratique, ce sont les routines visibles par les)Tj
+0 -1.0833 TD
+[(interf)9.7(aces)]TJ
+1 0 0 rg
+4.1267 0 TD
+(Remote)Tj
+0 g
+3.1113 0 TD
+[( que l’on doit év)14.2(entuellement)]TJ
+-7.2379 -1.0833 TD
+(rendre)Tj
+1 0 0 rg
+2.8038 0 TD
+(synchronize.)Tj
+ET
+endstream
+endobj
+59 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT7 18 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+61 0 obj
+<<
+/Length 2140
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 247.72 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Classes et Interfaces)Tj
+-6.8617 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 76)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+q
+22.68 758.36 535.74 -13.84 re
+W n
+0 G
+0 J 0.36 w 
+68.03 755.53 m
+22.68 755.53 l
+S
+Q
+0 G
+0.36 w 
+504.57 755.53 m
+79.37 755.53 l
+S
+BT
+24 0 0 24 36.85 766.36 Tm
+(3.2 Classes et Interfaces)Tj
+/TT4 1 Tf
+0 g
+1.1813 -2.16 TD
+(Pour l'utilisateur standard, l'API comporte essen-)Tj
+0 -1.0833 TD
+(tiellement:)Tj
+1 0 1 rg
+0.7088 -1.3333 TD
+[(•)-240.3(une interf)9.4(ace: ja)19(v)25(a.rmi.Remote)]TJ
+0 -1.5 TD
+[(•)-240.3(une classe: ja)19(v)25(a.rmi.serv)14.8(er)54.8(.UnicastRemoteOb-)]TJ
+0.5904 -1.0833 TD
+(ject)Tj
+0 g
+-1.2992 -1.5833 TD
+[(P)15.3(ackages:)]TJ
+/F1 1 Tf
+0 1 0 rg
+1.2992 -1.3333 TD
+[(java.r)-37.1(mi)]TJ
+/TT4 1 Tf
+0 g
+2.3621 -1.5 TD
+[(P)15.3(ackage de base, a)18.7(v)15(ec Interf)9.6(ace)]TJ
+1 0 1 rg
+12.8779 0 TD
+(Remote)Tj
+0 g
+3.1112 0 TD
+(,)Tj
+-15.9892 -1.0833 TD
+(classe)Tj
+1 0 1 rg
+2.6379 0 TD
+(Naming)Tj
+0 g
+3.2221 0 TD
+(,)Tj
+1 0 1 rg
+0.5 0 TD
+[(RMISecurityManager)39.1(,)]TJ
+0 g
+-6.36 -1.0833 TD
+(et)Tj
+1 0 1 rg
+0.9721 0 TD
+(RemoteException)Tj
+/F1 1 Tf
+0 1 0 rg
+-3.3342 -1.5 TD
+[(java.r)-37.1(mi.server)]TJ
+/TT4 1 Tf
+0 g
+2.3621 -1.5 TD
+[(Implémentation: côté serv)13(eur)39.8(, stub et sk)9.9(e-)]TJ
+0 -1.0833 TD
+[(letons, T)34.5(ransport et HTTP tunneling)]TJ
+/F1 1 Tf
+0 1 0 rg
+-2.3621 -1.5 TD
+[(java.r)-37.1(mi.r)15(egistry)]TJ
+/TT4 1 Tf
+0 g
+2.3621 -1.5 TD
+[(Repository)64.5(. Mapping Nom --> ref. remote)]TJ
+/F1 1 Tf
+0 1 0 rg
+-2.3621 -1.5 TD
+[(java.r)-37.1(mi.dgc)]TJ
+/TT4 1 Tf
+0 g
+2.3621 -1.5 TD
+(Accès au GC réparti)Tj
+/F1 1 Tf
+0 1 0 rg
+-2.3621 -1.5 TD
+[(java.r)-37.1(mi.activation)]TJ
+/TT4 1 Tf
+0 g
+2.3621 -1.5 TD
+[(Persistance et acti)23.6(v)25(ation \(rév)14.4(eille\) auto-)]TJ
+0 -1.0833 TD
+(matique des objets distants)Tj
+ET
+endstream
+endobj
+62 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 38 0 R
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+64 0 obj
+<<
+/Length 4082
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 247.72 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Classes et Interfaces)Tj
+-6.8617 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 77)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 51.02 766.36 Tm
+0 0 1 rg
+[(3.2.1)-1437.5(Interface Remote)]TJ
+/F1 1 Tf
+0 1 0 rg
+4.2521 -1.25 TD
+[(public inter)8.7(face Remote {})]TJ
+/TT4 1 Tf
+0 g
+-3.6613 -1.5833 TD
+[(Une interf)9.5(ace de type)]TJ
+1 0 1 rg
+8.82 0 TD
+(marqueur)Tj
+0 g
+-8.82 -1.5833 TD
+[(Sert)-217.1(juste)-217.2(à)-217.4(identi)]TJ
+/TT5 1 Tf
+6.8723 0 TD
+(Ş)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(er)-217.6(les)-217.1(interf)9.3(aces)-217.2(de)-217(type)]TJ
+1 0 1 rg
+9.5165 0 TD
+(Remote)Tj
+0 g
+3.1108 0 TD
+(:)Tj
+-18.1662 -1.3333 TD
+(implémentent directement ou indirectement)Tj
+0 -1.0833 TD
+[(cette interf)8.6(ace)]TJ
+-1.8896 -1.5833 TD
+[(Une ‘)74(‘)]TJ
+0 0 1 rg
+2.5079 0 TD
+[(interf)9.7(ace distante)]TJ
+0 g
+6.8492 0 TD
+-0.0002 Tc
+0.0002 Tw
+[(‘)74.1(‘)-0.2( doit obligatoirement res-)]TJ
+-9.3571 -1.0833 TD
+0 Tc
+0 Tw
+[(pecter les contraintes sui)23.7(v)25(antes:)]TJ
+1 0 1 rg
+0.7088 -1.3333 TD
+[(•)-240.3(implémente l'interf)8.4(ace)]TJ
+0 1 0 rg
+9.7583 0 TD
+[(ja)19.6(v)25(a.rmi.Remote)]TJ
+1 0 1 rg
+-9.7583 -1.5 TD
+[(•)-240.3(chaque routine doit déclarer l’e)12.8(xception)]TJ
+0 1 0 rg
+0.5904 -1.0833 TD
+[(ja)19.6(v)25(a.rmi.RemoteException)]TJ
+1 0 1 rg
+10.8963 0 TD
+[(dans)-220.7(sa)-220.3(clause)-221.1(thro)25(w)]TJ
+-10.8963 -1.0833 TD
+[(\(ou un ancêtre: ja)18.8(v)25(a.io.)]TJ
+0 1 0 rg
+9.1471 0 TD
+(IOException)Tj
+1 0 1 rg
+5.11 0 TD
+(,)Tj
+-14.2571 -1.0833 TD
+[(ja)19.6(v)25(a.lang.)]TJ
+0 1 0 rg
+3.8429 0 TD
+(Exception)Tj
+1 0 1 rg
+4.055 0 TD
+(\))Tj
+-8.4883 -1.5 TD
+[(•)-240.3(A)0(r)18.1(guments et résultats des méthodes doi)23.3(v)15(ent)]TJ
+0.5904 -1.0833 TD
+(être)Tj
+0 1 0 rg
+1.7488 0 TD
+(Serializable)Tj
+1 0 1 rg
+4.7212 0 TD
+[( \(implémente l'interf)8.5(ace)]TJ
+-6.47 -1.0833 TD
+[(ja)19.6(v)25(a.io.)]TJ
+0 1 0 rg
+2.8988 0 TD
+(Serializable)Tj
+1 0 1 rg
+4.7213 0 TD
+(\).)Tj
+-7.62 -1.0833 TD
+[(Récursi)24.7(v)15(ement, sauf)]TJ
+0 1 0 rg
+8.375 0 TD
+(static)Tj
+1 0 1 rg
+2.1108 0 TD
+( or)Tj
+0 1 0 rg
+1.3329 0 TD
+(transient)Tj
+0 g
+-13.1179 -1.5833 TD
+[(Ex)15(emple d’interf)9(ace distante \(accessible à\) :)]TJ
+/TT2 1 Tf
+14 0 0 14 45.35 215.03 Tm
+1 0 0 rg
+[(pub)8.9(lic)]TJ
+/TT14 1 Tf
+18 0 0 18 90.34 215.03 Tm
+0 g
+(interface)Tj
+/TT2 1 Tf
+14 0 0 14 156.32 215.03 Tm
+1 0 0 rg
+( BankAccount)Tj
+/TT14 1 Tf
+18 0 0 18 254.34 215.03 Tm
+0 g
+(extends)Tj
+/TT4 1 Tf
+24 0 0 24 314.23 215.03 Tm
+1 0 1 rg
+[(ja)19.6(v)25(a.rmi.Remote)]TJ
+/TT2 1 Tf
+14 0 0 14 473.13 215.03 Tm
+1 0 0 rg
+( {)Tj
+-30.5557 -1.2143 TD
+[(             pub)7.2(lic v)29.4(oid deposit\()]TJ
+/TT8 1 Tf
+13.0196 0 TD
+(ß)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(oat amount\))Tj
+/TT14 1 Tf
+18 0 0 18 127.09 181.03 Tm
+0 g
+[(thro)25.4(ws)]TJ
+/TT2 1 Tf
+14 0 0 14 176.66 181.03 Tm
+1 0 0 rg
+[( ja)14.7(v)20.4(a.rmi.)]TJ
+/TT4 1 Tf
+24 0 0 24 236.87 181.03 Tm
+1 0 1 rg
+(RemoteException)Tj
+/TT2 1 Tf
+14 0 0 14 408.86 181.03 Tm
+1 0 0 rg
+(;)Tj
+-25.965 -1.2143 TD
+[(             pub)7.2(lic v)29.4(oid withdra)14.4(w\()]TJ
+/TT8 1 Tf
+13.783 0 TD
+(ß)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(oat amount\))Tj
+/TT14 1 Tf
+18 0 0 18 124.87 147.03 Tm
+0 g
+[(thro)25.4(ws)]TJ
+/TT2 1 Tf
+14 0 0 14 178.23 147.03 Tm
+1 0 0 rg
+[(Over)20.7(dra)14.7(wnException,)-271.1(ja)15.4(v)19.7(a.rmi.)]TJ
+/TT4 1 Tf
+24 0 0 24 381.78 147.03 Tm
+1 0 1 rg
+(RemoteException)Tj
+/TT2 1 Tf
+14 0 0 14 553.76 147.03 Tm
+1 0 0 rg
+(;)Tj
+-36.315 -1.2143 TD
+[(             pub)7.2(lic )]TJ
+/TT8 1 Tf
+6.8268 0 TD
+(ß)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(oat g)-10.8(etBalance\(\))]TJ
+/TT14 1 Tf
+18 0 0 18 127.09 113.03 Tm
+0 g
+[(thro)25.4(ws)]TJ
+/TT2 1 Tf
+14 0 0 14 176.66 113.03 Tm
+1 0 0 rg
+[( ja)14.7(v)20.4(a.rmi.)]TJ
+/TT4 1 Tf
+24 0 0 24 236.87 113.03 Tm
+1 0 1 rg
+(RemoteException)Tj
+/TT2 1 Tf
+14 0 0 14 408.86 113.03 Tm
+1 0 0 rg
+1.9456 Tc
+-1.9456 Tw
+(; })Tj
+ET
+endstream
+endobj
+65 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 38 0 R
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 14 0 R
+/TT8 25 0 R
+/TT14 66 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+68 0 obj
+<<
+/Length 3152
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 247.72 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Classes et Interfaces)Tj
+-6.8617 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 78)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 51.02 766.36 Tm
+0 0 1 rg
+[(3.2.2)-1437.5(Classe UnicastRemoteObject)]TJ
+/F1 1 Tf
+0 1 0 rg
+4.2521 -1.25 TD
+(public class UnicastRemoteObject)Tj
+0 -1.5 TD
+(extends RemoteServer)Tj
+/TT4 1 Tf
+0 g
+-3.6613 -1.5833 TD
+(Permet)Tj
+0 0 1 rg
+3.0829 0 TD
+(d'implémenter)Tj
+0 g
+5.735 0 TD
+( une classe accessible à dis-)Tj
+-8.8179 -1.0833 TD
+(tante \(un objet instance d’une ...\).)Tj
+0 -1.5833 TD
+[(Une)-215.2(classe)-215.6(accessible)-215.9(à)-215.3(distante)-215.9(implémente)-216.4(une)-215.7(ou)]TJ
+0 0 1 rg
+0 -1.0833 TD
+(plusieurs)Tj
+0 g
+3.6108 0 TD
+[( interf)9.7(aces qui implémentent)]TJ
+1 0 1 rg
+11.655 0 TD
+(Remote)Tj
+0 g
+-15.2658 -1.5833 TD
+[(Ex)15(emple:)]TJ
+/TT2 1 Tf
+14 0 0 14 45.35 509.03 Tm
+1 0 0 rg
+[(pub)8.9(lic)]TJ
+/TT14 1 Tf
+18 0 0 18 90.34 509.03 Tm
+0 g
+(class)Tj
+/TT2 1 Tf
+14 0 0 14 126.34 509.03 Tm
+1 0 0 rg
+( BankAccountImp)Tj
+/TT14 1 Tf
+18 0 0 18 56.69 492.03 Tm
+0 g
+(extends)Tj
+/TT4 1 Tf
+24 0 0 24 116.58 492.03 Tm
+1 0 1 rg
+(UnicastRemoteObject)Tj
+/TT14 1 Tf
+18 0 0 18 56.69 475.03 Tm
+0 g
+(implements)Tj
+/TT2 1 Tf
+14 0 0 14 141.71 475.03 Tm
+1 0 0 rg
+( BankAccount)Tj
+-6.0729 -3.6429 TD
+[(pub)9.7(lic BankAccountImp \(\))]TJ
+/TT14 1 Tf
+18 0 0 18 233.9 424.03 Tm
+0 g
+[(thro)24.8(ws)]TJ
+/TT4 1 Tf
+24 0 0 24 287.37 424.03 Tm
+1 0 1 rg
+(RemoteException)Tj
+/TT2 1 Tf
+14 0 0 14 459.35 424.03 Tm
+1 0 0 rg
+( {)Tj
+-29.5714 -1.2143 TD
+(                super\(\);)Tj
+T*
+(            })Tj
+T*
+[(pub)8.9(lic v)30.1(oid deposit\()]TJ
+/TT8 1 Tf
+9.4053 0 TD
+(ß)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(oat amount\))Tj
+/TT14 1 Tf
+18 0 0 18 269.59 373.03 Tm
+0 g
+[(thro)24.8(ws)]TJ
+/TT4 1 Tf
+24 0 0 24 323.06 373.03 Tm
+1 0 1 rg
+(RemoteException)Tj
+/TT2 1 Tf
+14 0 0 14 495.04 373.03 Tm
+1 0 0 rg
+( {)Tj
+-32.1207 -1.2143 TD
+(...)Tj
+T*
+(})Tj
+T*
+(...)Tj
+/TT4 1 Tf
+24 0 0 24 65.2 286.36 Tm
+0 g
+[(En f)10.1(ait, l'appel au constructeur par déf)8(aut de la)]TJ
+0 -1.0833 TD
+(super classe \()Tj
+/TT2 1 Tf
+14 0 0 14 194.49 260.36 Tm
+1 0 0 rg
+(super\(\);)Tj
+/TT4 1 Tf
+24 0 0 24 246.59 260.36 Tm
+0 g
+[(\) est f)9.8(ait automatiquement.)]TJ
+-7.5579 -1.0833 TD
+(Plus clair comme cela, mais non nécessaire.)Tj
+0 -1.5833 TD
+[(La)-249.9(classe)]TJ
+0 0 1 rg
+3.9425 0 TD
+(implémente)Tj
+0 g
+4.9717 0 TD
+[(les)-250(routines)-250(dé)]TJ
+/TT5 1 Tf
+5.7763 0 TD
+(Ş)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(nies)-250(dans)]TJ
+0 0 1 rg
+3.9438 0 TD
+(les)Tj
+-19.1904 -1.0833 TD
+[(interf)9.7(aces remotes)]TJ
+0 g
+7.2929 0 TD
+(.)Tj
+-7.2929 -1.5833 TD
+[(Une telle classe peut a)18.3(v)20(oir des)]TJ
+0 0 1 rg
+12.3458 0 TD
+(routines publiques)Tj
+-12.3458 -1.0833 TD
+(autres)Tj
+0 g
+2.3879 0 TD
+[( que celles des interf)8.8(aces remotes : elles ne)]TJ
+-2.3879 -1.0833 TD
+(sont accessibles que depuis la VM locale.)Tj
+ET
+endstream
+endobj
+69 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 38 0 R
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 14 0 R
+/TT8 25 0 R
+/TT14 66 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+71 0 obj
+<<
+/Length 7884
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 247.72 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Classes et Interfaces)Tj
+-6.8617 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 79)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 51.02 766.36 Tm
+0 0 1 rg
+[(3.2.3)-1437.5(Sc)10.2(héma global)]TJ
+/TT4 1 Tf
+0 g
+-0.4292 -1.25 TD
+[(Schéma global des classes et interf)7.9(aces RMI dans le)]TJ
+6.7525 -1.0833 TD
+(package)Tj
+1 0 1 rg
+3.5262 0 TD
+[(ja)19.6(v)25.4(a.rmi)]TJ
+0 g
+3.26 0 TD
+( :)Tj
+ET
+0 G
+1.08 w 
+98.64 506.77 m
+238.83 506.77 l
+265.89 563.47 l
+125.7 563.47 l
+s
+BT
+24 0 0 24 126.9 527.23 Tm
+(Rem-User2)Tj
+ET
+1 g
+47.62 101.14 496.06 -34.02 re
+f
+1 0 1 RG
+0.36 w 
+533.62 95.14 m
+138.33 95.47 l
+S
+0 J 
+129.83 95.47 m
+50.46 95.47 l
+S
+BT
+/TT10 1 Tf
+18 0 0 18 47.62 78.17 Tm
+1 0 1 rg
+[(FIGURE  14)-2113.1(classes et interf)30(aces RMI)]TJ
+ET
+0 0 1 RG
+2 J 1.08 w 
+87.31 600.32 m
+191.85 600.32 l
+212.03 657.01 l
+107.48 657.01 l
+s
+BT
+/TT4 1 Tf
+24 0 0 24 114.69 623.61 Tm
+0 0 1 rg
+(Remote)Tj
+/F1 1 Tf
+7.4913 0.4383 TD
+[(server)133.8(.)]TJ
+ET
+0 G
+325.42 425.56 m
+325.42 454.76 l
+325.42 464.701 333.479 472.76 343.42 472.76 c
+511.51 472.76 l
+521.451 472.76 529.51 464.701 529.51 454.76 c
+529.51 425.56 l
+529.51 415.619 521.451 407.56 511.51 407.56 c
+343.42 407.56 l
+333.479 407.56 325.42 415.619 325.42 425.56 c
+s
+BT
+24 0 0 24 328.44 438.16 Tm
+0 g
+(RemUser2Object)Tj
+ET
+0 0 1 RG
+30.61 304.41 m
+30.61 333.61 l
+30.61 343.551 38.669 351.61 48.61 351.61 c
+177.02 351.61 l
+186.961 351.61 195.02 343.551 195.02 333.61 c
+195.02 304.41 l
+195.02 294.469 186.961 286.41 177.02 286.41 c
+48.61 286.41 l
+38.669 286.41 30.61 294.469 30.61 304.41 c
+s
+BT
+24 0 0 24 39.29 325.9 Tm
+0 0 1 rg
+(RMISecurity)Tj
+ET
+285.73 609.81 m
+285.73 639.01 l
+285.73 648.951 293.789 657.01 303.73 657.01 c
+531.35 657.01 l
+541.291 657.01 549.35 648.951 549.35 639.01 c
+549.35 609.81 l
+549.35 599.869 541.291 591.81 531.35 591.81 c
+303.73 591.81 l
+293.789 591.81 285.73 599.869 285.73 609.81 c
+s
+BT
+24 0 0 24 297.07 605.79 Tm
+(UnicastRemoteObjec)Tj
+ET
+q
+27.78 702.36 525.54 -646.12 re
+W n
+BT
+24 0 0 24 532.27 605.79 Tm
+(t)Tj
+ET
+Q
+BT
+24 0 0 24 39.29 301.9 Tm
+(Manager)Tj
+ET
+q
+27.78 702.36 525.54 -646.12 re
+W n
+1 g
+0 G
+24.94 495.43 m
+186.52 495.43 l
+217.7 552.13 l
+56.12 552.13 l
+b*
+Q
+BT
+/TT4 1 Tf
+24 0 0 24 53.29 514.82 Tm
+0 g
+(RemUser1)Tj
+ET
+0 G
+41.95 404.73 m
+177.39 404.73 l
+203.53 461.42 l
+68.09 461.42 l
+s
+BT
+24 0 0 24 67.46 424.11 Tm
+(RemUser3)Tj
+ET
+0 0 1 RG
+331.09 307.25 m
+331.09 336.44 l
+331.09 346.381 339.149 354.44 349.09 354.44 c
+525.68 354.44 l
+535.621 354.44 543.68 346.381 543.68 336.44 c
+543.68 307.25 l
+543.68 297.309 535.621 289.25 525.68 289.25 c
+349.09 289.25 l
+339.149 289.25 331.09 297.309 331.09 307.25 c
+s
+BT
+/F1 1 Tf
+24.79 0 0 24 336.76 311.72 Tm
+0 0 1 rg
+(RemoteExceptio)Tj
+ET
+q
+27.78 702.36 525.54 -646.12 re
+W n
+BT
+24.79 0 0 24 523.6766 311.72 Tm
+(n)Tj
+ET
+Q
+212.03 304.41 m
+212.03 333.61 l
+212.03 343.551 220.089 351.61 230.03 351.61 c
+298.91 351.61 l
+308.851 351.61 316.91 343.551 316.91 333.61 c
+316.91 304.41 l
+316.91 294.469 308.851 286.41 298.91 286.41 c
+230.03 286.41 l
+220.089 286.41 212.03 294.469 212.03 304.41 c
+s
+BT
+24.05 0 0 24 220.54 317.01 Tm
+(Naming)Tj
+ET
+0 g
+114.52 578.77 m
+113.322 579.711 l
+112.794 579.038 112.901 578.071 113.562 577.551 c
+114.223 577.032 115.189 577.156 115.718 577.829 c
+116.246 578.502 116.139 579.469 115.478 579.989 c
+114.817 580.508 113.851 580.384 113.322 579.711 c
+f
+0 G
+0 J 
+118.86 576 m
+125.87 593.22 l
+110.8 582.33 l
+114.83 579.17 l
+s
+118.86 576 m
+125.87 593.22 l
+110.8 582.33 l
+114.83 579.17 l
+f*
+2 J 3 w 
+97.36 556.93 m
+95.81 554.96 l
+S
+[5.496 9.893 ]5.496 d
+112.97 576.81 m
+97.36 556.93 l
+S
+[]0 d
+114.52 578.77 m
+112.97 576.81 l
+S
+163.95 583.95 m
+163.161 582.688 l
+163.852 582.256 164.766 582.471 165.201 583.168 c
+165.637 583.865 165.43 584.78 164.739 585.212 c
+164.048 585.644 163.134 585.429 162.699 584.732 c
+162.263 584.035 162.47 583.12 163.161 582.688 c
+f
+0 J 1.08 w 
+166.24 588.56 m
+148.37 593.68 l
+160.81 579.87 l
+163.53 584.21 l
+s
+166.24 588.56 m
+148.37 593.68 l
+160.81 579.87 l
+163.53 584.21 l
+f*
+2 J 3 w 
+190.07 567.62 m
+192.19 566.3 l
+S
+[3.824 6.883 ]3.824 d
+166.07 582.62 m
+190.07 567.62 l
+S
+[]0 d
+163.95 583.95 m
+166.07 582.62 l
+S
+107.63 475.52 m
+106.19 475.28 l
+106.322 474.485 107.075 473.948 107.87 474.08 c
+108.665 474.212 109.202 474.965 109.07 475.76 c
+108.938 476.555 108.185 477.092 107.39 476.96 c
+106.595 476.828 106.057 476.075 106.19 475.28 c
+f
+0 J 1.08 w 
+112.61 476.86 m
+104.61 493.65 l
+102.5 475.17 l
+107.55 476.02 l
+s
+112.61 476.86 m
+104.61 493.65 l
+102.5 475.17 l
+107.55 476.02 l
+f*
+2 J 3 w 
+109.57 463.88 m
+109.98 461.42 l
+S
+[5.166 9.299 ]5.166 d
+108.04 473.06 m
+109.57 463.88 l
+S
+[]0 d
+107.63 475.52 m
+108.04 473.06 l
+S
+195.12 492.91 m
+194.33 494.122 l
+193.629 493.664 193.414 492.75 193.85 492.082 c
+194.286 491.413 195.209 491.241 195.91 491.698 c
+196.611 492.156 196.826 493.069 196.39 493.738 c
+195.954 494.407 195.031 494.579 194.33 494.122 c
+f
+0 J 1.08 w 
+198.34 488.89 m
+210.51 502.95 l
+192.74 497.48 l
+195.54 493.18 l
+s
+198.34 488.89 m
+210.51 502.95 l
+192.74 497.48 l
+195.54 493.18 l
+f*
+2 J 3 w 
+148.93 462.78 m
+146.83 461.42 l
+S
+[5.162 9.291 ]5.162 d
+193.03 491.55 m
+148.93 462.78 l
+S
+[]0 d
+195.12 492.91 m
+193.03 491.55 l
+S
+425.72 563.15 m
+424.242 563.07 l
+424.287 562.231 424.986 561.586 425.802 561.63 c
+426.618 561.674 427.243 562.391 427.198 563.23 c
+427.153 564.069 426.454 564.714 425.638 564.67 c
+424.822 564.626 424.197 563.909 424.242 563.07 c
+f
+0 J 1.08 w 
+430.81 563.93 m
+424.73 581.5 l
+420.57 563.37 l
+425.69 563.65 l
+s
+430.81 563.93 m
+424.73 581.5 l
+420.57 563.37 l
+425.69 563.65 l
+f*
+2 J 3 w 
+425.72 563.15 m
+430.3 478.43 l
+S
+282.45 515.35 m
+282.024 513.874 l
+282.783 513.655 283.589 514.139 283.824 514.954 c
+284.059 515.769 283.634 516.608 282.876 516.826 c
+282.117 517.045 281.311 516.561 281.076 515.746 c
+280.841 514.931 281.266 514.092 282.024 513.874 c
+f
+0 J 1.08 w 
+283.39 520.41 m
+264.8 520.44 l
+280.55 510.57 l
+281.97 515.49 l
+s
+283.39 520.41 m
+264.8 520.44 l
+280.55 510.57 l
+281.97 515.49 l
+f*
+2 J 3 w 
+408.05 479.12 m
+410.46 478.43 l
+S
+[4.749 8.548 ]4.749 d
+284.85 514.66 m
+408.05 479.12 l
+S
+[]0 d
+282.45 515.35 m
+284.85 514.66 l
+S
+BT
+24 0 0 24 231.87 269.4 Tm
+[(r)15(ebind)]TJ
+0 -1 TD
+(lookup)Tj
+ET
+0 0 1 RG
+1.08 w 
+73.14 141.1 m
+118.29 141.1 l
+127 163.78 l
+81.85 163.78 l
+h
+73.14 122.68 m
+73.14 129.717 78.853 135.43 85.9 135.43 c
+108.57 135.43 l
+115.617 135.43 121.33 129.717 121.33 122.67 c
+121.33 115.633 115.617 109.92 108.57 109.92 c
+85.9 109.92 l
+78.853 109.92 73.14 115.633 73.14 122.68 c
+s
+350.58 152.44 m
+350.58 153.88 l
+349.719 153.88 349.02 153.235 349.02 152.44 c
+349.02 151.645 349.719 151 350.58 151 c
+351.441 151 352.14 151.645 352.14 152.44 c
+352.14 153.235 351.441 153.88 350.58 153.88 c
+f
+0 G
+0 J 
+351.08 147.32 m
+368.96 152.44 l
+351.08 157.57 l
+351.08 152.44 l
+s
+351.08 147.32 m
+368.96 152.44 l
+351.08 157.57 l
+351.08 152.44 l
+f*
+2 J 3 w 
+316.58 152.44 m
+314.08 152.44 l
+S
+[4.258 7.664 ]4.258 d
+348.08 152.44 m
+316.58 152.44 l
+S
+[]0 d
+350.58 152.44 m
+348.08 152.44 l
+S
+347.75 120.8 m
+347.75 122.24 l
+346.889 122.24 346.19 121.595 346.19 120.8 c
+346.19 120.005 346.889 119.36 347.75 119.36 c
+348.611 119.36 349.31 120.005 349.31 120.8 c
+349.31 121.595 348.611 122.24 347.75 122.24 c
+f
+0 J 1.08 w 
+348.25 115.67 m
+366.12 120.8 l
+348.25 125.92 l
+348.25 120.8 l
+s
+348.25 115.67 m
+366.12 120.8 l
+348.25 125.92 l
+348.25 120.8 l
+f*
+2 J 3 w 
+347.75 120.8 m
+314.08 120.8 l
+S
+BT
+/TT4 1 Tf
+24 0 0 24 384.94 150.22 Tm
+(Implements)Tj
+-0.0329 -1.3438 TD
+(Extends)Tj
+ET
+1 0 0 RG
+1.08 w 
+47.62 177.95 487.56 -73.7 re
+S
+BT
+24 0 0 24 146.84 146.77 Tm
+[(Interf)9.9(ace)]TJ
+0.1183 -1.1808 TD
+(Class)Tj
+ET
+endstream
+endobj
+72 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 38 0 R
+/TT2 4 0 R
+/TT4 5 0 R
+/TT10 43 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+74 0 obj
+<<
+/Length 2378
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 247.72 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Classes et Interfaces)Tj
+-6.8617 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 80)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 51.02 766.36 Tm
+0 0 1 rg
+[(3.2.4)-1437.5(Enregistrement d’un objet RMI)]TJ
+/F1 1 Tf
+0 1 0 rg
+4.2521 -2.9167 TD
+(public class)Tj
+/TT4 1 Tf
+1 0 1 rg
+5.92 0 TD
+(Naming)Tj
+/F1 1 Tf
+0 1 0 rg
+-5.92 -3 TD
+(method)Tj
+/TT4 1 Tf
+1 0 1 rg
+3.86 0 TD
+(rebind)Tj
+0 g
+-3.86 -1.5 TD
+(ou)Tj
+/F1 1 Tf
+0 1 0 rg
+T*
+(method)Tj
+/TT4 1 Tf
+1 0 1 rg
+3.86 0 TD
+(bind)Tj
+0 g
+-7.5213 -3.1667 TD
+[(Permet d'enre)14.6(gistrer un objet accessible à distance)]TJ
+0 -1.0833 TD
+[(dans un serv)15.3(eur \(de nom\))]TJ
+1 0 1 rg
+10.3988 0 TD
+[(rmire)14.3(gistry)]TJ
+0 g
+4.3642 0 TD
+(.)Tj
+-14.7629 -1.5833 TD
+[(Ex)15(emple:)]TJ
+/TT2 1 Tf
+14 0 0 14 45.35 387.03 Tm
+1 0 0 rg
+({)Tj
+3.8471 -1.2143 TD
+[(// Create the ser)-9.4(ver object)]TJ
+-3.8471 -1.2143 TD
+[(         HelloSer)-11.7(ver ser)-9.2(verObject =)]TJ
+/TT4 1 Tf
+0 0 1 rg
+15.6121 0 TD
+[(ne)24.6(w BankAccountImp \(\);)]TJ
+/TT2 1 Tf
+1 0 0 rg
+-11.765 -1.2143 TD
+[(// Register the ser)-10.1(ver object)]TJ
+/TT4 1 Tf
+0 0 1 rg
+-1.345 -1.2143 TD
+(Naming.rebind)Tj
+/TT2 1 Tf
+1 0 0 rg
+6.0271 0 TD
+(\(")Tj
+/TT4 1 Tf
+0 0 1 rg
+0.8071 0 TD
+(BankAccount)Tj
+/TT2 1 Tf
+1 0 0 rg
+5.4986 0 TD
+[(", ser)-10.2(verObject \);)]TJ
+-10.9879 -1.2143 TD
+(// Signal successful registration)Tj
+-3.8471 -1.2143 TD
+(         System.out.println\(")Tj
+/TT4 1 Tf
+0 0 1 rg
+12.0886 0 TD
+(BankAccount)Tj
+/TT2 1 Tf
+1 0 0 rg
+5.4986 0 TD
+[( Ser)-9.9(ver)]TJ
+/TT4 1 Tf
+0 0 1 rg
+3.6793 0 TD
+(bound)Tj
+/TT2 1 Tf
+1 0 0 rg
+2.5 0 TD
+[( in registr)-10.5(y"\);)]TJ
+-23.7664 -1.2143 TD
+(         })Tj
+/TT4 1 Tf
+24 0 0 24 65.2 194.36 Tm
+0 g
+(Opération à réaliser en)Tj
+1 0 1 rg
+9.33 0 TD
+(local)Tj
+0 g
+1.9437 0 TD
+( uniquement.)Tj
+-11.2738 -1.5833 TD
+(Même si l’on peut écrire:)Tj
+14 0 0 14 99.21 131.03 Tm
+0 0 1 rg
+(Naming.rebind)Tj
+/TT2 1 Tf
+1 0 0 rg
+6.0271 0 TD
+(\(")Tj
+/TT4 1 Tf
+0 0 1 rg
+0.8071 0 TD
+(//clio.unice.fr/BankAccount)Tj
+/TT2 1 Tf
+1 0 0 rg
+11.165 0 TD
+[(", ser)-9.5(verObject \);)]TJ
+ET
+endstream
+endobj
+75 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 38 0 R
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+77 0 obj
+<<
+/Length 2117
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 247.72 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+(Classes et Interfaces)Tj
+-6.8617 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 81)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 51.02 766.36 Tm
+0 0 1 rg
+[(3.2.5)-1437.5(Lookup d’un objet RMI)]TJ
+/F1 1 Tf
+0 1 0 rg
+4.2521 -2.9167 TD
+(public class)Tj
+/TT4 1 Tf
+1 0 1 rg
+5.92 0 TD
+(Naming)Tj
+/F1 1 Tf
+0 1 0 rg
+-5.92 -1.5 TD
+(method)Tj
+/TT4 1 Tf
+1 0 1 rg
+3.86 0 TD
+(lookup)Tj
+0 g
+-7.5213 -3.1667 TD
+(Permet,)Tj
+1 0 1 rg
+3.3283 0 TD
+[(à)-245.7(distance)]TJ
+0 g
+3.9667 0 TD
+[(,)-245.4(d)0(e)-245.7(récupérer)-246(une)-245.7(référence)-246.3(v)15(ers)]TJ
+-7.295 -1.0833 TD
+(un objet RMI accessible à distance)Tj
+0 -1.5833 TD
+(A condition que celui-ci ait été)Tj
+1 0 1 rg
+12.6088 0 TD
+[(enre)14.5(gistré)]TJ
+0 g
+3.9279 0 TD
+( dans un)Tj
+1 0 1 rg
+-16.5367 -1.0833 TD
+[(rmire)14.7(gistry)]TJ
+0 g
+4.3638 0 TD
+(.)Tj
+-4.3638 -3.1667 TD
+[(Ex)15(emple:)]TJ
+/TT2 1 Tf
+14 0 0 14 45.35 393.03 Tm
+1 0 0 rg
+[(tr)-10(y {)]TJ
+3.8471 -1.2143 TD
+(BankAccount remoteA = \(BankAccount\) Naming.)Tj
+/TT4 1 Tf
+0 0 1 rg
+23.2529 0 TD
+(lookup)Tj
+/TT2 1 Tf
+1 0 0 rg
+2.7786 0 TD
+(\()Tj
+/TT4 1 Tf
+0 0 1 rg
+-7.8086 -1.2143 TD
+("//clio.unice.fr/BankAccount)Tj
+/TT2 1 Tf
+1 0 0 rg
+11.5729 0 TD
+("\);)Tj
+/TT8 1 Tf
+-29.7957 -1.2143 TD
+(ß)Tj
+/TT2 1 Tf
+0.6108 0 TD
+(oat r=)Tj
+/TT4 1 Tf
+0 0 1 rg
+3.0292 0 TD
+(remoteA.getBalance \(\))Tj
+/TT2 1 Tf
+1 0 0 rg
+9.1079 0 TD
+(;)Tj
+-16.595 -1.2143 TD
+(})Tj
+T*
+[(catc)10(h \(NotBoundException err)19.3(or\) {)]TJ
+3.8471 -1.2143 TD
+[(err)20.2(or)60(.printStac)19.7(kT)80.6(race\(\);)]TJ
+-3.8471 -1.2143 TD
+(         })Tj
+T*
+({)Tj
+/TT4 1 Tf
+24 0 0 24 65.2 183.36 Tm
+0 g
+(Note: attention!!!)Tj
+0 -1.5833 TD
+(On doit)Tj
+1 0 1 rg
+3.2779 0 TD
+(connaître la machine)Tj
+0 g
+8.3308 0 TD
+[( où se trouv)14.7(e l’objet)]TJ
+-11.6088 -1.0833 TD
+(RMI.)Tj
+ET
+endstream
+endobj
+78 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 38 0 R
+/TT2 4 0 R
+/TT4 5 0 R
+/TT8 25 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+80 0 obj
+<<
+/Length 2717
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 244.49 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+[(Outils et compilateur)14.6(s)]TJ
+-6.5925 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 82)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+q
+22.68 758.36 535.74 -13.84 re
+W n
+0 G
+0 J 0.36 w 
+68.03 755.53 m
+22.68 755.53 l
+S
+Q
+0 G
+0.36 w 
+504.57 755.53 m
+79.37 755.53 l
+S
+BT
+24 0 0 24 36.85 766.36 Tm
+[(3.3 Outils et compilateur)14.1(s)]TJ
+/TT4 1 Tf
+0 g
+1.1813 -2.16 TD
+[(rmic, rmire)14.3(gistry \(rmid : plus tard\))]TJ
+/TT2 1 Tf
+0 0 1 rg
+-0.5908 -3.1667 TD
+[(3.3.1)-1437.5(rmic)]TJ
+/TT4 1 Tf
+0 g
+0.5908 -1.5833 TD
+[(Permet de générer les Stubs et les Sk)8.7(eletons pour)]TJ
+0 -1.0833 TD
+[(les classes implémentant l'interf)8.1(ace)]TJ
+1 0 1 rg
+14.3338 0 TD
+(Remote)Tj
+0 g
+-14.3338 -1.5833 TD
+[(On)-222.4(doit)-223.5(donner)-222.7(le)-223.3(nom)-223(complet)-223.4(de)-223.2(la)-222.9(classe,)-223.1(a)19.7(v)15(ec)-223.1(le)]TJ
+0 -1.0833 TD
+(nom complet du package.)Tj
+/TT7 1 Tf
+0 0 1 rg
+0 -1.5833 TD
+(Example:)Tj
+/F1 1 Tf
+0 1 0 rg
+3.6613 -1.3333 TD
+[(% r)-37.1(mic BankAccountImp)]TJ
+/TT4 1 Tf
+0 g
+-3.6613 -1.5833 TD
+(Crée les .class:)Tj
+/F1 1 Tf
+0 1 0 rg
+3.6613 -1.3333 TD
+(BankAccountImp_Skel.class)Tj
+0 -1.0833 TD
+(BankAccountImp_Stub.class)Tj
+/TT2 1 Tf
+14 0 0 14 45.35 315.19 Tm
+1 0 0 rg
+(NAME)Tj
+0 -1.2143 TD
+[(     rmic - Ja)13.9(v)20.4(a)0( RMI stub compiler)]TJ
+T*
+(SYNOPSIS)Tj
+T*
+[(     rmic [ -c)19.3(lasspath path ] [ -d director)-11.3(y ] [ -depend ] [ -g ])]TJ
+T*
+[(          [ -keepg)-12(enerated ] [ -no)14.8(warn ] [ -O ] [ -sho)13.3(w ])]TJ
+T*
+[(          [ -verbose ] [-v1.2 ] [-vcompat] pac)18.1(ka)10.2(g)-9.9(e-quali)]TJ
+/TT8 1 Tf
+23.9869 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(ed-c)19.6(lass-names)]TJ
+/TT4 1 Tf
+24 0 0 24 65.2 194.52 Tm
+[(-k)10.1(eepgenerated)]TJ
+0 g
+6.3479 0 TD
+(: Garde les sources)Tj
+1 0 0 rg
+-6.3479 -1.0833 TD
+(-v1.2)Tj
+0 g
+2.0829 0 TD
+[( : La v)14.6(ersion 1.2 de Ja)19.9(v)24.6(a)0( ne nécessite plus les)]TJ
+-2.0829 -1.0833 TD
+-0.0001 Tc
+[(sk)10.3(eletons,)-236.7(mais)-236(par)-236.2(déf)9.7(aut)-236.3(elle)-236.7(les)-235.9(garde)-236.5(par)-236.2(compa-)]TJ
+T*
+0 Tc
+[(tibilité a)18.9(v)15(ec Ja)19.9(v)24.6(a)0( 1.)]TJ
+1 0 0 rg
+7.8908 0 TD
+(-v1.2)Tj
+0 g
+2.3329 0 TD
+-0.0002 Tc
+0.0002 Tw
+(ne les gardent pas.)Tj
+1 0 0 rg
+-10.2238 -1.0833 TD
+0 Tc
+0 Tw
+(-vcompat)Tj
+0 g
+4.0271 0 TD
+[(: permet de générer des stubs/sk)8.8(eletons)]TJ
+-4.0271 -1.0833 TD
+[(compatible a)18.8(v)15(ec 1.1 et 1.2 protocols.)]TJ
+ET
+endstream
+endobj
+81 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 38 0 R
+/TT2 4 0 R
+/TT4 5 0 R
+/TT7 18 0 R
+/TT8 25 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+84 0 obj
+<<
+/Length 2200
+>>
+stream
+1 g
+/GS1 gs
+0.06 841.89 595.22 -841.83 re
+f
+BT
+/TT2 1 Tf
+12 0 0 12 244.49 805.54 Tm
+1 0 0 rg
+0 Tc
+0 Tw
+[(Outils et compilateur)14.6(s)]TJ
+-6.5925 -65.3817 TD
+(Programmation Répartie -- V 6 -- Denis Caromel - 83)Tj
+ET
+0 0 1 RG
+2 J 0 j 3.48 w 3.86 M []0 d
+1 i 
+17.01 63.36 m
+17.01 775.7 l
+17.01 785.641 25.069 793.7 35.01 793.7 c
+551.76 793.7 l
+561.701 793.7 569.76 785.641 569.76 775.7 c
+569.76 63.36 l
+569.76 53.419 561.701 45.36 551.76 45.36 c
+35.01 45.36 l
+25.069 45.36 17.01 53.419 17.01 63.36 c
+s
+BT
+24 0 0 24 51.02 766.36 Tm
+0 0 1 rg
+[(3.3.2)-1437.5(rmiregistr)-9.5(y)]TJ
+/TT4 1 Tf
+0 g
+0.5908 -1.5833 TD
+[(Démarre)-231.6(le)]TJ
+0 0 1 rg
+4.6821 0 TD
+[(re)14.8(gistry)]TJ
+0 g
+3.2712 0 TD
+[(\(service)-231.7(de)-231.2(nom\))-231.2(des)-231.2(objets)-231.3(dis-)]TJ
+-7.9533 -1.0833 TD
+[(tants Ja)20(v)24.6(a)0( RMI, sur la machine en cours, a)19(v)15(ec un)]TJ
+T*
+(certain numéro de port.)Tj
+0 -1.5833 TD
+[(P)15.3(ar déf)9.5(aut: le port est le 1099.)]TJ
+0 -1.0833 TD
+(Utiliser un port supérieur à 1024)Tj
+/TT7 1 Tf
+0 0 1 rg
+0 -3.1667 TD
+(Example:)Tj
+/F1 1 Tf
+0 1 0 rg
+3.6613 -1.3333 TD
+[(% r)-37.1(mir)15(egistry &)]TJ
+/TT4 1 Tf
+0 g
+-3.6613 -1.5833 TD
+(ou)Tj
+/F1 1 Tf
+0 1 0 rg
+3.6613 -1.3333 TD
+[(% r)-37.1(mir)15(egistry 2001 &)]TJ
+/TT2 1 Tf
+14 0 0 14 45.35 405.03 Tm
+1 0 0 rg
+(NAME)Tj
+/TT4 1 Tf
+0 0 1 rg
+1.39 -1.2143 TD
+[(rmire)14.1(gistry)]TJ
+/TT2 1 Tf
+1 0 0 rg
+4.4293 0 TD
+[( - Ja)15.3(v)19.7(a)0( remote object registr)-9.5(y)]TJ
+-5.8193 -2.4286 TD
+(SYNOPSIS)Tj
+/TT4 1 Tf
+0 0 1 rg
+1.39 -1.2143 TD
+[(rmire)14.1(gistry [ port ])]TJ
+/TT2 1 Tf
+1 0 0 rg
+-1.39 -2.4286 TD
+(DESCRIPTION)Tj
+0 -1.2143 TD
+[(     The Ja)13.6(v)20.4(a)0( rmiregistr)-9.7(y command creates  and  star)-19.2(ts  a  remote)]TJ
+T*
+[(     object  registr)-11.6(y  on the speci)]TJ
+/TT8 1 Tf
+14.9599 0 TD
+(Ş)Tj
+/TT2 1 Tf
+0.6108 0 TD
+[(ed por)-20.8(t on the current host.)]TJ
+-15.5707 -1.2143 TD
+[(     If por)-21.3(t n)9.5(umber is omitted, the registr)-10.4(y is star)-19.7(ted  on  por)-21.2(t)]TJ
+T*
+[(     1099. The rmiregistr)-10.7(y command pr)20(oduces no output and is typ-)]TJ
+T*
+[(     icall)13.5(y run in the bac)19.4(kgr)19.7(ound.  For e)13.8(xample:)]TJ
+0 -2.4286 TD
+[(     e)13.9(xample% rmiregistr)-9(y &)]TJ
+ET
+endstream
+endobj
+85 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F1 38 0 R
+/TT2 4 0 R
+/TT4 5 0 R
+/TT7 18 0 R
+/TT8 25 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+44 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 587
+/Height 535
+/BitsPerComponent 1
+/ColorSpace /DeviceGray
+/Length 39591
+>>
+stream
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿğïÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿ‡ÿÿÿÿÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿü_ÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÀ ÿÿÿÿÿÿÿÿ€ÿÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿÿÿÿø?ÿÿÿÿÿÿÿÿÿà ÿ€ÿş à ÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÀÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿü  ÿğÿşøÿÿÿÿÿÿÿÿÿàÿÿÿÿÿşşÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿ‡ÿÿÿÿÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿş€üÿüşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿü?ÿÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿ‡ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿşğ?üÿüşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿøÿ‡ÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿ‡ÿÿÿÿÿÿÿÿÿÿÿÿïÿÇÿÿÿÿÿÿÿÿÿşøüÿøşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿğÿÇÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿ‡ÿÿÿÿÿÿÿÿÿÿÿÿÏÿñÿÿÿÿÿÿÿÿÿşüüÿùşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿàÿÿÇÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿ‡ÿÿÿÿÿÿÿÿÿÿÿÿÿùÿÿÿÿÿÿÿÿÿşüüƒÿñşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿáÿÿçÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿ‡ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿşüüƒÿóşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÁÿÿçşÿÿÿÿğ?ğğ?şÿÁÿÿÿƒ‡ÿÿÿÿÿƒÿÿÿÿÁÿÿÿÿàşÿÿÿşüüÁÿóşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÁÿÿïøàüÀçğàüÿÿş<‡ğÿş88ğ  ñÀ|ÿ ÿşüüÁÿãşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿóøğÏ‡ğÎøàş?ÿü~Áüÿü~>ş>?ş8?œ9Áş8?ÿşøüÀÿçşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿƒÿÿÿãø?‡øŸƒğŸóø~ÿøÿáşÿüş?ş~üş|7áüşÿşø?üàÿÇşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿƒÿÿÿÇü‡ø?ƒğ?ãø|Ÿÿñÿáşÿøÿ?ü|ŸøşàşàøşÿşğüàÏşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿƒÿÿÿ‡ş‡ø~?Áğ‡Çø<Ÿÿñÿ‡áşÿøÿ?‡üüŸñşáşğñşÿş€ÿüğşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿƒÿÿÿ‡ş‡ø|?Ãğÿ‡Çø<?Ÿÿáÿ‡áşÿø?ƒüü?Ÿñşáşğñşÿş ÿüğ?Ÿşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿƒÿÿÿÿ‡ø|çğÿ‡Çü?¿ÿáÿ‡áşÿøÃùü?¿ñÿáşğñÿÿş ÿüø?şÿÿÿÿÿÿÿÿÿàÿÿÿÿÿƒÿÿÿÿ‡øxÿğÿ‡€ ÿÿÃÿ‡áşÿøÿÁùüÿà áşğà ÿşÿüø?şÿÿÿÿÿÿÿÿÿàÿÿÿÿÿƒÿÿÿÿ‡øxÿğÿ‡‡ÿşÿÿÃÿ‡áşÿüÿáùşÿáÿÿáşğáÿÿÿşÿüü?şÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿ‡‡øxÿğÿ‡‡ÿÿÿÿÃÿ‡áşÿşÿàóÿÿáÿÿáşğáÿÿÿşÿüüşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿ‡‡øxÿğÿ‡‡ÿÿ€ÿÃÿ‡áşÿÿ ÿğóÿ€áÿÿáşğáÿÿÿşƒÿüşşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÁÿÿÿÿ‡‡øxÿğÿ‡‡ÿÿÀ?ÿÃÿ‡áşÿÿ€ğãÿÀ?áÿÿáşğáÿÿÿşÿüşşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÀÿÿÿÿ‡‡øx?ÿğÿ‡‡ÿÿğÿÃÿ‡áşÿÿà?øgÿğáÿÿáşğáÿÿÿşÀÿüÿÿşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÀÿÿÿÿ‡‡øx?ÿğÿ‡ƒÿÏüÿÁÿ‡áşÿÿøøgÿüàÿóáşğàÿóÿşàüÿ ÿşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿàÿÿÿ‡øx?ùğÿ‡ƒÿİşÿÁÿ‡áşÿûüøışàÿ÷áşğàÿ÷ÿşğüÿÿşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿğÿ÷ƒÿ‡ø|?ûğÿ‡ÃÿœÿÿÁÿ‡áşÿùşüüÿğÿçáşğğÿçÿşø?üÿÿşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿğ?ÿçƒÿ‡ø|óğÿ‡Áÿ<ÿÿàÿ‡áşÿùÿüüÿğÏáşğğÏÿşøüÿƒÿşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿøÿÁÿƒğ|çğÿ‡Àş<ÿÿàÿàüÿùÿşüÿğ?áşğğ?ÿşüüÿÃÿşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿüşáş?ÈÏğÿ‡à<|Ÿÿğ~ àrÿøÿ?şüŸ8áşğøÿşşØwçşşÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿøğşÀ àğ üÿøğÿøş?ÿü†| ?Àüàü ?ÿüÿğ?çşüÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿ€ ÿøpÿà€?Àøü?ÿüøÿø<ÿ?ü?€ş  0€> ÿà ÿ  çğ ` ÿÿÿÿÿÿÿÿàÿÿÿÿÿÿğÿşÿğ{ÿàÿÿÿşıàÿÿÿÿüÿÿûÁÿÿ?ıàÿÁÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿş8ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿü÷ûÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÀ            ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğ            ÿÿÿÿÿÿÿàÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿàÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿàÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿàÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿ~      ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿß€     àÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿ~À    ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿß¸    ıàÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿ~ßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿß»ÿÿÿÿûıàÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿ~ßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿß»ÿÿÿÿûıàÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿ~ßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿß»ÿÿÿÿûıàÿÿÿ¿à         ÿ~ßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ü          ?ß»ÿÿÿÿûıàÿÿÿ¿ì         ÿ~Ğ    ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷û €"      ¿ß¸€   ıàÿÿÿ¿éÿÿÿÿÿÿÿÿÿöÿ~Ğ    Ÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿü¿ß¸    +ıàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿöÿ~ÓÿÿÿşŸ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿş¿ß¸ÿÿÿÿ«ıàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿòÿ~Óÿÿÿş€7ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ùÿÿÿÿÿÿÿÿş¿ß¸ÿÿÿÿ¨àÿÿÿ¿ëÿÿÿÿÿÿÿÿÿöÿ~Óÿÿÿş€ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿş¿ß¸ÿÿÿÿ¨àÿÿÿ¿ëÿÿÿÿÿÿÿÿÿöÿ~Óÿÿÿş‡—ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿş¿ß¸ÿÿÿÿ©õàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿöÿ~Óÿÿÿş‡—ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿş¿ß¸ÿÿÿÿ©õàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿòÿ~Óÿÿÿş‡—ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ùÿÿÿÿÿÿÿÿş¿ß¸ÿÿÿÿ©õàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿöÿ~Óÿÿÿş‡—ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿş¿ß¸ÿÿÿÿ©õàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿöÿ~Ğ    €ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿş¿ß¸    (àÿÿÿ¿ëÿÿÿÿÿÿÿÿÿöÿ~×€ø€7ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿş¿ß¹àÿ hàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿòÿ~×¿ûûŸ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ùÿÿÿÿÿÿÿÿş¿ß¹ïßÿkıàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿöÿ~×€øŸ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿş¿ß¹àÿ kıàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿöÿ~×ÿÿÿÿŸ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿş¿ß¹ÿÿÿÿëıàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿöÿ~Ğ    ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿş¿ß¸    ıàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿòÿ~ßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ùÿÿÿÿÿÿÿÿş¿ß»ÿÿÿÿûıàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿöÿ~ßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿş¿ß»ÿÿÿÿûıàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿöÿ~ßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿş¿ß»ÿÿÿÿûıàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿöÿ~ßÿ ÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿÿÿÿÿÿÿş¿ß»ÿÀ ûıàÿÿÿ¿ëÿÿÿÿÿÿÿÿÿòÿ~Ø ø ß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ùÿÿÿÿÿÿÿÿş¿ßº ÿ ıàÿÿÿ¿           ~Ûÿÿÿşß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğ            ºÿÿÿÿÛıàÿÿÿ¿oÿÿÿÿÿÿÿÿÿÿ~Ø    ß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿûıº    ıàÿÿÿ¿=»»»»»»»»»»~ßø  ?ß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿõ·nîîîîîîîí¯íİ»ÿ  ûıàÿÿÿ¿oîîîîîîîîîï~ßûÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ıû»»»»»»»¿şÿu»ÿÿà{ıàÿÿÿ¿~ÿÿÿÿÿÿÿÿÿı~ßùÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿóo¿ÿÿÿÿÿÿÿûw·ı»ÿÿà{ıàÿÿÿ¿;İİİİİİİİİß~ßü  ß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûîîîîîîîîïııİ»ÿ  ûıàÿÿÿ¿n÷wwwwwwww{~ßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿõ¾ûûûûûûûûûoßõ»ÿÿÿÿûıàÿÿÿ¿ÿÿÿÿÿÿÿÿÿß~À    ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ï¾ß¾ß¾ß¾ß¿ÿ}½¸    ıàÿÿÿ¿^İİİİİİİİİı~ßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöûïşïşïşïş÷m÷ı»ÿÿÿÿûıàÿÿÿ¿{ÿw~ßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷¾şÛşÛşÛşÛ½ÿİµ»ÿÿÿÿûıàÿÿÿ¿_·÷÷÷÷÷÷÷÷ß~ßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿóï»şÛşÛşÛÿïÛı»ÿÿÿÿûıàÿÿÿ¿vıİİİİİİİİı~ßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöûï·ÿ·ÿ·ÿ¶û÷m»ÿÿÿÿûıàÿÿÿ¿îps·~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷¿ÿ¶ÿ¶ÿ¶ÿ¿í½ı»ÿÿü ıàÿÿÿ¿]¸0xa÷÷÷÷íÿ~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ìp¶ÿ¶ÿ¶ÿÛîÿïµ»ÿÿü ıàÿÿÿ¿wğühaİİİØÿm~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöü|ÿÛÿÛÿíşû¶ûı»ÿÿü ıàÿÿÿ¿} ÖxSy·ÿ~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿó¸öíşíşí¿o¿ÿ¿m»ÿÿü ıàÿÿÿ¿_ÃıX{÷÷÷ñıÛ~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷è\¿o¿o¿÷ûîÛûı»ÿÿü ıàÿÿÿ¿wC¿øC°¸aÀ_~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöø?ì<)Æ†‡ïµ»ÿÿü ıàÿÿÿ¿}‚ûh æl€wí~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷Üùš Àç3Á >ı»ÿÿü ıàÿÿÿ¿_ƒïøaÂ80aşÿ~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿõô° ÁŠC {í»ÿÿü ıàÿÿÿ¿v¾Øa<0à·Û~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷~ã†aÌqÃï½»ÿÿü ıàÿÿÿ¿ƒûø!¡şÿ~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷İ £†áÌpÁ¾õ»ÿÿü ıàÿÿÿ¿]ƒoha€0áwí~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿõ÷À`Ğœ C÷½»ÿÿü ıàÿÿÿ¿wƒûøaø0áİ¿~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷zĞ#zğ87Ãõ»ÿÿü ıàÿÿÿ¿A¾Ø!\¡ÿû~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÛüaŞØ>ÂÛ}»ÿÿü ıàÿÿÿ¿]Ãïøa‡Ü0á»o~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿõù´Aöø|.Ãÿí»ÿÿü ıàÿÿÿ¿w`úha´0¡ïı~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷hü`ªltCm½»ÿÿü ıàÿÿÿ¿ğ¸¸A@<ào~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ølğü^Àÿõ»ÿÿü ıàÿÿÿ¿]Øğ àh0píû~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöØ¨´û¡m½»ÿÿü ıàÿÿÿ¿·ûÛ¿÷«¿¿~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿóûÍúı÷ÿ¾Ööıÿÿõ»ÿÿü ıàÿÿÿ¿[Û÷ı¿}í½ûûí~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷m¿~ß_mï¿·×UÛ½»ÿÿü ıàÿÿÿ¿ÿ¾ßû÷ÿnÿ~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿ÷ï÷ıÿ{ûşÿÿ~í»ÿÿü ıàÿÿÿ¿[vïûnßí·÷ÿ»~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿõ¶Şû}÷Ûÿow¾ÿïı»ÿÿü ıàÿÿÿ¿ßşßÿşÿşŞÛï~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿ÷¿ß_·ûİëÖıÙ»ÿÿü ıàÿÿÿ¿6öÛöİÛí·÷şı~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöÛ}í÷ıöı¾ÿşÿï}»ÿÿü ıàÿÿÿ¿ÿÿ÷¿ÿoß~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿóÿßÿ}÷ßïï»¿İ»í»ÿÿü ıàÿÿÿ¿vİ·İ¿öûmİşû~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷m÷oß¿}¾ûîí÷şı»ÿÿü ıàÿÿÿ¿_÷ı÷îßïÿ÷Ûß~ßÿÿà  wÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿ}ıöí÷÷¾ÿÿoµ»ÿÿü  àÿÿÿ¿           ~ßÿÿà wÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğ            »ÿÿü àÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿ~ßÿÿà wÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿß»ÿÿü ]àÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿ~ßÿÿà wÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿß»ÿÿü ]àÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿ~ßÿÿà wÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿß»ÿÿü ]àÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿ~ßÿÿà wÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿß»ÿÿü àÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿ~ßÿÿà  wÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿß»ÿÿü  àÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿ~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿß»ÿÿü ıàÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿ~ßÿÿà wÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿß»ÿÿü àÿÿÿ€            ~ßÿÿà wÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğ            »ÿÿü ]àÿÿÿ€        ÿÿÿ~ßÿÿà wÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğ        ÿÿÿß»ÿÿü àÿÿÿ¿ÿÿÿßÿÿÿÿÿÿ~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿóÿÿÿÿÏÿà?ß»ÿÿü ıàÿÿÿ¿ÿÿÿßÿÿÿÿÿ ÿ~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿóÿÿÿÿÏÿÀ?ß»ÿÿü ıàÿÿÿ¿ÿÿÿßÿÿÿÿÿ<ÿ~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿóÿÿÿÿÏÿÏ¿ß»ÿÿü ıàÿÿÿ¿ÿÿÿßÿÿÿÿÿ<ÿ~ßÿÿà wÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿóÿÿÿÿÏÿÏ¿ß»ÿÿü àÿÿÿ¿ÿÿÿßÿÿÿÿÿ<ÿ~ßÿÿà wÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿóÿÿÿÿÏÿÏ¿ß»ÿÿü àÿÿÿ¿ÿÿÿßÿÿÿÿÿ<ÿ~ßÿÿà ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿóÿÿÿÿÏÿÏ¿ß»ÿÿü ıàÿÿÿ¿ÿÿÿßÿÿÿÿÿ ÿ~À?ÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿóÿÿÿÿÏÿÀ?ß¸ÿÿÿûıàÿÿÿ¿ÿÿÿßÿÿÿÿÿÿ~ßÇÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿóÿÿÿÿÏÿà?ß»ğÿÿÿûıàÿÿÿÀ            ~ßø   ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğ            »ş   ıàÿÿÿÿÿÿÿêI"$’ÿÿÿşßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿùJJRIÿÿÿÿ»ÿÿÿÿûıàÿÿÿÿÿÿÿâªªÊªÿÿÿşßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿúUR•U_ÿÿÿÿ»ÿÿÿÿûıàÿÿÿÿÿÿÿåUUUUÿÿÿşßÿÿÿÿß÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿùRªªªŸÿÿÿÿ»ÿÿÿÿûıàÿÿş             ßÿÿÿÿÀwÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€            »ÿÿÿÿøàÿÿü             ßÿÿÿÿİwÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ             »ÿÿÿÿû]àÿÿüæÿÿÿÿÿÿÿÿÿÿÿæßÿÿÿÿİwÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ9Ÿÿÿÿÿÿÿÿÿÿÿÿù»ÿÿÿÿû]àÿÿıæÿÿÿÿÿÿÿÿÿÿÿæßÿÿÿÿİwÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ9Ÿÿÿÿÿÿÿÿÿÿÿÿù»ÿÿÿÿû]àÿÿı             ßÿÿÿÿÜwÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ             »ÿÿÿÿûàÿÿù             ßÿÿÿÿÀwÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ@            »ÿÿÿÿøàÿÿù             À    ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ@            ¸    ıàÿÿù           ÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ@          À ¿ÿÿÿÿÿıàÿÿù           ÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ@        €À ¿ÿÿÿÿÿıàÿÿù         ó  ÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ@        ¾À ¿ÿÿÿÿÿıàÿÿù          ó  ÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ@         <À ¿ÿÿÿÿÿıàÿÿø`€          ÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿX          À ¿ÿÿÿÿÿıàÿÿø1ŒacCó  ÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿŒccÃÆ.À ¿ÿÿÿÿÿıàÿÿø          S  ÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ@         :À ¿ÿÿÿÿÿıàÿÿø          ó  ÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ@         À ¿ÿÿÿÿÿıàÿÿøq€        1–ÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿp         ÌF%¿ÿÿÿÿÿıàÿÿø                  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ           À €     àÿÿı            ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ           @ ÿÿÿÿÿÿÿàÿÿıx       	3‡ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€      Lf5ÿÿÿÿÿÿÿàÿÿü            ş  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ           @ ÿÀ ÿÿÿàÿÿüÿà @     ÿ  şÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ?ü       À ÿ¿ÿßÿÿÿàÿÿüÿà     ÿ  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ?ü      À ÿ¿ÿïÿÿÿàÿÿüÿà       ÿ  ü  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ?ø        ?À ÿ  ÿÿÿàÿÿü               şÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               ÿÏÿÿÿàÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿà  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿü @ /ÿÿÿàÿÿü             ıÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€            ÿÿïÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿü  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€ ÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà?ÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà?ÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÀÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà?ÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà?ÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÀ             ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğ            ÿÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿÎíÛ·nİ»víÛ·nİ»ßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöİ»víÛ·nİ»víÛ½ÿÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿŞşÿûÿïÿ¿şÿûÿïûßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ïÿ¿şÿûÿïÿ¿şÿ½ÿÿÿÿÿÿÿàÿÿÿßß÷İÿwıß÷İû¿ßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿõÿwıß÷İÿwıß»ıÿÿÿÿÿÿÿàÿÿÿßÿÿÀÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿÏÿÿœ?ÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿßû¿??»şïûÏîÿÿıßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷»şïû¿îÿ»şïÿÿİÿÿÿÿÿÿÿàÿÿÿİÿï/7ÿßÿ~Íÿ÷ßßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿßÿıÿ÷ÿßÿwııÿÿÿÿÿÿÿàÿÿÿß¿û;?ÿÿÿÿÏÿÿİÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿıßıÿÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÏÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿóÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿßÿÿş7È:ÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷îı÷Şïß}îı÷ÿÿıÿÿÿÿÿÿÿàÿÿÿßûÿƒ¸ñÏ>qÇãÿ{ßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿ¿ÿû÷ÿÿ¿}ÿ÷½ÿÿÿÿÿÿÿàÿÿÿÛÿÿÀı¹Í<yM™ãÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöÿÿÿÿÿÿÿÿÿÿ¿ÿıÿÿÿÿÿÿÿàÿÿÿß¿¿ğyøÏ<ßÏ˜ïÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿşÿÿÿïÿÿÿîÿıÿÿÿÿÿÿÿàÿÿÿßÿıü9üÏ4ÿÏ™ÿÿßßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿß»ÿıû¿ÿÿÿııÿÿÿÿÿÿÿàÿÿÿß÷ÿşüÏ<ÿÏ‘ßÿıßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ïïÿşşÿÿïïÿÿÿİÿÿÿÿÿÿÿàÿÿÿßışÿìÏ<ıÍ‘ÿûÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ıÿÿÿßÿÿıûßÿ¿ıÿÿÿÿÿÿÿàÿÿÿİÿî?üË<]Ï™ùÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöÿûÿÿÿ¿ÿÿÿ÷ÿÿıÿÿÿÿÿÿÿàÿÿÿßÿşùÏ<9O˜sßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿş÷ÿÿïÿÿş÷÷ıÿÿÿÿÿÿÿàÿÿÿßÿş>rÄÏœÿ÷ßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷şşÿÿÿÜ?ÿÿÿÿ}ÿÿÿÿÿÿÿàÿÿÿÏ¿ ıáßıßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷Üáÿ÷÷ÿô?}ÿıÿİÿÿÿÿÿÿÿàÿÿÿßïßÿÿÿÿÿÿÿ÷÷ÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ñùÿÿÿÿ7ÿÿÿıÿÿÿÿÿÿÿàÿÿÿßÿ÷şÿßşÿÿşÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿóøù¿ÿÿÿÿ?ÿ_?ÿıÿÿÿÿÿÿÿàÿÿÿÛÿıÿÿûßı÷ÿÿÿşÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ùùï¿ş÷ÿ?ß?ïıÿÿÿÿÿÿÿàÿÿÿßÿÿ¿ÿÿ¿ÿßÿÿ¿ßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ø¿ûïÿıı?ÿ?ûıÿÿÿÿÿÿÿàÿÿÿßÿÿïÿÿÿÿÿß÷ıÿ÷ßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷øøø6}ÿÿÿÿÿÿÿàÿÿÿß»ÿÿÿşÿÿ¿ÿıßıßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöüó<÷=ãŸ.ñİÿÿÿÿÿÿÿàÿÿÿßÿÿÿûÿ»÷ÿ÷ÿÿßÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷şçË<ç9ãŸ<ñıÿÿÿÿÿÿÿàÿÿÿÛÿşÿ¿ÿÿ÷ÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿƒÏÏ<`8—<ıÿÿÿÿÿÿÿàÿÿÿßÿßÿ¿ÿşÿÿıÿÿûÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ßáÏÏ<çı9ÿŸ<ÿıÿÿÿÿÿÿÿàÿÿÿßßıßÿïÿıÿÿÿşÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿğÏÏ,ÅßßŸ8ÿıÿÿÿÿÿÿÿàÿÿÿßÿÿÿïÿÿ¿~ÿ¿ïÿïßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿõ÷øÍÏ<Çÿ1ıŸ(ÿıÿÿÿÿÿÿÿàÿÿÿİ÷ÿÿûıßÿßÿïûÿıßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷òøOË<çç9ù›<Üİÿÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿßÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷³ØÇ<áÏ8sŸ<1ıÿÿÿÿÿÿÿàÿÿÿßş÷»æÿÿÿñÿÿßÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ğñà04›6ıÿÿÿÿÿÿÿàÿÿÿßÿÿÿß¿ûÿá÷=ÿşÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷øğÏ„x4Çıÿÿÿÿÿÿÿàÿÿÿ×ÿÿŸşşïùÿŸÿÿßßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÎÿßÿÿşı÷ÿ}ÿÿÿÿÿÿÿàÿÿÿßß¿ÿ?ÿßû¹ÿÏ¿ÿûßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöÿûŞÏ»ıÿıßÿÿÿİÿÿÿÿÿÿÿàÿÿÿß÷÷}ïŸÿéşïïïÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷÷ÿÿÏÿÿ~ÿÿ¿ÿıÿÿÿÿÿÿÿàÿÿÿßÿÿŞÿÿù¿§ûÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÏÿÿÿ¿ÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿßÿÿşw0ùçÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿşÿÿßÿÿÿîÿıÿÿÿÿÿÿÿàÿÿÿßÿÿüşsŸ<øóÿ}ßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷¿ÿºïÿÿïwïÿßıÿÿÿÿÿÿÿàÿÿÿÛşÿü~z›<ùñóÿ÷ßßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿóïßşıÿïÿÿÿÿÿııÿÿÿÿÿÿÿàÿÿÿß»üş?Ÿ¹ññÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ûÿÿßÿÿÿÿııÿÿİÿÿÿÿÿÿÿàÿÿÿßïşìİŸ<éù³ÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿûıûÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿßÿÿüÿ‡Ÿ<ùÙóûÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿ~ÿ¾ıÿÿİÿıÿÿÿÿÿÿÿàÿÿÿßÿÿüÿ¡Ÿ<ùùóÿßûßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿ»¿ÿÿÿÿß¿¿ÿwıÿÿÿÿÿÿÿàÿÿÿßÿÿüşğ›<ùùóÿ÷ßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿõÿÿ÷ïÿÿÿÿïÿÿÿ}ÿÿÿÿÿÿÿàÿÿÿİ÷¿ü~ùŸ,øóóßÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷wÿıÿÿßÿÿûÿÿÿİÿÿÿÿÿÿÿàÿÿÿßÿıŞvs›9§gûÿßßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ıÿÿûßûÿÿÿïÿÿıÿÿÿÿÿÿÿàÿÿÿßÿö~Ç„\çÿÿıßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿ÷şïïÿûßÿıÿÿÿÿÿÿÿàÿÿÿßıÿÿ?ÿÿÿÿ÷íÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿİÿÿıÿıûÿÿ÷wıÿÿÿÿÿÿÿàÿÿÿÏÿßş¿»½ÿÿÿßÿûÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿıÿÿÿıÿÿÿÿÿÿÿàÿÿÿßÿ÷ÿ›ÿÿ{ÿşŸ¿şÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿïßÿÿÿÿÿÿÿ}ÿÿÿÿÿÿÿàÿÿÿßßşÿÇÿÿÿÿ_ïÿ÷ßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷¿ÿÿşÿ¿ÿÿÿÿÿİÿÿÿÿÿÿÿàÿÿÿİÿÿ¿ÿÿÿÿîÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿóÿÿÿÿÿıßÿîÿßıÿÿÿÿÿÿÿàÿÿÿßûÿ÷¿}ßÿÿß÷ÿÿıßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷÷ßÿÿßÿÿßßÿİÿıÿÿÿÿÿÿÿàÿÿÿßşÿÿÿßÿßÿÿÿÿßßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿûı÷ûÿÿ÷ÿÿÿ÷ıÿÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿûÿÿ÷ÿ÷ÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿßÿşï÷ıÿÿÿÿıÿÿÿÿÿÿÿàÿÿÿÏßÿïÿÿıÿışÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷}ÿÿÿûÿÿıÿÿÿ½ÿÿÿÿÿÿÿàÿÿÿßÿûıÿÿÿÿ»ÿÿ÷ßßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿıÿÿÿ¿İ÷ÿıÿÿÿÿÿÿÿàÿÿÿÀ             ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğ            ÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà?ÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÀÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà?ÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà?ÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ{ÿûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÀ                                                              ÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿÎİ»víÛ·nİ»víÛ·nİ»víÛ·nİ»víÛ·nİ»víÛ·nİ»víÛ·nİ»víÛ·nİ»víÛ·nİ»víÛ·{ÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßïÿ¿şÿûÿïÿ¿şÿûÿïÿ¿şÿûÿÿßÿıÿ÷ÿßÿıÿ÷ÿßÿıÿ÷ÿßÿıÿ÷ÿßÿıÿ÷ÿßÿıÿ{ÿÿÿÿÿÿàÿÿÿİÿwıß÷İÿwıß÷İÿwıß÷»»ûßû¿îÿ»şïû¿îÿ»şïû¿îÿ»şïû¿îÿ»şïû¿îÿ»şïû¿wûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿß»şïû¿îÿ»şïû¿îÿ»şïû¿ïÿÿÿÿß÷İÿwıß÷İÿwıß÷İÿwıß÷İÿwıß÷İÿwıßÿÿ»ÿÿÿÿÿÿàÿÿÿ×ÿßÿıÿ÷ÿßÿıÿ÷ÿßÿııŞ÷}ışÿûÿïÿ¿şÿûÿïÿ¿şÿûÿïÿ¿şÿûÿïÿ¿şÿûÿïÿ¿şïûûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿßÿÿş ÿÿÿÿÿÿÿÿÿÿÀ?ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿû¿ûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøñÿÿÿÿÿÿ¿ÿÿÿşÇÿÿÿÿÿÿÿÿñÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿß}÷»÷ß{¿}÷»÷ß{¿}øø÷ß÷ÿÿÿ÷ß‡}ìïwï¾÷~ûïwñÿ¾ûİûï½ß¾ûİûï½ß¾ûİûïÿÿûÿÿÿÿÿÿàÿÿÿßßÿşıÿÿïßÿşıÿÿïßxÜ}ÿßıßÿÏûÇÿüÿıûÿÿß¿ÿÿqwïÿÿ~ÿÿ÷ïÿÿ~ÿÿ÷ïÿÿ~ûÿï{ÿÿÿÿÿÿàÿÿÿ×ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿØôÿşÿû÷ŸÿÿÇÿü÷ÿÿÿÿÿÿÿÿñÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿ¿ÿÿûÿÿÿ¿ÿÿûÿÿÿøüÿßÿşÿıÿÇß|ÿ¿÷÷ÿÿÿñÿÿßÿÿúÿÿÿßÿÿıÿÿÿßÿÿÿİÿûÿÿÿÿÿÿàÿÿÿß÷îÿÿ~ïÿ÷îÿÿ~ïÿÿøø|aøÿ‡Àà!Dà?ñÿğ4ğ8‡ÿû÷ÿ¿wÿû÷ÿÿÿûûÿÿÿÿÿÿàÿÿÿßÿÿ¿¿ÿûûÿÿ¿¿ÿûûÿøğ»ÇóÇšñ¾¼\ûÇxã‡8í±İç|ïıÿÿßßÿııÿÿßßÿÿÿ»ÿÿÿÿÿÿàÿÿÿİÿÿ÷ÿÿÿÿÿ÷ÿÿÿ~ïøóÇŸ<÷çœñï€=<|òÇ>xçÎÏñÿc-ÿ¿ÿÿûÿÿÿ¿ÿÿû÷¿ÿûÿÿÿÿÿÿàÿÿÿßÿÿÿïÿÿşÿÿÿïÿÿÿûØğ›,çãœÿ€ |ğ< çÎÀñÿ×Ÿ9Àÿÿÿÿ÷ÿÿÿÿÿÿïÿÿûÿÿÿÿÿÿàÿÿÿß½ÿÿûßÿÿ½ÿÿûßÿÿÿøÇóÿŸ<g±œÿŒ?ü³ÿ>¥ÎÏÿñÿúÇüÿÿŞÿÿıïÿÿŞÿÿÿıïïûÿÿÿÿÿÿàÿÿÿßÿ¿ÿÿûÿÿÿ¿ÿÿûÿÿÿøáÂÿŸ<çó˜ÿÿ?ìãÿçÎ{ï°ÿûŸ›ìïÿÿßÿÿıÿÿÿßÿÿÿÿşûÿÿÿÿÿÿàÿÿÿÏÿııÿÿßßÿııÿÿßßÿøñãÿŸ<çó˜ïı‡7üãß<_çÎûñßwŸƒüûïÿşşÿÿïïÿşşûÿûÿ»ÿÿÿÿÿÿàÿÿÿÛÿÿßÿÿıÿÿÿßÿÿû÷ıØxó²—<áóœü¿?<óó>vgÊ>ÏÏñÿgŸÇÏÌşÿÿÿïÿÿşÿÿÿïÿÿşÿûÿÿÿÿÿÿàÿÿÿßïÿÿşÿÿÿïÿÿşÿÿÿ¿øøpçŸ,óçœ9ÿ‡|ğç>çNÃŸñşf—ÃÃœÿÿ÷ÿÿÿÿÿ÷ÿÿÿ~ÿÿûÿÿÿÿÿÿàÿÿÿßûïÿ¿¾ÿûûïÿ¿½ÿÿÿøüxŸ<¹NšÿÅ€üØ?çÏà?ñğâçà<ÿıı÷ÿßßıı÷ÿ¿ßÿßûÿÿÿÿÿÿàÿÿÿŞşûÿÿï¿ÿşûÿÿÿÿÿÿğ><Ç÷áÁĞ<ƒAƒp` ğ‡ïğ`?ÿÿ}ÿÿ÷ßÿÿÿÿÿÿ÷ûÿÿÿÿÿÿàÿÿÿßÿÿ{ÿÿ÷¿ÿÿ{ÿÿ¾ı÷ÿïÿÿÿÿÿÿïşıÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÏûÿßÿÿ½ÿÿûßÿÿwïÿ¿şûÿÿÿÿÿÿàÿÿÿßÿÿÿïÿÿşÿÿÿïÿï¿ıßûßûıÿÿ÷ûßÿıÿ½÷ÿıÿÿ÷ÿ÷ï÷ßÿÿÿÏßÿ»ÿÿÿ÷ÿÿÿÿÿÿ÷ïÿ»ÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿïÿÿÿûÿÿß÷ÿÿÿÿÿßÿÿışÿÿş÷ÿÿşÿïÿŸıÿÿÿÿÿÿÿÿÿÿÿïÿÿÿûÿûÿÿÿÿÿÿàÿÿÿÛÿÿßÿÿıÿÿÿßıÿÿÿÿÿÿÿÿşîıÿ÷ÿÿ¿ÿÿÿÿıİÿÿÿÿÿÿßû¸?ÿÿşÿÿÿïÿÿşÿÿÿııÿÿÿûÿÿÿÿÿÿàÿÿÿŞï¿÷~ûÿwï¿÷ÿÿïÿşÿ÷ßÿÿÿÿÿ¿ÿûïÿÿÿÿÿşşÿÿÿ÷ÿüwÿÿÿ»÷ßû¿}ÿ»÷şÿÿûÿÿÿÿÿÿàÿÿÿßû÷ÿß¿ıû÷ÿÿıÿÿÿÿşÿşÿÿÿÿ}ÿıÿÿşÿß¿ßÿÿÿß»ıïıÿÿÿŞÿşıûÿïß¿şşÿ¿ÿûÿßûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿ¿½ÿ÷ßÿÿïÿÿ¿ÿÿÿ»ÿÿ¿÷ÿÿÿï¿ÿÿßÿÿÿÿıİÿ¿ÿÿÿÿÿÿÿÿÿ¿ÿÿÿÿıûÿÿÿÿÿÿàÿÿÿßÿıÿÿÿßÿÿıÿ÷ÿÿıÿßÿÿÿÿïßÿÿ½ÿşşÿûÿ÷ûÿûÿÿÿÿÿÿÿÿÿÿÿÿÿÿşÿÿÿïÿÿÿÿßÿÿ»ÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿşÿÿÿ¿ÿÿŞ÷ıû÷ïßÿßÿßÿÿÿıÿßÿïÿÿÿıÿŞïÿÿÿïÿÿÿÿÿÿÿÿÿïïÿ¿ïÿûÿÿÿÿÿÿàÿÿÿŞşÿ÷÷ïÿ~ÿßÿïÿÿÿûûÿÿÿÿÿÿÿÿÿÿÿßÿÿÿÿ÷ÿı÷îû¿ÿÿıÿÿïÿ¿¿ûûÿûßßÿÿ÷ÿûÿûÿÿÿÿÿÿàÿÿÿß¿¿~ıû÷ïß¿ÿıûïÿÿÿÿÿÿÿÿûÿûÿÿ÷ÿ~ÿıÿÿÿÿÿ½ÿÿï¾ÿÿ÷ïß¿»ÿıÿûıÿ÷ÿßûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿïÿ¿şûÿûÿÿ÷ÿßÿıış÷ÿ¿÷ıïßÿİÿÿıÿÿÿÿ÷ÿÿïÿûÿÿÿÿÿşÿÿÿşÿÿÿÿûûÿÿÿÿÿÿàÿÿÿÏÿÿÿÿÿÿÿÿı÷ÿÿÿï¾ÿşıßÿ~ÿÿşÿïÿÿÿÿÿÿÿîÿÿÿßïÿşÿÿÿıÿÿÿÿÿÿÿÿÿıÿÿıÿÿÿ{ÿÿÿÿÿÿàÿÿÿßï÷ÿÿÿÿÿÿÿÿŸşÿÿ¿ßã÷ÿßÿÿÿ¿şÿ÷¿ÿÿÿÿÿ{ûûøãßÿÿÿÿûûïÿßßÿßÿ~ıÿûÿÿÿÿÿÿàÿÿÿßÿıï¿Şûÿÿÿûÿÿÿïÿãÿÿÿ¾¿ÿÿÿş~ÇçïÿÿÿßÿÿÿÿĞã÷ûûßÿ}ûÿÙşÿ÷ûÿÿ÷¿ÿ¿ÿûÿÿÿÿÿÿàÿÿÿÛıÿûïßÿ¿wÿ¿~ÿûÿûÿóÿ÷ÿÿŸÿ¿÷ÿğüë‡ÿÿÿ÷ßÿÿÿüçÿÿÿÿßÿôÿßÿÿÿ¿ÿÿßÿÿûÿÿÿÿÿÿàÿÿÿŞÿÿÿÿÿÿÿıÿïüß¿şÿÿûóşÿÿÿŸ÷ÿıÿó¼ÿ?ı÷ßÿıÿÿşÿüÿúÿÿ÷÷ÿßşÿÿÿÿïÿÿÿÿï»ÿÿÿÿÿÿàÿÿÿßÿÿÿ÷ÿÿÿwÿıûÿ¿ÿ~óÿÿ÷ÿÿÿÿwwìÿû»ÿı÷şüÿÿ³ÿÿÿçÿûÿ?ûıßwûıÿÿîûûÿÿÿÿÿÿàÿÿÿß¿ÿÿÿÿÿÿÿÿÿéÿïÿïÿÿ³¿şş÷Ÿÿûÿïÿüÿÿßÿûÿÿÿßßìûûã»¾ÿGÿÿÿ7ÿÿÿÿÿÿw÷ÿÿûÿÿÿÿÿÿàÿÿÿßÿ÷÷ÿw÷ÿÿıùüá‡Àò€ÿğ@ÿˆ``ÀâÀøÿ€ÆÀÀàhƒÀø=ÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßïÿŞıÿşÿıÿóùÇ<yçœqÇ¼ïñœÄŞ<ıã‰¼qÇœ7ŒçÿxÇœóÏ<qçœs—Ÿÿûÿÿÿşıÿÿûÿÿÿÿÿÿàÿÿÿßûÿÿÿÿÿÿÿ¿óqç~xçsç<?ÏŒ±ÿÏ<ùcŸ<sågŒõö|çóÇ<ùã<sßŸßïîÿÿÿÿ¿ÿ{ÿÿÿÿÿÿàÿÿÿßÿÿÿ÷ÿÿ÷¿ÿ³óú~9ã?Óã wŸœïÏ€<ØŸ sç?àüüçóï<ùç pÿŸ÷ÿÿÿÿïÿÿöïûÿÿÿÿÿÿàÿÿÿÛÿßÿÿşÿßÿÿ÷óóş_9ç?óg?ş›œÿÃıËŸüùÿ—?óg/çşüìçÃ³ü<Øç?¸Ÿÿÿşÿ»şïÿÿÿûÿÿÿÿÿÿàÿÿÿßÿûîÿÿïıÿÿÿóÓ~9ç/óæ?ÿŸ˜ÿáÿÏìñıœ7³ç;Çï|üeáò÷4ùæ?ü;Ÿşÿßÿşÿıßÿûûÿÿÿÿÿÿàÿÿÿßÿÿÿ¿ÿûÿ}ûÿóóş{9ç;óæ/ÿŸ˜÷xÏüñÿ?óç>ÇûÃÜüç¸s¯<ùæ7ÿŸÿ»ÿ¿ÿÿÿÿÿÿ»ÿÿÿÿÿÿàÿÿÿßÿÿï¿ÿÿÿ~ıÓñö?gsç??œüœÏŸœùÙŸ?3çeäãô|ç¬sË<ùç?7Ÿÿÿÿ÷ÿÿÿıÿÿûÿÿÿÿÿÿàÿÿÿßïşÿÿïÿÿÿ¿ñğÇ>yçSç
+Œ9¾_M‡<xsŸrçaÍ³ü<ç¾sÏ<ù§gÎÿÿÿÿÿ»ÿÿwûÿÿÿÿÿÿàÿÿÿ×ûÿ¿ÿşÿßÿÿÿùxœø€ó§€îÆ”÷ÏÀ|ÜŸ€ó£€ğçş0'œóD,¹â€òŸ?ßÿwÿ¿ÿßÿßûÿÿÿÿÿÿàÿÿÿßÿ¿ïûÿÿÿßÿÿùÜÁü#ÁÁƒÁÿàŸÿ Ğ>Á ƒÁø<ÿÁ¸á ñÁğ?ÿÿÿÿïÿÿÿÿşûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿßûÿ¿÷Üÿÿÿûÿÿûşÿÿıÿÿÿÿÿÿÿıû¿ÿÿÿ¿ÿ÷ÿÿÿÿÿÿïÿÿÿÿß÷wşûûÿÿßÿÿûÿÿÿÿÿÿàÿÿÿßÿÿıÿÿÿÿ÷ïışÿÿïwşşûÿÿÿ¿ÿÿÿÿ÷ÿûÿÿ÷ÿÿÿÿÿÿ÷¿÷ÿıÿïÿwş÷ÿÿÿ¿ÿî÷ÿÿÿ»ÿÿÿÿÿÿàÿÿÿŞÿïÿ~÷ûÿÿûÿşwÿÿÿ¿ÿÿÿÿïïÿïşıïıÿÿ¿¿ÿÿÿ÷ÿÿİÿıı÷ÿşÿÿÿüıÿÿÿÿÿÿÿû»ïûÿÿÿÿÿÿàÿÿÿß½ÿÿßÿşÿÿşÿÿÿÿÿÿß¿ÿû¿şÿ¿ûÿ{ÿÿÿşïÿûıßÿÿÿÿÿÿÿıÿßÿïûÿÿıßÿşÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿÏÿıÿÿşÿîÿÿÿ÷ÿ÷ûÿÿÿÿïïÿÿÿÿßÿşÿÿ¿ï÷ÿÿwÿÿ÷ÿ}ÿÿÿß¿ÿ÷ÿı÷ÿ~ÿÿÿÿÿıÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿ¿ÿÿÿÿßÿÿÿıÿİÿÿÿÿşûÿÿÿÿÿÿÿÿïûÿÿÿÿÿÿïÿÿï¿÷ÿÿıïÿ}ÿßßÿ÷÷¿şûûÿÿÿÿÿÿàÿÿÿßÿÿ÷¿ÿÿıÿïşÿÿÿï÷÷ÿÿÿÿ÷ÿÿıÿÿÿûÿÿßÿıßÿûÿÿÿÿÿÿÿïÿıÿÿÿÿşÿßÿÿßÿ{ÿÿÿÿÿÿàÿÿÿßïßïÿïßÿÿÿÿÿ¿ÿÿııÿûÿÿşÿw÷ÿ¿ïÿÿÿ÷{ÿÿÿÿşïßÿïûÿîûÿÿÿÿÿÿşïÿşÿÿ÷ïÿûÿÿÿÿÿÿàÿÿÿİÿÿûÿû÷¿ÿŞÿÿïÿîÿÿÿışÿ¿ÿÿıßÿıûÿÿ¿ÿÿÿ÷ıÿÿÿ÷ûÿıÿÿÿÿÿßÿÿÿÿÿ¿ÿÿÿ¿ûÿÿÿÿÿÿàÿÿÿßÿÿşÿÿÿıÿÿıßÿÿÿ¾ÿÿÿ÷ïßÿşÿÿÿÿÿÿïÿÿ¿ÿß»ÿûÿûşÿÿÿÿÿßÿ÷ıÿÿßÿû¿ÿÿÿûÿÿÿÿÿÿàÿÿÿßûÿ»ÿÿÿ»ÿ¿ÿÿÿÿïÿÿÿÿÿßÿÿÿ÷ÿÿÿ÷ÿÿßïÿÿşÿÿÿÿÿßÿÿßÿ÷¿ıßwûûÿÿïÿÿ÷»ÿÿÿÿÿÿàÿÿÿßûÿÿÿÿıÿÿÿÿÿıïÿÿßÿÿÿÿÿûşÿÿÿıïÿ¿ÿûÿÿşÿÿÿÿÿÿÿÿÿÿ½ı÷ÿÿïÿÿıÿşïÿÿşûÿûÿÿÿÿÿÿàÿÿÿßÿÿÿşÿßşïÿ÷ÿÿÿÿßÿÿ¿ÿÿÿïÿîÿû¿÷ÿşûûÿ½ÿÿßÿ¾ÿÿïÿ¿ÿïÿÿÿÿÿÿÿÿşÿ¿ÿûÿÿÿÿÿÿàÿÿÿÀ                                                              ÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà?ÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà?ÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÀÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà?ÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà?ÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿğÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿÿÿÀ                                                              ÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿß¿~ıû÷ïß¿~÷¿ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿÛ÷ïß¿~ıû÷ïÿíÛ·nİ»víÛ·nİ»víÛ·nİ»víÛ·nİ»víÛ·nİ»víÛ·nİ»víÛ·nİ»víÛ·{ÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿ»ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿß~ıû÷ïß¿~ûÿÿıÿ÷ÿßÿıÿ÷ÿßÿıÿ÷ÿßÿıÿ÷ÿßÿıÿ÷ÿßÿıÿ÷ÿßÿıÿ÷ÿßÿıÿ{ÿÿÿÿÿÿàÿÿÿÏß¿~ıû÷ïß¿ÿ{¿îÿ»şïû¿îÿ»şïû¿îÿ»şïû¿îÿ»şïû¿îÿ»şïû¿îÿ»şïû¿îÿ»şïû¿wûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿïÿ÷İÿwıß÷İÿwıß÷İÿwıß÷İÿwıß÷İÿwıß÷İÿwıß÷İÿwıßÿÿ»ÿÿÿÿÿÿàÿÿÿİ÷ïß¿~ıû÷ïıîÿûÿïÿ¿şÿûÿïÿ¿şÿûÿïÿ¿şÿûÿïÿ¿şÿûÿïÿ¿şÿûÿïÿ¿şÿûÿïÿ¿şïûûÿÿÿÿÿÿàÿÿÿßıû÷ïß¿~ıÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿû¿ûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿÿÿıÿÿ½ß¾ûİûï½ß¾ûİûï½ß¾ûİûï½ß¾ûİûï½ß¾ûİûï½ß¾ûİûï½ß¾ûİûïÿÿûÿÿÿÿÿÿàÿÿÿÏÿÿÿÿÿÿÿÿ¿½ßÿ÷ïÿÿ~ÿÿ÷ïÿÿ~ÿÿ÷ïÿÿ~ÿÿ÷ïÿÿ~ÿÿ÷ïÿÿ~ÿÿ÷ïÿÿ~ÿÿ÷ïÿÿ~ûÿï{ÿÿÿÿÿÿàÿÿÿßÿ¿~ıû÷ß¿ÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿß÷ïß¿~ÿ÷÷ÿÿıÿÿÿßÿÿıÿÿÿßÿÿıÿÿÿßÿÿıÿÿÿßÿÿıÿÿÿßÿÿıÿÿÿßÿÿıÿÿÿßÿÿÿİÿûÿÿÿÿÿÿàÿÿÿŞÿÿÿÿÿÿÿÿïÿÿwÿû÷ÿ¿wÿû÷ÿ¿wÿû÷ÿ¿wÿû÷ÿ¿wÿû÷ÿ¿wÿû÷ÿ¿wÿû÷ÿÿÿûûÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿ¿ÿıû÷ÿııÿÿßßÿııÿÿßßÿııÿÿßßÿııÿÿßßÿııÿÿßßÿııÿÿßßÿııÿÿßßÿÿÿ»ÿÿÿÿÿÿàÿÿÿß¿ÿÿÿÿıÿÿÿ}ÿÿ¿ÿÿûÿÿÿ¿ÿÿûÿÿÿ¿ÿÿûÿÿÿ¿ÿÿûÿÿÿ¿ÿÿûÿÿÿ¿ÿÿûÿÿÿ¿ÿÿû÷¿ÿûÿÿÿÿÿÿàÿÿÿÏıû÷ïßÿ~ÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿ÷ÿÿÿÿÿ÷ÿÿÿÿÿ÷ÿÿÿÿÿ÷ÿÿÿÿÿ÷ÿÿÿÿÿÿïÿÿûÿÿÿÿÿÿàÿÿÿßÿ~ıûÿÿï¿ÿÿÿÿŞÿÿıïÿÿŞÿÿıïÿÿŞÿÿıïÿÿŞÿÿıïÿÿŞÿÿıïÿÿŞÿÿıïÿÿŞÿÿÿıïïûÿÿÿÿÿÿàÿÿÿßÿÿÿÿûßÿşÿÿïÿÿÿßÿÿıÿÿÿßÿÿıÿÿÿßÿÿıÿÿÿßÿÿıÿÿÿßÿÿıÿÿÿßÿÿıÿÿÿßÿÿÿÿşûÿÿÿÿÿÿàÿÿÿÛ¿ÿÿÿÿÿÿÿ¿ÿşïïÿşşÿÿïïÿşşÿÿïïÿşşÿÿïïÿşşÿÿïïÿşşÿÿïïÿşşÿÿïïÿşşûÿûÿ»ÿÿÿÿÿÿàÿÿÿßïÿÿşÿÿÿÿû¿ÿşÿÿÿïÿÿşÿÿÿïÿÿşÿÿÿïÿÿşÿÿÿïÿÿşÿÿÿïÿÿşÿÿÿïÿÿşÿÿÿïÿÿşÿûÿÿÿÿÿÿàÿÿÿßÿï¿¿÷ÿïÿïÿÿÿ÷ÿÿÿÿÿ÷?ÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿ÷ÿÿÿÿÿ÷ÿÿÿÿÿ÷ÿÿÿ~ÿÿûÿÿÿÿÿÿàÿÿÿßıÿïÿşıİÿÿûÿÿıı÷ÿßßşü8?ßßû÷ÿßßıı÷ÿßßıı÷ÿßßıı÷ÿßßıı÷ÿ¿ßÿßûÿÿÿÿÿÿàÿÿÿßÿÿÿßÿÿÿÿÿÿw¿ÿÿ}ÿÿ÷ÿßøş?ÿ÷ßÿŸ}ÿÿ÷ßÿÿ}ÿÿ÷ßÿÿ}ÿÿ÷ßÿÿ}ÿÿ÷ßÿÿÿÿÿÿ÷ûÿÿÿÿÿÿàÿÿÿÛÿÿÿïÿÿıïÿÿûßÿÿ½ÿÿ÷ÿñï=ÿÿ÷Ÿÿ½ÿûßÿÿ½ÿÿûßßÿ½ÿÿûßÿÿ½ÿÿûßÿÿwïÿ¿şûÿÿÿÿÿÿàÿÿÿŞÿûÿÿÿÿÿ¿ûÿÿÿÿÿÿ÷ÿıÿ°ÿ÷ÿÿÿŸÿÿöÿÿÿÿ÷ÿÿÿŸÿÿ÷ÿÿÿÿÿ÷ÿÿÿÿÿÿ÷ïÿ»ÿÿÿÿÿÿàÿÿÿßßşûûÿ¿÷ÿÿÿÿÿÿÿÿÿÿşÿ÷áÿÿÿÿÿûŸÿÿü~ÿÿßÿÿÿÿ¾ÿÿÿÿÿÿÿÿÿÿÿÿÿÿïÿÿÿûÿûÿÿÿÿÿÿàÿÿÿßÿÿşşû÷ÿÿ÷~ÿÿÿïÿÿÿÿãûü~|ø„xAø ÿïÿÿşÿÿÿïÿÿşÿÿÿııÿÿÿûÿÿÿÿÿÿàÿÿÿß÷¿ÿÿÿÿÿîÿ÷ß»÷ßû¿ÿÿãÿùã|ãÇ~|Iç3 sÃŸßû¿}ÿ»÷ßû¿}ÿ»÷şÿÿûÿÿÿÿÿÿàÿÿÿßÿÿ¿ÿÿÿıÿÿÿÿÿşıûÿïï¿ã¿ëq–xòŸ3ÇşløcŸŞxWç?ûÿïß¿şıûÿïß¿şşÿ¿ÿûÿßûÿÿÿÿÿÿàÿÿÿßÿÿÿ¿¿ÿÿÿßÿÿÿÿÿÿÿÿÿïîãÿóñi—0î|İç›1ú|fãŸÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿ÿÿÿÿıûÿÿÿÿÿÿàÿÿÿİÿ÷ÿÿï¿ÿûÿÿÿÿÿşÿÿÿÿÿãşóùyÿŸ3»ş|ÿ†Ÿ8~~gó;Ÿşÿÿÿïÿÿşÿÿÿïÿÿÿÿßÿÿ»ÿÿÿÿÿÿàÿÿÿß¾ÿïïÿûÿ¿ÿw»÷ÿÿÿÿûÿÿÿãïóùyÿŸ#ÿş|şçŸ<>^gó>Ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïïÿ¿ïÿûÿÿÿÿÿÿàÿÿÿßïÿûÿÿÿ÷ûÿÿşÿ¿¿ûşûûÿ±ÿóy–yïŸ#ÿşlõçŸ7~gó?ûû÷ÿ¿¿ûûÿûßßÿÿ÷ÿûÿûÿÿÿÿÿÿàÿÿÿßÿıÿÿÿÿÿÿÿÿÿÿ÷ïß¾ÿ¿şÿñÿñÙxû3óº|ùçŸ5~c³?Ÿß¿~ıû÷ïß¿»ÿıÿûıÿ÷ÿßûÿÿÿÿÿÿàÿÿÿßÿ¿ÿııßÿÿÿÿÿÿÿÿÿÿÿÿ»øş9óXqŸ çş|ùg›7Î|óç?Ÿÿÿÿÿÿÿÿÿÿÿşÿÿÿşÿÿÿÿûûÿÿÿÿÿÿàÿÿÿ×ÿÿÿß÷~ÿïîÿ»ÿÿÿÿÿÿÿô<ÜåˆŸ8şlx…Ÿ3–)ÙÏ?›ÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿıÿÿÿ{ÿÿÿÿÿÿàÿÿÿß÷ÿÿÿÿÿßßıÿßÿÿÿûÿ¿ïÿÿşşÂ>ÿ<!>ôÇûÿÿÿ¿ÿÿûÿïÿßßÿßÿ~ıÿûÿÿÿÿÿÿàÿÿÿŞÿıßßÿÿÿÿÿÿÿÿ}ûÿÿÿÿÿÿ¿ÿÿÿûÿÿıß÷ÿÿşÿÿşÿÿıÿş÷ß¿ï}ûş÷şÿ÷ûÿÿ÷¿ÿ¿ÿûÿÿÿÿÿÿàÿÿÿßıß÷÷÷ÿÿ÷ÿÿ÷ÿß~ï÷ÿßïÿÿÿÿ÷ÿÿwÿÿşïïß¿şş{şÿßîÿı÷ïÿß~ÿşÿßÿÿÿ¿ÿÿßÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿışÿ÷ıÿ¿şÿÿÿÿûıû÷ÿÿ÷ıÿ~ÿßÿÿÿÿÿïŞÿ¿ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïÿÿÿÿï»ÿÿÿÿÿÿàÿÿÿßÿÿÿÿÿ÷ÿÿßûÿïÿÿÿÿÿıÿÿıßwÿ¿÷ÿßÿÿıÿÿÿßö~ÿıÿÿ¿ÿÿûÿÿÿ¿ÿÿûıßwûıÿÿîûûÿÿÿÿÿÿàÿÿÿ×¿ÿÿÿÿııÿûşÿÿÿÿßÿÿÿÿıïÿÿÿÿıÿÿ÷ïÿÿıÿÿÿşÿÿÿÿÿÿÿÿÿÿÿ¿÷ÿÿÿÿÿÿw÷ÿÿûÿÿÿÿÿÿàÿÿÿßÿîıÿ¿ÿÿÿÿÿÿÿÿ÷÷ÿÿÿ¿ûÿÿÿÿÿÿ¿şÿï¿ïÿÿøßÿ÷ßû¿ûÿ»ÿ¿÷ï}ÿÿÿÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßîÿ¿ÿïÿÿÿßş÷ÿÿ÷ÿÿşÿÿÿ¿ÿÿ÷ÿıÿßÿû÷ûÿß÷ß÷ÿï~ÿş÷ïÿÿÿÿûÿÿÿşıÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿßûÿıÿ¿şïÿÿÿïÿşÿÿÿ¿¿÷ïïÿÿÿÿÿÿÿÿÿÿûÿÿÿÿıÿÿÿ¿ÿÿÿÿÿÿßïîÿÿÿÿ¿ÿ{ÿÿÿÿÿÿàÿÿÿİÿÿÿ÷ÿÿÿÿßÿÿÿÿıÿÿ÷ÿßîÿ÷÷ıÿ»ÿÿÿÿûışÿ÷ÿÿÿÿ¿ÿÿûÿÿşÿÿÿ÷ÿÿÿÿïÿÿöïûÿÿÿÿÿÿàÿÿÿßÿÿ÷ÿÿÿïßû÷ÿÿÿÿÿşÿıÿÿÿÿÿÿûÿşÿßïÿßÿÿÿÿıı÷ÿÿïÿÿşÿÿÿ½ıÿÿÿşÿ»şïÿÿÿûÿÿÿÿÿÿàÿÿÿßıïÿÿÿ÷ÿÿÿş÷ÿw¿ïÿÿÿÿÿÿÿÿÿÿÿÿİşûÿÿßßÿÿÿÿ»ÿı÷ÿßİÿÿ¿¿şÿßÿşÿıßÿûûÿÿÿÿÿÿàÿÿÿß¿ıııÿıûÿÿÿı÷ÿÿşÿÿßÿÿ¿ıÿıÿÿÿßÿÿşÿÿÿ÷÷îÿÿÿÿÿÿÿßÿıÿ¿ÿÿÿÿ»ÿ¿ÿÿÿÿÿÿ»ÿÿÿÿÿÿàÿÿÿ×ÿÿÿ¿ÿışÿÿÿîÿ÷ßûÿ¿ïÿ{ßÿÿÿÿ½ÿßÿıÿÿß¿ÿÿÿûÿÿÿïÿÿ÷ÿÿÿ÷ÿÿÿıÿÿûÿÿÿÿÿÿàÿÿÿßÿÿÿ÷ÿÿ¿¿ÿÿÿÿÿÿ÷şï÷ÿÿÿ÷ÿï÷ÿïÿÿ¿÷ÿÿÿÿ÷ıÿïÿÿßÿÿÿïïıÿÿÿÿÿ»ÿÿwûÿÿÿÿÿÿàÿÿÿß÷ÿÿÿÿÿßÿÿ½ÿßÿÿÿÿÿÿÿÿÿÿïÿııûÿÿ÷ÿÿÿÿ»ÿÿ¿ıÿßÿÿÿÿıûûÿßÿwÿ¿ÿßÿßûÿÿÿÿÿÿàÿÿÿŞÿÿÿßÿÿßÿÿ÷ÿ÷ÿÿû½ıÿûÿÿÿÿÿÿÿÿÿßÿÿÿşıÿßÿÿÿïÿß÷ÿıŞïÿÿÿÿÿÿÿÿïÿÿÿÿşûÿÿÿÿÿÿàÿÿÿßÿïï÷ÿßıÿÿÿÿÿÿÿÿÿÿÿÿıûï÷ÿÿıÿÿÿÿïÿÿ¿ÿ÷ÿıßûÿÿşşÿÿûÿÿÿ÷wşûûÿÿßÿÿûÿÿÿÿÿÿàÿÿÿßÿıÿşıÿÿïÿÿîÿï»ÿÿÿ¿şÿÿûŞşÿÿÿÿ÷ÿıÿÿßÿşÿÿÿÿÿÿï¿ÿÿşÿÿÿÿÿ¿ÿî÷ÿÿÿ»ÿÿÿÿÿÿàÿÿÿ×ïÿÿÿßÿÿÿıÿÿıÿÿÿÿÿ÷¿şÿÿÿÿßßÿ÷şşÿÿışÿÿÿÿß÷ÿÿÿÿÿïÿ÷ÿÿÿÿÿÿÿû»ïûÿÿÿÿÿÿàÿÿÿŞıÿÿÿûÿûß¾ÿ¿ÿÿ¿İßÿÿÿÿÿÿÿÿÿÿŞÿßÿÿ¿ß÷ÿÿß¿ûÿşÿÿÿ÷»ÿÿßßşÿıßÿşÿÿÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿİÿÿşîÿÿïÿÿıÿıÿ÷ÿÿÿÿ»ıŞÿÿûÿÿ÷ÿÿ÷ıÿÿÿ÷ÿıÿşÿÿÿşÿÿÿûÿşÿÿÿÿÿıÿÿÿûÿÿÿÿÿÿàÿÿÿßÿ¿ÿû¿ÿÿÿÿÿÿ¿÷ÿÿÿÿÿÿßÿßÿ÷÷ÿÿÿÿÿßÿıÿ¿ÿÿ¿ÿÿ»¿ÿÿ¿ÿÿÿßßÿ÷÷¿şûûÿÿÿÿÿÿàÿÿÿßÿÿÿûÿÿÿÿÿÿ÷÷ÿıÿÿşşïûÿÿÿÿÿışÿ¿ÿïÿÿÿÿ÷ï÷ÿÿÿw¿ÿıÿÿı÷ûÿÿÿÿşÿßÿÿßÿ{ÿÿÿÿÿÿàÿÿÿßßÿÿÿÿÿŞïÿ}ÿÿï¿ÿßû¿ÿÿÿÿşÿ÷÷ÿı÷ïÿÿıÿÿÿÿÿÿÿÿîÿÿÿÿïÿşïÿşÿÿ÷ïÿûÿÿÿÿÿÿàÿÿÿÛ÷÷ÿÿÿÿ÷ÿûÿÿÿïÿÿîÿÿÿÿûî÷»¿ÿÿÿÿÿÿıÿÿÿÿÿşı÷ßÿÿÿÿÿ¿ÿşÿıÿÿÿÿÿ¿ÿÿÿ¿ûÿÿÿÿÿÿàÿÿÿßşıïÿïîıÿÿwÿ}ÿÿÿÿ¿ÿÿÿÿÿÿÿÿßÿÿ}ÿÿıÿÿÿÿßÿÿÿ÷şïÿïÿÿ¿ïÿİÿÿßÿû¿ÿÿÿûÿÿÿÿÿÿàÿÿÿßÿÿıßşÿÿÿÿÿÿÿÿÿÿïûÿïÿÿÿÿÿÿ÷¿ÿßÿÿ÷»ÿÿÿÿ÷Şşïşÿıßÿÿıÿÿwûûÿÿïÿÿ÷»ÿÿÿÿÿÿàÿÿÿßÿÿÿ÷ÿÿÿ»ÿÿÿÿıïûÿıÿÿÿÿÿ÷¿ÿ÷ÿşÿÿïÿşÿÿÿ}ÿÿÿÿÿ¿ÿÿßïÿÿÿıÿşïÿÿşûÿûÿÿÿÿÿÿàÿÿÿÀ                                                              ÿÿÿÿÿÿàÿÿëçÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàÿûûöaáÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿà
+endstream
+endobj
+50 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 381
+/Height 184
+/BitsPerComponent 8
+/ColorSpace 51 0 R
+/Length 70105
+>>
+stream
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                             ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                                                                                                                                                                          òòò                                                                                                                                          ÿÿÿ                                                   ÿÿÿ                                                                                                                                                                                       òòò                                                                                                                                        ÿÿ                                                         ÿÿ                                                                                                                                                                                     òòò                                                                                                                                       ÿ                                                             ÿ                                                                                                                                                                                    òòò                                                                                                                                       ÿ                           ÿ                                 ÿ                                                                                                                                                                                    òòò                                                                                                                                      ÿ                                      ÿ                        ÿ                                                                                                                                                                                   òòò                                                                                                                                     ÿ                                       ÿ                        ÿ                                                                                                                                                                                   òòò                                                                                                                                    ÿ            ÿ ÿ  ÿÿÿ    ÿÿ ÿ  ÿ   ÿÿÿ  ÿÿÿ  ÿ ÿ ÿ   ÿ             ÿm                                                                                                                                                                                 òòò                                                                                                                                    ÿ            ÿÿ  ÿ   ÿ  ÿ  ÿÿ  ÿ  ÿ   ÿ  ÿ   ÿÿ  ÿ   ÿ             ÿmm                                                                                                                                                                                òòò                                                                                                                      ÿÿÿÿÿÿ        ÿ            ÿ   ÿ   ÿ  ÿ   ÿ  ÿ  ÿ      ÿ   ÿ    ÿ ÿ              ÿmmm                                                                                                                                                                               òòò                                                                                                                      ÿÿÿÿÿÿÿÿÿÿÿ   ÿ            ÿ   ÿÿÿÿÿ  ÿ   ÿ  ÿ   ÿÿÿ   ÿ   ÿ    ÿ ÿ               ÿmm                                                                                                                                                                               òòò                                                                                                                      ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ            ÿ   ÿ      ÿ   ÿ  ÿ      ÿ  ÿ   ÿ    ÿ ÿ               ÿmmm                                                                                                                                                                              òòò                                                                                                                     ÿÿÿÿÿÿÿÿÿÿÿÿ   ÿ            ÿ   ÿ   ÿ  ÿ  ÿÿ  ÿ  ÿ   ÿ  ÿ   ÿ     ÿ                ÿmmm                                                                                                                                                                              òòò                                                                                                               ÿÿÿÿÿÿ  ÿÿÿÿÿÿÿÿ     ÿ            ÿ    ÿÿÿ    ÿÿ ÿ  ÿ   ÿÿÿ   ÿÿ  ÿ     ÿ               ÿmmmm                                                                                                                                                                              òòò                                                                                                         ÿÿÿÿÿÿ        ÿÿÿÿÿÿ       ÿ                           ÿ                      ÿ               ÿmmmmm                                                                                                                                                                             òòò                                                                                                  ÿÿÿÿÿÿÿ              ÿÿÿÿ          ÿ                      ÿ   ÿ                      ÿ               ÿmmmmm                                                                                                                                                                             òòò                                                                                            ÿÿÿÿÿÿ                     ÿÿ             ÿ                      ÿÿÿ                     ÿÿ               ÿmmmmmm                                                                                                                                                                             òòò                                                                                      ÿÿÿÿÿÿ                                           ÿ                                                             ÿmmmmmmm                                                                                                                                                                             òòò                                                                                ÿÿÿÿÿÿ                                                 ÿ                                                             ÿmmmmmm                                                                                                                                                     ÿÿ ÿ                     òòò                                                                         ÿÿÿÿÿÿÿ                                                        ÿÿ                                                         ÿÿmmmmmmm                                                                                                                                           ÿÿÿ ÿÿ    ÿÿ ÿ                     òòò                                                                   ÿÿÿÿÿÿ                                                                 ÿÿÿ                                                   ÿÿÿmmmmmmmmm                                                                                                                                        ÿÿÿ   ÿ ÿÿ   ÿÿ ÿ                     òòò                                                             ÿÿÿÿÿÿ                                                         ÿÿÿÿÿÿÿÿÿÿÿÿÿ mmmÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmmmmmmmmmmm                                                                                                                                          ÿ    ÿ ÿÿ   ÿ ÿÿ                     òòò                                                      ÿÿÿÿÿÿÿ                                                                ÿÿÿÿÿÿÿÿÿÿÿ   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                                                                                                                           ÿ   ÿÿ ÿ ÿ  ÿ ÿÿ                     òòò                                                ÿÿÿÿÿÿ                                                                       ÿÿÿÿÿÿÿÿÿÿ    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                                                                                                                           ÿÿÿÿ   ÿ  ÿÿ  ÿ ÿ                    òòò                                          ÿÿÿÿÿÿ                                                                              ÿÿÿÿÿÿÿÿ      mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                                                                                                                            ÿ   ÿÿ ÿ  ÿÿ  ÿ ÿ                    òòò                                    ÿÿÿÿÿÿ                                                                                    ÿÿÿÿÿÿ           mmmmmmmmmmmmmmmmmmmmmmmşmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                                                                                                                               ÿÿ   ÿÿ ÿ  ÿ  ÿ ÿ                    òòò                             ÿÿÿÿÿÿÿ                                                                                        ÿÿ ÿÿÿÿ                                   ş                                                                                                                                                                               ÿ    ÿÿÿ                            òòò                       ÿÿÿÿÿÿ                                                                                             ÿÿ   ÿÿÿ                                    ş                                                                                                                                                                               ÿ                                   òòò                 ÿÿÿÿÿÿ                                                                                                 ÿÿ      ÿ                                     ş                                                                                                                                                                                                                   òòò          ÿÿÿÿÿÿÿ                                                                                                     ÿÿ                                              ş                                                                                                                                                                                                                   òòò    ÿÿÿÿÿÿ                                                                                                         ÿÿÿ                                                ş                                                                                                                                                                                                                   òòòÿÿÿÿ                                                                                                             ÿÿ                                                   ş                                                                                                                                                                                                             ÿÿÿÿÿÿòòò                                                                                                               ÿÿ                                                     ş                                                                                                                                                                                                       ÿÿÿÿÿÿ      òòò                                                                                                             ÿÿ                                                                                                                                                                                                                                                         ÿÿÿÿÿÿ            òòò                                                                                                           ÿÿ         ÿÿÿ                                                                                                                                                                                                                                         ÿÿÿÿÿÿ                  òòò                                                                                                        ÿÿÿ           ÿÿÿ                                                                                                  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                                           ÿÿÿÿÿÿÿ                        òòò                                                                                                      ÿÿ              ÿÿÿÿ                                                                                                 ÿ                                                                   ÿ                                                     ÿÿÿÿÿÿ                               òòò                                                                                                    ÿÿ          ÿÿ    ÿ ÿÿ                                                                                                 ÿ                                                                   ÿ                                               ÿÿÿÿÿÿ                                     òòò                                                                                                  ÿÿ          ÿÿ ÿÿ   ÿ ÿÿÿ                                                                                                ÿ                         ÿ  ÿ                                      ÿ                                        ÿÿÿÿÿÿÿ                                           òòò                                                                                                ÿÿ          ÿÿ ÿÿÿ ÿ  ÿ  ÿÿ                                                                                                ÿ                         ÿ                   ÿ                     ÿmmmm                              ÿÿÿÿÿÿ                                                  òòò                                                                                             ÿÿÿ          ÿÿ    ÿ ÿ ÿ ÿ  ÿÿÿ                                                                                               ÿ                         ÿ                   ÿ                     ÿmmmm                        ÿÿÿÿÿÿ                                                        òòò                                                                                           ÿÿ              ÿ    ÿ ÿ  ÿÿ  ÿÿ                                                                                                ÿ                   ÿÿÿ   ÿ  ÿ   ÿÿÿ   ÿ ÿÿ  ÿÿÿ                    ÿmmmm                  ÿÿÿÿÿÿ                                                              òòò                                                                                         ÿÿ                ÿ  ÿÿ   ÿ  ÿÿ                                                                                                   ÿ                  ÿ   ÿ  ÿ  ÿ  ÿ   ÿ  ÿÿ  ÿ  ÿ                     ÿmmmm           ÿÿÿÿÿÿÿ                                                                    òòò                                                                                       ÿÿ                   ÿÿ  ÿÿÿÿ                                                                                                       ÿ                  ÿ      ÿ  ÿ  ÿ   ÿ  ÿ   ÿ  ÿ                     ÿmmmm     ÿÿÿÿÿÿ                                                                           òòò                                                                                     ÿÿ                     ÿ     ÿÿÿ                                                 ş                                                    ÿ                  ÿ      ÿ  ÿ  ÿÿÿÿÿ  ÿ   ÿ  ÿ                     ÿmmmÿÿÿÿÿÿ                                                                                 òòò              ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ             ÿ                                                        ş                                                    ÿ                  ÿ      ÿ  ÿ  ÿ      ÿ   ÿ  ÿ                     ÿÿÿÿÿ                                                                                      òòò              ÿ                                                                                ÿÿÿ           ÿ                                                        ş                                                    ÿ                  ÿ   ÿ  ÿ  ÿ  ÿ   ÿ  ÿ   ÿ  ÿ                     ÿmmmmÿÿÿÿÿÿÿÿÿÿ                                                                            òòò              ÿ                                                                                ÿIIÿ          ÿÿ                                                       ş                                                    ÿ                   ÿÿÿ   ÿ  ÿ   ÿÿÿ   ÿ   ÿ  ÿÿ                    ÿmmmm          ÿÿÿÿÿÿÿÿÿ                                                                   òòò              ÿ                        ÿÿÿÿÿ                               ÿÿÿÿÿÿ              ÿIIIÿ                                                                  ş                                                    ÿ                                                                   ÿmmmm                   ÿÿÿÿÿÿÿÿÿ                                                          òòò              ÿ                      ÿÿŸŸŸŸŸÿÿ                            ÿŸŸŸŸŸŸÿ             ÿIIIIÿÿ                                                                ş                                                    ÿ                                                                   ÿmmmm                            ÿÿÿÿÿÿÿÿÿÿ                                                òòò              ÿ                     ÿŸŸŸŸŸŸŸŸŸÿ                          ÿŸŸŸŸŸŸŸŸÿ            ÿIIIIIIÿ                                                               ş                                                    ÿ                                                                   ÿmmmm                                      ÿÿÿÿÿÿÿÿÿ                                       òòò              ÿ                     ÿŸŸŸŸŸŸŸŸŸÿ                          ÿŸŸŸŸŸŸŸŸÿ            ÿIIIIIIÿ                                                               ş                                                    ÿ                                                                   ÿmmmm                                               ÿÿÿÿÿÿÿÿÿ                              òòò              ÿ                    ÿŸŸŸŸŸŸŸŸŸŸÿ                         ÿŸŸŸŸŸŸŸŸŸŸÿ           ÿIIIIIIÿ                                                                                                                    ÿ                                                                   ÿmmmm                                                        ÿÿÿÿÿÿÿÿÿÿ                    òòò              ÿ                    ÿŸŸŸŸŸŸŸŸŸŸÿ                         ÿŸŸŸŸŸŸŸŸŸŸÿ           ÿIIIIIIÿ                                                                                                                    ÿ                                                                   ÿmmmm                                                                  ÿÿÿÿÿÿÿÿÿ           òòò              ÿ   ÿÿ               ÿŸŸŸŸŸŸŸŸŸŸÿ          ÿÿÿÿÿÿ         ÿŸŸŸŸŸŸŸŸŸŸÿ           ÿIIIIIIÿ                                                                                                                    ÿ                                                                   ÿmmmm                                                                           ÿÿÿÿÿÿÿÿÿ  òòò              ÿ   ÿÿÿÿ              ÿŸŸŸŸŸŸŸŸŸÿ         ÿŸŸŸŸŸŸÿ         ÿŸŸŸŸŸŸŸŸÿ            ÿIIIIIIÿ                                                                                                                    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿşşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmmmm                                                                                    ÿÿòòòÿÿÿÿÿ         ÿ   ÿÿÿÿÿÿ             ÿŸŸŸŸŸŸŸÿ          ÿŸŸŸŸŸŸÿ         ÿŸŸŸŸŸŸŸŸÿ            ÿIIIIIIÿ                                                                                                                         mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmşşmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                                                                      òòò     ÿÿÿÿÿÿÿÿÿÿ   ÿÿÿÿÿÿÿÿ            ÿÿŸŸŸÿÿ          ÿŸŸŸŸŸŸŸŸÿ         ÿÿŸŸŸŸÿÿ             ÿIIIIIIÿ                                                                                                                         mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmşmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                                                                      òòò              ÿÿÿÿÿÿÿÿÿÿÿÿÿÿ            ÿÿÿ            ÿŸŸŸŸŸŸŸŸÿ           ÿÿÿÿ               ÿIIIIIIÿ                                                                                                                         mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmşşmmmmmmmmmmmmmmmmmmmmmmmmmm                                                ÿÿÿ                                   òòò              ÿ  ÿÿÿÿÿÿÿÿÿÿÿÿÿ                        ÿŸŸŸŸŸŸŸŸŸŸÿ                             ÿIIIIIIÿ                                                               ş                                                         mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                               ÿÿ  ÿÿ  ÿ                              òòò              ÿ  ÿÿÿÿÿÿÿ                              ÿŸŸŸŸŸŸŸŸŸŸÿ                             ÿIIIIIIÿ                                                               ş                                                                                                     şş                                                                     ÿ     ÿÿÿ    ÿÿ ÿ                      òòò              ÿ  ÿÿÿ                                   ÿŸŸŸŸŸŸŸŸÿ                              ÿIIIIIIÿ                                                               ş                                                                                                         şş                                                                 ÿ    ÿÿÿ ÿ   ÿÿ ÿ                      òòò              ÿ                                        ÿŸŸŸŸŸŸŸŸÿ                              ÿIIIIIIÿ                                                               ş                                                                                                             ş                                                              ÿÿÿÿÿÿ ÿ ÿ  ÿ ÿ ÿ                      òòò              ÿ                                         ÿÿŸŸŸŸÿÿ                               ÿIIIIIIÿ                                                               ş                                                                                                                şş                                                          ÿ   ÿ  ÿ ÿ  ÿ ÿÿ                       òòò              ÿ                                           ÿÿÿÿ                                 ÿIIIIIIÿ                                                               ş                                                                                                                    şş                                                      ÿ   ÿÿ ÿ ÿ ÿ  ÿÿ                       òòò              ÿ                                                                                ÿIIIIIIÿ                                                               ş                                                                                                                                                                            ÿ    ÿ ÿ  ÿÿ  ÿÿ                       òòò              ÿ                                                                                ÿIIIIIIÿ                                                                                                                                                                                        şş                                                       ÿÿÿ  ÿ  ÿ ÿ                       òòò              ÿ                                                                                ÿIIIIIIÿ                                                                                                                                                                                           şş                                                            ÿ ÿ                       òòò              ÿ     ÿÿÿÿÿ                                                                      ÿIIIIIIÿ                                ’    ’ ’’’’’  ’                        ’                    ’                                                                                                  şş                                                                                  òòò              ÿ    ÿŸŸŸŸŸÿ                                                                     ÿIIIIIIÿ                                ’    ’ ’    ’ ’                        ’                    ’                                                                                                      şş                                                                              òòò              ÿ   ÿŸŸŸŸŸŸŸÿ                                                                    ÿIIIIIIÿ                                ’    ’ ’    ’ ’        ’ ’’  ’ ’  ’’’ ’’’  ’’’   ’’’   ’’’  ’                                                                                                                                                                                      òòò              ÿ  ÿŸŸŸŸŸŸŸŸŸÿ                                                                   ÿIIIIIIÿ                                ’    ’ ’’’’’  ’        ’’  ’ ’’  ’   ’ ’  ’   ’ ’   ’ ’   ’ ’                                                                                                          şş                                                                          òòò              ÿ  ÿŸŸŸŸŸŸŸŸŸÿ        ÿÿÿÿÿ                                                      ÿIIIIIIÿ                                ’    ’ ’  ’   ’        ’   ’ ’   ’   ’ ’  ’   ’ ’     ’   ’ ’                                                                                                             şş                                                                       òòò              ÿ  ÿŸŸŸŸŸŸŸŸŸÿ       ÿÿ   ÿÿ                                                     ÿIIIIIIÿ                                ’    ’ ’   ’  ’        ’   ’ ’   ’   ’ ’  ’   ’ ’     ’   ’ ’                                                                                                                 şş                                                                   òòò              ÿ  ÿŸŸŸŸŸŸŸŸŸÿ       ÿÿ                                                          ÿIIIIIIÿ                                ’    ’ ’   ’  ’        ’’  ’ ’   ’   ’ ’  ’   ’ ’   ’ ’   ’ ’                                                                                                                     ş                                                                òòò              ÿ  ÿŸŸŸŸŸŸŸŸŸÿ       ÿÿÿ       ÿÿÿÿ   ÿÿÿÿÿÿ   ÿÿ  ÿÿÿÿ   ÿÿÿÿ                   ÿIIIIIIÿ                                 ’’’’  ’    ’ ’’’’’    ’ ’’  ’    ’’’  ’’  ’’’   ’’’   ’’’  ’                                                                                                                        şş                                                            òòò              ÿ   ÿŸŸŸŸŸŸŸÿ         ÿÿÿÿ    ÿÿ  ÿÿ  ÿÿ  ÿÿ   ÿÿ ÿÿ  ÿÿ  ÿÿ                     ÿIIIIIIÿ                                                       ’                                                                                                                                                                 şş                                                        òòò              ÿ    ÿÿŸŸŸÿÿ           ÿÿÿÿ   ÿÿ  ÿÿ  ÿÿ   ÿÿ ÿÿ  ÿÿ  ÿÿ  ÿÿ                     ÿIIIIIIÿ                                                       ’                                                                                                                                                                                                                           òòò              ÿ      ÿÿÿ               ÿÿÿ  ÿÿÿÿÿÿ  ÿÿ   ÿÿ ÿÿ  ÿÿÿÿÿÿ  ÿÿ                     ÿIIIIIIÿ                                                                                                                                                                                                                             şş                                                    òòò              ÿ                         ÿÿ  ÿÿ      ÿÿ   ÿÿ ÿÿ  ÿÿ      ÿÿ                     ÿIIIIIIÿ                                                                                                                                                                                                                                 ş                                                 òòò              ÿ                    ÿÿ   ÿÿ  ÿÿ  ÿÿ  ÿÿ    ÿÿÿ   ÿÿ  ÿÿ  ÿÿ                     ÿIIIIIIÿ                                                               ş                                                                                                                                                                    şş                                             òòò              ÿ                     ÿÿÿÿÿ    ÿÿÿÿ   ÿÿ    ÿÿÿ    ÿÿÿÿ   ÿÿ                     ÿIIIIIIÿ                                                               ş                                                                                                                                                                        şş                                         òòò              ÿ                                                                                ÿIIIIIIÿ                                                                                                                                                                                                                                                                                   òòò              ÿ                                                                                ÿIIIIIIÿ                                                                                                                                                                                                                                            şş                                     òòò              ÿ                                                                                ÿIIIIIIÿ                                                                                                                                                                                                                                               şş                                  òòò              ÿ                                                                                ÿIIIIIIÿ                                                                                                                                                                                                                                                   şş                              òòò           şş ÿ                                                                                ÿIIIIIIÿ                                                                                                                                                                                                                                                       şş                          òòò        ş     ÿ                                                                                ÿIIIIIIÿ                                                                                                                                                                                                                                                           şş                      òòòşş  şş        ÿ                                                                                ÿIIIIIIÿ                                                                                                                                                                                                                                                                                  şòòò              ÿ                                                                                ÿIIIIIIÿ                                                               ş                                                                                                                                                                                              şş               ş   òòò              ÿ                                                                                ÿIIIIIIÿ                                                               ş                                                                                                                                                                                                  şş       şş      òòò              ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿIIIIIIÿ                                                               ş                                                                                                                                                                                                   şş şşş          òòò               ÿIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIÿÿIIIIÿ                                                               ş                                                                                                                                                                                                          ş        òòò                ÿÿIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIÿIIIÿ                                                               ş                                                                                                                                                                                            şş  şş           şş    òòò                  ÿIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIÿIIÿ                                                               ş                                                                                                                                                                                        şş                         òòò                   ÿIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIÿÿÿ                                                               ş                                                                                                                                                                                    şş                           şşòòò                    ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                                               ş                                                                                                                                                                                 şş                       ’        òòòş                                                                                                                                                                                                                           ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                                şş  şş                           ’        òòò   ş                                                                                                                                                                                                                      ÿÿ                                                                    ÿ                                            ş                                   ’        òòò      şş                                                                                                                                                                                                                 ÿ                                                                       ÿ                                       şş                                  ’’   ’       òòò                                                                                                                                                                                                                        ÿ                                                                         ÿÿ                                 şş                                     ’  ’  ’       òòò          şş                                                                                                                                                                                                           ÿ  ÿ     ÿ     ÿ        ÿ                                                    ÿ          şş             ş  şş                                    ’’  ’    ’ ’       òòò              şş                                                                                                                                                                                                      ÿ   ÿ    ÿ ÿ    ÿ        ÿ                                                    ÿ         şşşş        şş                                 ’    ’’  ’  ’ ’’   ’ ’       òòò                 şş                                                                                                                                                                                                   ÿ    ÿ   ÿ ÿ   ÿ         ÿ                                                     ÿ      şşşşşş    şş                                     ’   ’  ’ ’     ’   ’  ’      òòò                     şş                                                                                                                                               ş                                              ÿ     ÿ   ÿ ÿ   ÿ   ÿÿÿ   ÿ ÿÿ        ÿÿÿ    ÿÿÿ   ÿ ÿÿ   ÿ  ÿÿÿ   ÿ ÿ          ÿ    şşşşşşşş ş                                     ’’  ’’’’    ’’     ’’ ’          òòò                         şş                                                                                                                                           ş                                              ÿ     ÿ   ÿ ÿ   ÿ  ÿ   ÿ  ÿÿ  ÿ      ÿ   ÿ  ÿ   ÿ  ÿÿ ÿ   ÿ ÿ   ÿ  ÿÿ           ÿmm şşşşşşşşş                                   ’  ’  ’  ’ ’’   ’’   ’   ’           òòò                             şş                                                                                                                                       ş                                              ÿ      ÿ ÿ   ÿ ÿ   ÿ   ÿ  ÿ   ÿ      ÿ      ÿ   ÿ  ÿ   ÿ ÿ  ÿ   ÿ  ÿ             ÿşşşşşşşşşşşş                                ’’  ’    ’ ’  ’   ’’’ ’                òòò                                                                                                                                                                      ş                                              ÿ      ÿ ÿ   ÿ ÿ   ÿÿÿÿÿ  ÿ   ÿ       ÿÿÿ   ÿÿÿÿÿ  ÿ   ÿ ÿ  ÿÿÿÿÿ  ÿ             şşşşşşşşşşşşş                            ’’   ’  ’’   ’ ’  ’’ ’   ’                 òòò                                şş                                                                                                                                    ş                                              ÿ      ÿ ÿ   ÿ ÿ   ÿ      ÿ   ÿ          ÿ  ÿ      ÿ   ÿ ÿ  ÿ      ÿ             ÿmmm                           ’       ’’  ’  ’   ’   ’  ’’  ’                      òòò                                    şş                                                                                                                                ş                                              ÿ       ÿ     ÿ    ÿ   ÿ  ÿ   ÿ      ÿ   ÿ  ÿ   ÿ  ÿ    ÿ   ÿ   ÿ  ÿ            ÿmmmm                     ’’’’’ ’        ’   ’ ’   ’’ ’   ’                          òòò                                        şş                                                                                                                            ş                                              ÿ       ÿ     ÿ     ÿÿÿ   ÿÿÿÿ        ÿÿÿ    ÿÿÿ   ÿ    ÿ    ÿÿÿ   ÿ            ÿmmmm                  ’ ’    ’’’        ’   ’ ’     ’                               òòò                                            şş                                                                                                                        ş                                               ÿ                                                                              ÿmmmm                  ’ ’    ’’ ’       ’   ’  ’                                    òòò                  ’                                                                                                                                                                                                   ÿ                                                                             ÿmmmmm             ’    ’’’’  ’’  ’       ’’ ’                                        òòò                 ’’   ’                        şş                                                                                                                     ş                                                ÿ                                                                            ÿmmmmm             ’     ’ ’’’’’  ’        ’’                                         òòò                 ’    ’’ ’                         şş                                                                                                                 ş                                                 ÿ                                                                         ÿÿmmmmmm             ’’    ’ ’    ’ ’’’’’’   ’                                          òòò                 ’    ’ ’’’’’                          şş                                                                                                                                                                ÿÿ                                                                     ÿÿmmmmmmmm              ’    ’ ’     ’ ’       ’                                          òòò                 ’    ’ ’    ’ ’                           ş                                                                                                                                                               ÿÿÿ                                                                ÿÿmmmmmmmmmm              ’    ’  ’     ’                                                   òòò                ’    ’  ’    ’’                               şş                                                                                                  şşşşşşşş                                                 mmmÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmmmmmmmmmmm               ’’   ’  ’                                                         òòò                 ’   ’  ’’’’’’’                                   şş                                                                                              şşşşşşşş                                                  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                 ’’’’                                                             òòò                 ’’’’’ ’   ’  ’                                                                                                                                    şşşşşş                                                    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                                                                   òòò                       ’   ’  ’                                       şş                                                                                           şşşşşş                                                     mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                                                                    òòò                       ’    ’’         ’’                                 ş                                                                                        şşşşşş                                                        mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                                                                      òòò                            ’’         ’ ’’                                  şş                                                                                     şşşş                                                                                                                                                                                                                  òòò                              ’’’     ’   ’  ’’                                  şş                                                                                 şşşş                                                                                                                                                                                                                  òòò                                ’     ’   ’  ’ ’ ’     ’                             şş                                                                              şş                                                                                                                                                                                                                   òòò                                      ’   ’ ’   ’ ’’  ’                                                                                                              şş                                                                                                                                                                                                                   òòò                                      ’’’’  ’  ’   ’  ’’                                şş                                                                           şş                                                                                                                                                                                                                   òòò                                     ’      ’  ’   ’  ’   ’                                 şş                                                                                                                                                                                                                                                                                            òòò                                               ’   ’  ’  ’ ’’                                   şş                                 ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                                                                                                                                                                 òòò                                                ’’’  ’  ’   ’   ’                                   şş                            ÿ                                                                      ÿÿ                                                                                                                                                                               òòò                                                     ’  ’   ’  ’ ’’        ’                                                     ÿ                                                                         ÿ                                                                                                                                                                              òòò                                                      ’ ’   ’ ’   ’  ’    ’                            şş          ş            ÿ                                                                          ÿ                                                                                                                                                                              òòò                                                         ’’’  ’     ’ ’’  ’                                şş     şşşş         ÿ   ÿ     ÿ     ÿ        ÿ                                                   ÿ                                                                                                                                                                             òòò                                                              ’  ’ ’   ’  ’                                    şş şşşşş        ÿ   ÿ    ÿ ÿ    ÿ        ÿ                                                    ÿ                                                                                                                                                                            òòò                                                               ’’’ ’   ’ ’                                        şşşşşş      ÿ     ÿ   ÿ ÿ   ÿ         ÿ                                                    ÿm                                                                                                                                                                           òòò                                                                   ’   ’ ’                                       şşşşşşşş     ÿ     ÿ   ÿ ÿ   ÿ   ÿÿÿ   ÿ ÿÿ        ÿÿÿ    ÿÿÿ   ÿ ÿÿ   ÿ  ÿÿÿ   ÿ ÿ          ÿm                                                                                                                                                                          òòò                                                                    ’’’  ’                                       şşşşşşşşşş   ÿ     ÿ   ÿ ÿ   ÿ  ÿ   ÿ  ÿÿ  ÿ      ÿ   ÿ  ÿ   ÿ  ÿÿ ÿ   ÿ ÿ   ÿ  ÿÿ           ÿm                                                                                                                                                                          òòò                                                                                                                şşşşşşşşşşşş ÿ       ÿ ÿ   ÿ ÿ   ÿ   ÿ  ÿ   ÿ      ÿ      ÿ   ÿ  ÿ   ÿ ÿ  ÿ   ÿ  ÿ            ÿmm                                                                                                                                                                         òòò                                                                                                                             ÿ       ÿ ÿ   ÿ ÿ   ÿÿÿÿÿ  ÿ   ÿ       ÿÿÿ   ÿÿÿÿÿ  ÿ   ÿ ÿ  ÿÿÿÿÿ  ÿ            ÿmmm                                                                                                                                                                        òòò                                                                                                                             ÿ       ÿ ÿ   ÿ ÿ   ÿ      ÿ   ÿ          ÿ  ÿ      ÿ   ÿ ÿ  ÿ      ÿ            ÿmmmm                                                                                                                                                                       òòò                                                                                                                              ÿ       ÿ     ÿ    ÿ   ÿ  ÿ   ÿ      ÿ   ÿ  ÿ   ÿ  ÿ    ÿ   ÿ   ÿ  ÿ            ÿmmmm                                                                                                                                                                       òòò                                                                                                                              ÿ       ÿ     ÿ     ÿÿÿ   ÿÿÿÿ        ÿÿÿ    ÿÿÿ   ÿ    ÿ    ÿÿÿ   ÿ            ÿmmmm                                                                                                                                                                       òòò                                                                                                                              ÿ                                                                              ÿmmmmm                                                                                                                                                                       òòò                                                                                                                               ÿ                                                                             ÿmmmmm                                                                                                                                                                       òòò                                                                                                                               ÿ                                                                            ÿmmmmmm                                                                                                                                                                       òòò                                                                                                                                ÿÿ                                                                         ÿmmmmmmm                                                                                                                                                                       òòò                                                                                                                                  ÿÿ                                                                     ÿÿmmmmmmmm                                                                                                                                                                       òòò                                                                                                                                    ÿÿ                                                                ÿÿÿmmmmmmmmm                                                                                                                                                                        òòò                                                                                                                                    mmÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmmmmmmmmmmm                                                                                                                                                                         òòò                                                                                                                                     mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                                                                                                                                                          òòò                                                                                                                                     mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                                                                                                                                                          òòò                                                                                                                                      mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                                                                                                                                                           òòò                                                                                                                                         mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm                                                                                                                                                                              òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                          òòò                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+endstream
+endobj
+6 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+86 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 770
+/CapHeight 718
+/Descent -229
+/Flags 262176
+/FontBBox [-170 -228 1003 962]
+/FontName /Helvetica-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 532
+/StemH 140
+>>
+endobj
+87 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+88 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+89 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+90 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 770
+/CapHeight 718
+/Descent -229
+/Flags 262176
+/FontBBox [-170 -228 1003 962]
+/FontName /Helvetica-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 532
+/StemH 140
+>>
+endobj
+91 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 770
+/CapHeight 718
+/Descent -229
+/Flags 32
+/FontBBox [-166 -225 1000 931]
+/FontName /Helvetica
+/ItalicAngle 0
+/StemV 88
+/XHeight 523
+/StemH 88
+>>
+endobj
+92 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 262179
+/FontBBox [-113 -250 749 801]
+/FontName /Courier-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 439
+/StemH 84
+>>
+endobj
+93 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 669
+/Descent -250
+/Flags 262242
+/FontBBox [-200 -218 996 921]
+/FontName /Times-BoldItalic
+/ItalicAngle -15
+/StemV 133
+/XHeight 462
+/StemH 121
+>>
+endobj
+94 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 732
+/CapHeight 681
+/Descent -213
+/Flags 98
+/FontBBox [-228 -250 1269 883]
+/FontName /Bookman-LightItalic
+/ItalicAngle -10
+/StemV 96
+/XHeight 494
+/StemH 42
+>>
+endobj
+95 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 732
+/CapHeight 681
+/Descent -228
+/Flags 34
+/FontBBox [-188 -251 1266 908]
+/FontName /Bookman-Light
+/ItalicAngle 0
+/StemV 96
+/XHeight 484
+/StemH 42
+>>
+endobj
+38 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 32
+/LastChar 125
+/Widths [300 320 360 620 620 800 820 200 280 280 440 600 300 320 300 600 
+620 620 620 620 620 620 620 620 620 620 300 300 600 600 600 540 
+780 700 720 720 740 680 620 760 800 320 560 720 580 860 720 760 
+600 780 700 640 600 720 680 960 700 660 580 260 600 260 600 500 
+340 620 600 480 640 540 340 560 620 280 280 600 280 880 620 540 
+600 560 400 540 340 620 540 880 540 600 520 360 600 380 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Bookman-LightItalic
+/FontDescriptor 94 0 R
+>>
+endobj
+42 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/FirstChar 32
+/LastChar 117
+/Widths [320 300 380 620 620 900 800 220 300 300 440 600 320 400 320 600 
+620 620 620 620 620 620 620 620 620 620 320 320 600 600 600 540 
+820 680 740 740 800 720 640 800 800 340 600 720 600 920 740 800 
+620 820 720 660 620 780 700 960 720 640 640 300 600 300 600 500 
+340 580 620 520 620 520 320 540 660 300 300 620 300 940 660 560 
+620 580 440 520 380 680 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Bookman-Light
+/FontDescriptor 95 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 233
+/Widths [278 333 474 556 0 889 722 0 333 333 389 584 278 333 278 278 
+556 556 556 556 556 556 556 556 556 556 333 333 584 584 584 0 
+0 722 722 722 722 667 611 778 722 278 556 0 611 833 722 778 
+667 0 722 667 611 722 667 944 667 667 0 333 278 333 0 556 
+0 556 611 556 611 556 333 611 611 278 278 556 278 889 611 611 
+611 611 389 556 333 611 556 778 556 556 500 389 0 389 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 278 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 556 556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Helvetica-Bold
+/FontDescriptor 86 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 249
+/Widths [250 333 408 0 0 0 778 180 333 333 500 564 250 333 250 278 
+500 500 500 500 500 500 0 500 0 500 278 278 564 564 564 444 
+0 722 667 667 722 611 556 722 722 333 389 0 611 889 722 722 
+556 0 667 556 611 722 722 944 722 0 0 333 0 333 0 500 
+0 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 
+500 500 333 389 278 500 500 722 500 500 444 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 333 333 444 0 350 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+444 0 0 0 0 0 0 444 444 444 444 0 0 0 278 0 
+0 0 0 0 500 0 0 0 0 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 87 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [556 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 88 0 R
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 233
+/Widths [250 333 0 0 0 0 0 0 333 333 500 570 0 333 250 0 
+0 0 0 0 0 0 0 0 0 0 333 0 570 0 570 0 
+0 0 0 0 0 667 0 0 0 0 0 0 667 0 0 0 
+611 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 500 556 444 556 444 333 500 556 278 0 0 278 833 556 500 
+556 556 444 389 333 556 500 0 500 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+500 0 0 0 0 0 0 0 0 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 89 0 R
+>>
+endobj
+25 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 223
+/Widths [611 611 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Helvetica-Bold
+/FontDescriptor 90 0 R
+>>
+endobj
+43 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 233
+/Widths [278 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 556 556 556 556 0 0 0 0 0 278 0 0 0 0 0 
+0 0 0 722 0 667 611 778 0 278 0 0 0 833 0 0 
+0 0 722 0 0 722 0 0 0 0 0 0 0 0 0 0 
+0 556 0 500 556 556 278 0 556 222 0 0 222 833 556 556 
+0 0 333 500 278 556 0 0 0 500 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 556 556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Helvetica
+/FontDescriptor 91 0 R
+>>
+endobj
+56 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 149
+/LastChar 149
+/Widths [600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+/FontDescriptor 92 0 R
+>>
+endobj
+66 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 97
+/LastChar 120
+/Widths [500 0 444 500 444 333 0 556 278 0 0 278 778 556 500 500 
+0 389 389 278 0 0 667 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-BoldItalic
+/FontDescriptor 93 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 10 0 R
+/Contents 9 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 17 0 R
+/Contents 16 0 R
+>>
+endobj
+19 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 21 0 R
+/Contents 20 0 R
+>>
+endobj
+22 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 24 0 R
+/Contents 23 0 R
+>>
+endobj
+26 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 28 0 R
+/Contents 27 0 R
+>>
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 31 0 R
+/Contents 30 0 R
+>>
+endobj
+32 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 34 0 R
+/Contents 33 0 R
+>>
+endobj
+35 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 37 0 R
+/Contents 36 0 R
+>>
+endobj
+39 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 41 0 R
+/Contents 40 0 R
+>>
+endobj
+47 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 49 0 R
+/Contents 48 0 R
+>>
+endobj
+53 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 55 0 R
+/Contents 54 0 R
+>>
+endobj
+57 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 59 0 R
+/Contents 58 0 R
+>>
+endobj
+60 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 62 0 R
+/Contents 61 0 R
+>>
+endobj
+63 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 65 0 R
+/Contents 64 0 R
+>>
+endobj
+67 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 69 0 R
+/Contents 68 0 R
+>>
+endobj
+70 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 72 0 R
+/Contents 71 0 R
+>>
+endobj
+73 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 75 0 R
+/Contents 74 0 R
+>>
+endobj
+76 0 obj
+<<
+/Type /Page
+/Parent 46 0 R
+/Resources 78 0 R
+/Contents 77 0 R
+>>
+endobj
+79 0 obj
+<<
+/Type /Page
+/Parent 82 0 R
+/Resources 81 0 R
+/Contents 80 0 R
+>>
+endobj
+83 0 obj
+<<
+/Type /Page
+/Parent 82 0 R
+/Resources 85 0 R
+/Contents 84 0 R
+>>
+endobj
+96 0 obj
+<<
+/S /D
+>>
+endobj
+97 0 obj
+<<
+/Nums [0 96 0 R ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 8 0 R 11 0 R 15 0 R 19 0 R 22 0 R 26 0 R 29 0 R 32 0 R 35 0 R]
+/Count 10
+/Parent 45 0 R
+>>
+endobj
+46 0 obj
+<<
+/Type /Pages
+/Kids [39 0 R 47 0 R 53 0 R 57 0 R 60 0 R 63 0 R 67 0 R 70 0 R 73 0 R 76 0 R]
+/Count 10
+/Parent 45 0 R
+>>
+endobj
+82 0 obj
+<<
+/Type /Pages
+/Kids [79 0 R 83 0 R]
+/Count 2
+/Parent 45 0 R
+>>
+endobj
+45 0 obj
+<<
+/Type /Pages
+/Kids [7 0 R 46 0 R 82 0 R ]
+/Count 22
+/MediaBox [0 0 595 842]
+>>
+endobj
+98 0 obj
+<<
+/CreationDate (D:20171012101334+02'00')
+/ModDate (D:20171012101334+02'00')
+/Producer (PSNormalizer.framework)
+>>
+endobj
+99 0 obj
+<<
+/Type /Catalog
+/Pages 45 0 R
+/PageLabels 97 0 R
+>>
+endobj
+xref
+0 100
+0000000000 65535 f 
+0000175921 00000 n 
+0000000016 00000 n 
+0000002947 00000 n 
+0000172301 00000 n 
+0000173058 00000 n 
+0000169077 00000 n 
+0000177822 00000 n 
+0000176001 00000 n 
+0000003053 00000 n 
+0000005547 00000 n 
+0000176082 00000 n 
+0000005654 00000 n 
+0000008152 00000 n 
+0000173851 00000 n 
+0000176165 00000 n 
+0000008271 00000 n 
+0000010198 00000 n 
+0000174022 00000 n 
+0000176248 00000 n 
+0000010317 00000 n 
+0000012851 00000 n 
+0000176331 00000 n 
+0000012958 00000 n 
+0000015520 00000 n 
+0000174676 00000 n 
+0000176414 00000 n 
+0000015639 00000 n 
+0000017674 00000 n 
+0000176497 00000 n 
+0000017793 00000 n 
+0000019752 00000 n 
+0000176580 00000 n 
+0000019883 00000 n 
+0000020570 00000 n 
+0000176663 00000 n 
+0000020677 00000 n 
+0000022645 00000 n 
+0000171237 00000 n 
+0000176746 00000 n 
+0000022763 00000 n 
+0000024293 00000 n 
+0000171788 00000 n 
+0000174854 00000 n 
+0000059082 00000 n 
+0000178176 00000 n 
+0000177957 00000 n 
+0000176830 00000 n 
+0000024459 00000 n 
+0000026022 00000 n 
+0000098825 00000 n 
+0000026214 00000 n 
+0000026263 00000 n 
+0000176914 00000 n 
+0000026706 00000 n 
+0000028979 00000 n 
+0000175497 00000 n 
+0000176998 00000 n 
+0000029111 00000 n 
+0000030778 00000 n 
+0000177082 00000 n 
+0000030897 00000 n 
+0000033090 00000 n 
+0000177166 00000 n 
+0000033208 00000 n 
+0000037343 00000 n 
+0000175668 00000 n 
+0000177250 00000 n 
+0000037498 00000 n 
+0000040703 00000 n 
+0000177334 00000 n 
+0000040858 00000 n 
+0000048795 00000 n 
+0000177418 00000 n 
+0000048926 00000 n 
+0000051357 00000 n 
+0000177502 00000 n 
+0000051475 00000 n 
+0000053645 00000 n 
+0000177586 00000 n 
+0000053775 00000 n 
+0000056545 00000 n 
+0000178095 00000 n 
+0000177670 00000 n 
+0000056687 00000 n 
+0000058940 00000 n 
+0000169217 00000 n 
+0000169423 00000 n 
+0000169620 00000 n 
+0000169817 00000 n 
+0000170019 00000 n 
+0000170225 00000 n 
+0000170420 00000 n 
+0000170622 00000 n 
+0000170831 00000 n 
+0000171038 00000 n 
+0000177754 00000 n 
+0000177782 00000 n 
+0000178274 00000 n 
+0000178406 00000 n 
+trailer
+<<
+/Size 100
+/Root 99 0 R
+/Info 98 0 R
+/ID [<c45b71ade65ed5dcfe2791bcbfe57e00><c45b71ade65ed5dcfe2791bcbfe57e00>]
+>>
+startxref
+178476
+%%EOF
