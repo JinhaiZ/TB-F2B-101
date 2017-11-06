@@ -12,7 +12,7 @@
 
 
 /* N'hesitez pas a changer MAXX .*/
-#define MAXX  500
+#define MAXX  5000
 #define MAXY (MAXX * 3 / 4)
 
 #define NX (2 * MAXX + 1)
@@ -44,16 +44,17 @@ int main(int argc, char *argv[])
   if (rank == 0) {
 
     int res;
+    int a[NY];
 
     /* Begin User Program  - the master */
 
    for(i = -MAXX; i <= MAXX; i++) {
-    for(j = -MAXY; j <= MAXY; j++) {
+    MPI_Recv(&a, NY, MPI_INT, 1, DATATAG, MPI_COMM_WORLD, &status);
 
-      MPI_Recv(&res, 1, MPI_INT, 1, DATATAG, MPI_COMM_WORLD, &status);
-      cases[i + MAXX][j + MAXY] = res;
+    for(j = -MAXY; j <= MAXY; j++) {
+      cases[i + MAXX][j + MAXY] = a[j + MAXY];
     }
-    }
+   }
     dump_ppm("mandel.ppm", cases);
     printf("Fini.\n");
   }
@@ -63,13 +64,15 @@ int main(int argc, char *argv[])
     /* On est l'un des fils */
     double x, y;
     int i, j, res, rc;
+    int a[NY];
     for(i = -MAXX; i <= MAXX; i++) {
       for(j = -MAXY; j <= MAXY; j++) {
-	x = 2 * i / (double)MAXX;
-	y = 1.5 * j / (double)MAXY;
-	res = mandel(x, y);
-	MPI_Send(&res, 1 , MPI_INT, 0, DATATAG, MPI_COMM_WORLD); 
+        x = 2 * i / (double)MAXX;
+        y = 1.5 * j / (double)MAXY;
+        res = mandel(x, y);
+        a[j+MAXY] = res; 
       }
+      MPI_Send(&a, 1 , MPI_INT, 0, DATATAG, MPI_COMM_WORLD); 
     }
   }
 
