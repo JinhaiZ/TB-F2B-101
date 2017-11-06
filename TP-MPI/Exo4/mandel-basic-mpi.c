@@ -12,7 +12,7 @@
 
 
 /* N'hesitez pas a changer MAXX .*/
-#define MAXX  5000
+#define MAXX  500
 #define MAXY (MAXX * 3 / 4)
 
 #define NX (2 * MAXX + 1)
@@ -20,6 +20,7 @@
 
 #define NBITER 550
 #define DATATAG 150
+#define BLOCSIZE 20
 
 static int mandel(double, double);
 
@@ -30,7 +31,7 @@ int cases[NX][NY];
 int main(int argc, char *argv[])
 {
   MPI_Status status;
-  int i,j, num, rank, size, nbslaves;
+  int i,j,z, num, rank, size, nbslaves;
   char inputstr [100],outstr [100];
 
   /* Start up MPI */
@@ -44,17 +45,20 @@ int main(int argc, char *argv[])
   if (rank == 0) {
 
     int res;
-    int a[NY];
+    int a[BLOCSIZE][NY];
+    i = -MAXX;
 
     /* Begin User Program  - the master */
 
-   for(i = -MAXX; i <= MAXX; i++) {
-    MPI_Recv(&a, NY, MPI_INT, 1, DATATAG, MPI_COMM_WORLD, &status);
-
-    for(j = -MAXY; j <= MAXY; j++) {
-      cases[i + MAXX][j + MAXY] = a[j + MAXY];
+    while(i <= MAXX) {
+      MPI_Recv(&a, NY*BLOCSIZE, MPI_INT, 1, DATATAG, MPI_COMM_WORLD, &status);
+      for(z = 0; z < BLOCSIZE && i <= MAXX; z++) {
+        for(j = -MAXY; j <= MAXY; j++) {
+          cases[i + MAXX][j + MAXY] = a[z][j + MAXY];
+        }
+        i++;
+      }
     }
-   }
     dump_ppm("mandel.ppm", cases);
     printf("Fini.\n");
   }
@@ -63,16 +67,21 @@ int main(int argc, char *argv[])
 
     /* On est l'un des fils */
     double x, y;
-    int i, j, res, rc;
-    int a[NY];
-    for(i = -MAXX; i <= MAXX; i++) {
-      for(j = -MAXY; j <= MAXY; j++) {
-        x = 2 * i / (double)MAXX;
-        y = 1.5 * j / (double)MAXY;
-        res = mandel(x, y);
-        a[j+MAXY] = res; 
+    int i, j, z, res, rc;
+    int a[BLOCSIZE][NY];
+    i = -MAXX;
+    
+    while(i <= MAXX) {
+      for(z = 0; z < BLOCSIZE && i <= MAXX; z++) {
+        for(j = -MAXY; j <= MAXY; j++) {
+          x = 2 * i / (double)MAXX;
+          y = 1.5 * j / (double)MAXY;
+          res = mandel(x, y);
+          a[z][j+MAXY] = res; 
+        }
+        i++;
       }
-      MPI_Send(&a, 1 , MPI_INT, 0, DATATAG, MPI_COMM_WORLD); 
+      MPI_Send(&a, NY*BLOCSIZE , MPI_INT, 0, DATATAG, MPI_COMM_WORLD);
     }
   }
 
