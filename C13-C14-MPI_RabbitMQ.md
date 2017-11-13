@@ -203,6 +203,8 @@ Agreed User Requirements
 - Fidelity
 - Unified
     - a MQ client can communicate with another MQ client
+- Interoperability
+- Manageable
 
 Various impletaions
 - RabbitMQ
