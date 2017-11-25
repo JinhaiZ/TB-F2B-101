@@ -64,6 +64,7 @@ int main(int argc, char *argv[])
 
     if (num == 0) {
       printf("Process %d exiting\n", rank);
+      MPI_Send(&num, 1, MPI_INT, next, tag, MPI_COMM_WORLD);
       break;
     }
 
@@ -74,11 +75,9 @@ int main(int argc, char *argv[])
   /* The last process does one extra send to process 0, which needs */
   /* to be received before the program can exit */
 
-/*  if (rank == 0)
+  if (rank == 0)
     MPI_Recv(&num, 1, MPI_INT, from, tag, MPI_COMM_WORLD, &status);
-*/
   /* Quit */
 
   MPI_Finalize();
   return 0;
-}
