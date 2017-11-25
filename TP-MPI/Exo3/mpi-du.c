@@ -54,35 +54,35 @@ int main(int argc, char *argv[])
 
       for( i=1 ; i < nbslaves+1 ; i++ ) {
 
-	if ( (direntp = readdir( dirp )) != NULL ) {
-	  if(!strcmp(direntp->d_name, "."))
-	    { i= i-1; continue;}
-	  if(!strcmp(direntp->d_name, ".."))
-	    {i = i -1; continue;}
-	  strcpy(cmd, base);
-	  strcat(cmd, direntp->d_name);
-	  wait_for_nb_slaves++;
-	}
-	else {
-	  notover = 0;
-	}
+        if ( (direntp = readdir( dirp )) != NULL ) {
+          if(!strcmp(direntp->d_name, "."))
+            { i= i-1; continue;}
+          if(!strcmp(direntp->d_name, ".."))
+            {i = i -1; continue;}
+          strcpy(cmd, base);
+          strcat(cmd, direntp->d_name);
+          wait_for_nb_slaves++;
+        }
+        else {
+          notover = 0;
+        }
 
-	if (notover) {
-	  printf("I've sent  %s to  slave number %d w/ length \n",
-		 cmd, i, strlen(cmd));
-	  printf("Process sending %s to %d\n", cmd, i);
-	  MPI_Send(cmd, strlen(cmd)+1, MPI_CHAR, i, tag, MPI_COMM_WORLD); 
-	}
+        if (notover) {
+          printf("I've sent  %s to  slave number %d w/ length \n",
+          cmd, i, strlen(cmd));
+          printf("Process sending %s to %d\n", cmd, i);
+          MPI_Send(cmd, strlen(cmd)+1, MPI_CHAR, i, tag, MPI_COMM_WORLD); 
+        }
       }
 
       /* Wait for results from slaves */
       for( i=1 ; i<wait_for_nb_slaves+1 ; i++ ){
-	printf("attente  maitre %d\n", i);
-	MPI_Recv(&partialsize, 1, MPI_INT, i, tag+1, MPI_COMM_WORLD, &status);
-	printf("fin attente  maitre %d\n", i);
-	totalsize = totalsize + partialsize;
-	printf("I got %d from node %d \n",partialsize, i);
-	printf("Total %d  \n",totalsize);
+        printf("attente  maitre %d\n", i);
+        MPI_Recv(&partialsize, 1, MPI_INT, i, tag+1, MPI_COMM_WORLD, &status);
+        printf("fin attente  maitre %d\n", i);
+        totalsize = totalsize + partialsize;
+        printf("I got %d from node %d \n",partialsize, i);
+        printf("Total %d  \n",totalsize);
       }
 	  
     }
@@ -104,21 +104,21 @@ int main(int argc, char *argv[])
       
       MPI_Recv(instr, 100, MPI_CHAR, 0, tag, MPI_COMM_WORLD, &status);
       
-      /* we call MPI_Get8count to determine the size of the message received */
+      /* we call MPI_Get_count to determine the size of the message received */
       
       MPI_Get_count (&status, MPI_CHAR, &receivedsize);
       if ( receivedsize== 0) {
-	notover = 0;
+	      notover = 0;
       }
       else {
-	fp = popen(instr, "r");
-	while (fgets(buf, BUFSIZ, fp) != NULL) {
-	  size = size + atoi(buf);
-	}
-	fclose(fp);
-	printf("slave %i: executed %s returning: %i\n", rank, instr, size);
-	/* Send result to master */
-	MPI_Send(&size, 1, MPI_INT, 0, tag+1, MPI_COMM_WORLD); 
+        fp = popen(instr, "r");
+        while (fgets(buf, BUFSIZ, fp) != NULL) {
+          size = size + atoi(buf);
+	      }
+	      fclose(fp);
+	      printf("slave %i: executed %s returning: %i\n", rank, instr, size);
+	      /* Send result to master */
+	      MPI_Send(&size, 1, MPI_INT, 0, tag+1, MPI_COMM_WORLD); 
       }
     }
     

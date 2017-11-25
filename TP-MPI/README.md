@@ -115,8 +115,22 @@ This is an initial exercise in order to discover the MPI environment and its too
 
 - You can generate an executable file from the Makefile with the Unix command make : this program “mpi-ring” requires an integer argument. By setting different values and running it, understand how the program works and what it does.
 
-- This programs does not stop correctly (it does not terminate well and there are pending
-messages). Modify the code so that the termination is correct.
+- This programs does not stop correctly (it does not terminate well and there are pending messages). Modify the code so that the termination is correct.
+
+    - process退出循环前发送消息"0"
+        ```c
+        if (num == 0) {
+            printf("Process %d exiting\n", rank);
+            MPI_Send(&num, 1, MPI_INT, next, tag, MPI_COMM_WORLD);
+            break;
+        }
+    ```
+
+    - process 0 退出前接收最后一个process发送的额外的消息"0"
+        ```c
+        if (rank == 0)
+            MPI_Recv(&num, 1, MPI_INT, from, tag, MPI_COMM_WORLD, &status);
+        ```
 
 ## Exercise 3
 
