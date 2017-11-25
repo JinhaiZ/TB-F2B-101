@@ -35,19 +35,17 @@ int main(int argc, char *argv[])
 	 There should be a better way with C string functions ....  */
 
       if (i == nbslaves) {
-
-	for (j=(strlen(argv[1]) / nbslaves) * (i-1); j <= strlen(argv[1]); j++) {
-	  outstr[j - ((strlen(argv[1]) / nbslaves) * (i-1))] = argv[1][j];
-	}
-	outstr[j+1] = '\0';
-
+        for (j=(strlen(argv[1]) / nbslaves) * (i-1); j <= strlen(argv[1]); j++) {
+          outstr[j - ((strlen(argv[1]) / nbslaves) * (i-1))] = argv[1][j];
+        }
+        outstr[j+1] = '\0';
       }
       else {
         for (j=(strlen(argv[1]) / nbslaves) * (i-1);
              j <= ((strlen(argv[1])  / nbslaves) * i) -1; j++) {
-	  outstr[j - ((strlen(argv[1]) / nbslaves) * (i-1))] = argv[1][j];
-	}
-	outstr[j+1] = '\0';
+	        outstr[j - ((strlen(argv[1]) / nbslaves) * (i-1))] = argv[1][j];
+	      }
+	      outstr[j+1] = '\0';
       }
 
 
