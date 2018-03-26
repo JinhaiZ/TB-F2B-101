@@ -51,7 +51,7 @@ Solution
                                   --------
 -----------    --------------    /|user 1|
 |ressource| <- |gestionnaire|　<- --------
------------    |de ressource|    \|user 2|  
+-----------    |de ressource|    \|user 2|
                --------------     --------
 ```
 
@@ -72,7 +72,7 @@ send "lib" --> postlude
 
 ```
 
-浴室管理员：想洗澡的学生问管理员可以洗澡不，如果没人用浴室，管理员让学生进入浴室，学生用完浴室告诉管理员自己不再使用。如果有人用浴室，管理员登记该学生的联系方式（管理员管理fil d'attent），等浴室再次无人使用时再通知学生，学生在等待期间可以去干其他事情。
+浴室管理员：想洗澡的学生问管理员可以洗澡不，如果没人用浴室，管理员让学生进入浴室，学生用完浴室告诉管理员自己不再使用。如果有人用浴室，管理员登记该学生的联系方式（管理员管理file d'attent），等浴室再次无人使用时再通知学生，学生在等待期间可以去干其他事情。
 
 该方法的问题：如果管理员en panne，整个系统就出问题了，因为管理员在整个系统中扮演特殊角色joue un role special
 
@@ -136,10 +136,10 @@ envoi (jeton) au sucesseur  --> postlude
     - 发送jeton时假丢包，发送者重新发送jeton
 - 环形拓扑若有节点断开怎么办？
     - 等待时加timeout
-    - timeout时间如何确定 (n-2) x utilisation
+    - timeout时间如何确定 (n-1) x utilisation
     - 如果timeout发生，资源申请者可以推测出以下情况并作出相应反应
         - jeton丢了perdu -> 申明jeton丢失，并重新产生jeton
-        - jeton在发送中transmission ->　检查tuyeu中没有jeton
+        - jeton在发送中transmission ->　检查tuyau中没有jeton
     - jeton丢了后如何产生jeton?
     - 大家选举出一个节点，并由这个节点（特殊节点）重新生产jeton，需要注意，如果没有选举过程，大家都可以重新生产jeton的话，会遇到duplication情况
 
@@ -216,7 +216,7 @@ tuer le jeune, tuer le transaction plus recent, ce qui a fait le moindre chose
 Horloge vectorielle (ou matrix)
 
 ```
-    Hi          Hj     
+    Hi          Hj
 H0|----|    H0|----|
   |----|      |----|
   |----|      |----|

@@ -16,12 +16,7 @@ Que se passe-t-il ? comment peut on expliquer cette situation ?
 
 ## 3.1 Second exemple : "work queue"
 
-Avec cet exemple, nous allons aussi voir comment RabbitMQ se comporte lorsqu'un processus client
-qui consomme un message se plante. Pour identifier cela, vous pourrez programmer une
-temporisation (avec un certain nombre de "." dans la chaine en entrée pour simuler une attente en
-lien avec l'exécution du traitement du message du coté du receveur) et puis arrêter le programme
-avec un CTL-C. Que se passe-t-il ? est ce que la donnée qu'il traitait est redirigée vers un autre
-worker?
+Avec cet exemple, nous allons aussi voir comment RabbitMQ se comporte lorsqu'un processus client qui consomme un message se plante. Pour identifier cela, vous pourrez programmer une temporisation (avec un certain nombre de "." dans la chaine en entrée pour simuler une attente en lien avec l'exécution du traitement du message du coté du receveur) et puis arrêter le programme avec un CTL-C. Que se passe-t-il ? est ce que la donnée qu'il traitait est redirigée vers un autre worker?
 
 信息中包含'.'可导致worker　sleep
 
@@ -32,8 +27,7 @@ time.sleep( body.count('.') )
 测试
 先运行两个worker.py准备接受信息，然后再运行new_task.py来发送信息。在第一个worker　sleep时关闭进程，第二个worker会收到信息。之后再打开刚刚关闭的worker，它不会再收到信息
 
-vous pouvez aussi voir ce qui se passe si vous activez 2 récepteurs (worker.py) et 2 émetteurs
-(new_task.py) et que vous arrêtez un récepteur alors qu'il est en plein traitement ?
+vous pouvez aussi voir ce qui se passe si vous activez 2 récepteurs (worker.py) et 2 émetteurs (new_task.py) et que vous arrêtez un récepteur alors qu'il est en plein traitement ?
 
 ```python
 channel.basic_qos(prefetch_count=1)

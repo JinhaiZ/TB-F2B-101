@@ -1,7 +1,13 @@
+*.pdf
+*.ppt
 Cours-Keystone/
 Cours_BigData/
 Cours_PPT/
+Cours_Cloud/
+TP-MPI/shuwei/
+TP-hadoop/
+TP4-openstack/
 Examen/
 TP-Lamport-Shuwei/
 The Datacenter as a Computer: An introduction to the design of warehouse-scale machines.pdf
-Distributed Systems 5th Edition.pdf
+
